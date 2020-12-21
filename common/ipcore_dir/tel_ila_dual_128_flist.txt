@@ -1,0 +1,15 @@
+# Output products list for <tel_ila_dual_128>
+_xmsgs/pn_parser.xmsgs
+tel_ila_dual_128.asy
+tel_ila_dual_128.cdc
+tel_ila_dual_128.gise
+tel_ila_dual_128.ngc
+tel_ila_dual_128.v
+tel_ila_dual_128.veo
+tel_ila_dual_128.vhd
+tel_ila_dual_128.vho
+tel_ila_dual_128.xco
+tel_ila_dual_128.xise
+tel_ila_dual_128_flist.txt
+tel_ila_dual_128_readme.txt
+tel_ila_dual_128_xmdf.tcl

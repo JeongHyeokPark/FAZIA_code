@@ -1,0 +1,8 @@
+[Inputs]
+clk
+reset
+slowCtBus
+[Outputs]
+letterBox
+=slowCtBusRd[15:0]=
+[BiDir]

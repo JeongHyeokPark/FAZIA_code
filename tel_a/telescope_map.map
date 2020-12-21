@@ -1,0 +1,999 @@
+Release 14.3 Map P.40xd (lin64)
+Xilinx Map Application Log File for Design 'telescope'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx50-ff676-2 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt 2 -cm area -ir off -pr
+off -lc off -power off -o telescope_map.ncd telescope.ngd telescope.pcf 
+Target Device  : xc5vlx50
+Target Package : ff676
+Target Speed   : -2
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Sun Dec 20 14:24:44 2020
+
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal ioFpga_9 connected to top level port ioFpga_9 has
+   been removed.
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   i2/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q2/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0]
+   .ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/blockHisto1.totHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/blockHisto2.fastHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/g
+   nativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SI
+   NGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   qh1/blockHisto.monHisto/memoire/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0
+   ].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   ql1/waverFast/make_8k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q2/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   q3/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].r
+   am.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   qh1/waverSlow/make_4k_Meb.meb/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].
+   ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/
+   gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.W
+   IDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generat
+   or/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SD
+   P.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator
+   /gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.
+   WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator
+   /gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.
+   WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator
+   /gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.
+   WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator
+   /gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.
+   WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_genera
+   tor/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/S
+   DP.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKU connected to power/ground net
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_genera
+   tor/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/S
+   DP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_genera
+   tor/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/S
+   DP.WIDE_PRIM36.noeccerr.SDP
+   of frag RDRCLKL connected to power/ground net
+   qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_genera
+   tor/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/S
+   DP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 30 secs 
+Total CPU  time at the beginning of Placer: 26 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:525cf51f) REAL time: 32 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: riserv_p<0>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<1>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<2>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<3>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<4>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<5>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<6>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<7>   IOSTANDARD = LVCMOS25
+
+
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: riserv_n<0>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<1>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<2>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<3>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<4>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<5>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<6>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_n<7>   IOSTANDARD = LVCMOS25
+
+
+INFO:Place:834 - Only a subset of IOs are locked. Out of 244 IOs, 242 are locked
+   and 2 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7  Design Feasibility Check (Checksum:525cf51f) REAL time: 33 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:e5646087) REAL time: 33 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:e5646087) REAL time: 33 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:e5646087) REAL time: 49 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:e5646087) REAL time: 50 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+.....
+
+
+There are 12 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 2 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   2 BUFRs available, 2 in use            |   2 BUFRs available, 2 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 2 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 4 in use      |   4 Regional Clock Spines, 2 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 2 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y2>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/2; bufrs - 2/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  2  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "q2/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "q3/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/2; bufrs - 2/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  4  |  0 |   40   |   40   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  2  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "i2/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "qh1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4>
+  key resource utilizations (used/available): edge-bufios - 0/4; bufrs - 2/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "ql1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "i1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 12  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 6 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# Regional-Clock "ql1/adcClk" driven by "BUFR_X1Y9"
+INST "ql1/ddr_16_1/bufferR" LOC = "BUFR_X1Y9" ;
+NET "ql1/adcClk" TNM_NET = "TN_ql1/adcClk" ;
+TIMEGRP "TN_ql1/adcClk" AREA_GROUP = "CLKAG_ql1/adcClk" ;
+AREA_GROUP "CLKAG_ql1/adcClk" RANGE = CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y3;
+
+
+# Regional-Clock "i1/adcClk" driven by "BUFR_X1Y8"
+INST "i1/ddr_16_1/bufferR" LOC = "BUFR_X1Y8" ;
+NET "i1/adcClk" TNM_NET = "TN_i1/adcClk" ;
+TIMEGRP "TN_i1/adcClk" AREA_GROUP = "CLKAG_i1/adcClk" ;
+AREA_GROUP "CLKAG_i1/adcClk" RANGE = CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y3;
+
+
+# Regional-Clock "i2/adcClk" driven by "BUFR_X0Y9"
+INST "i2/ddr_16_1/bufferR" LOC = "BUFR_X0Y9" ;
+NET "i2/adcClk" TNM_NET = "TN_i2/adcClk" ;
+TIMEGRP "TN_i2/adcClk" AREA_GROUP = "CLKAG_i2/adcClk" ;
+AREA_GROUP "CLKAG_i2/adcClk" RANGE = CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y3;
+
+
+# Regional-Clock "qh1/adcClk" driven by "BUFR_X0Y8"
+INST "qh1/ddr_16_1/bufferR" LOC = "BUFR_X0Y8" ;
+NET "qh1/adcClk" TNM_NET = "TN_qh1/adcClk" ;
+TIMEGRP "TN_qh1/adcClk" AREA_GROUP = "CLKAG_qh1/adcClk" ;
+AREA_GROUP "CLKAG_qh1/adcClk" RANGE = CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y3;
+
+
+# Regional-Clock "q2/adcClk" driven by "BUFR_X0Y5"
+INST "q2/ddr_16_1/bufferR" LOC = "BUFR_X0Y5" ;
+NET "q2/adcClk" TNM_NET = "TN_q2/adcClk" ;
+TIMEGRP "TN_q2/adcClk" AREA_GROUP = "CLKAG_q2/adcClk" ;
+AREA_GROUP "CLKAG_q2/adcClk" RANGE = CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y1;
+
+
+# Regional-Clock "q3/adcClk" driven by "BUFR_X0Y4"
+INST "q3/ddr_16_1/bufferR" LOC = "BUFR_X0Y4" ;
+NET "q3/adcClk" TNM_NET = "TN_q3/adcClk" ;
+TIMEGRP "TN_q3/adcClk" AREA_GROUP = "CLKAG_q3/adcClk" ;
+AREA_GROUP "CLKAG_q3/adcClk" RANGE = CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y1;
+
+
+.........
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal clock IOB site. The clock IOB component
+   <ucSpiSck> is placed at site <F5>. The clock IO site can use the fast path between the IO and the Clock buffer/GCLK
+   if the IOB is placed in the master Clock IOB Site. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint
+   was applied on COMP.PIN <ucSpiSck.PAD> allowing your design to continue. This constraint disables all clock placer
+   rules related to the specified COMP.PIN. The use of this override is highly discouraged as it may lead to very poor
+   timing results. It is recommended that this error condition be corrected in the design.
+Phase 7.2  Initial Clock and IO Placement (Checksum:e6fbc2b5) REAL time: 58 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:e6fbc2b5) REAL time: 58 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:e6fbc2b5) REAL time: 58 secs 
+
+Phase 10.3  Local Placement Optimization
+
+Phase 10.3  Local Placement Optimization (Checksum:723ffbf5) REAL time: 58 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:52224d15) REAL time: 58 secs 
+
+Phase 12.8  Global Placement
+.........................
+.............................................................
+..................................
+................................................................................
+..............................
+.......................
+................
+............................................
+Phase 12.8  Global Placement (Checksum:164bde76) REAL time: 1 mins 36 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:164bde76) REAL time: 1 mins 36 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:164bde76) REAL time: 1 mins 37 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:af99921c) REAL time: 2 mins 19 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:af99921c) REAL time: 2 mins 19 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:af99921c) REAL time: 2 mins 20 secs 
+
+Total REAL time to Placer completion: 2 mins 21 secs 
+Total CPU  time to Placer completion: 2 mins 2 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net q3/itemData_11_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_11_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetTsRequest_or0000 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_12_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_15_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetBitmask_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_and0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemRd_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetEvtReceived_or0000 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp ProtoComp601.PULL is set but the tri state is
+   not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp ProtoComp601.PULL.1 is set but the tri state
+   is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp ProtoComp612.PULL is set but the tri state is not
+   configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp ProtoComp601.PULL.2 is set but the tri state
+   is not configured. 
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<ql1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<i1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<i2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<qh1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of INIT_OQ requires the OQ output pin to be
+   connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of SRVAL_OQ requires the OQ output pin to
+   be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDES_ISERDES>.  Useless CE2 input pin. With
+   NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.deser_L/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDES_ISERDES>.  Useless CE2 input pin.
+   With NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.deser_H/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDES_ISERDES>.  Useless CE2 input pin.
+   With NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of INIT_OQ requires the OQ output pin to be
+   connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of SRVAL_OQ requires the OQ output pin to
+   be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_slave>:<ISERDES_ISERDES>.  Useless CE2 input pin. With
+   NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.deser_H/deser_inst/AISER8b/ISERDES_NODELAY_slave>:<ISERDES_ISERDES>.  Useless CE2 input pin.
+   With NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.deser_L/deser_inst/AISER8b/ISERDES_NODELAY_slave>:<ISERDES_ISERDES>.  Useless CE2 input pin.
+   With NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.ser_VM/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of INIT_OQ requires the OQ
+   output pin to be connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration on
+   block:<fLink/DESER_GEN.ser_VM/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of SRVAL_OQ requires the OQ
+   output pin to be connected.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<q2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<q3/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  121
+Slice Logic Utilization:
+  Number of Slice Registers:                 5,482 out of  28,800   19%
+    Number used as Flip Flops:               5,436
+    Number used as Latches:                     46
+  Number of Slice LUTs:                      8,782 out of  28,800   30%
+    Number used as logic:                    8,267 out of  28,800   28%
+      Number using O6 output only:           7,251
+      Number using O5 output only:             389
+      Number using O5 and O6:                  627
+    Number used as Memory:                     467 out of   7,680    6%
+      Number used as Dual Port RAM:            400
+        Number using O6 output only:           336
+        Number using O5 and O6:                 64
+      Number used as Shift Register:            67
+        Number using O6 output only:            65
+        Number using O5 output only:             1
+        Number using O5 and O6:                  1
+    Number used as exclusive route-thru:        48
+  Number of route-thrus:                       487
+    Number using O6 output only:               435
+    Number using O5 output only:                52
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 3,333 out of   7,200   46%
+  Number of LUT Flip Flop pairs used:       10,040
+    Number with an unused Flip Flop:         4,558 out of  10,040   45%
+    Number with an unused LUT:               1,258 out of  10,040   12%
+    Number of fully used LUT-FF pairs:       4,224 out of  10,040   42%
+    Number of unique control sets:             459
+    Number of slice register sites lost
+      to control set restrictions:             794 out of  28,800    2%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       244 out of     440   55%
+    Number of LOCed IOBs:                      242 out of     244   99%
+    IOB Flip Flops:                             42
+    IOB Master Pads:                             7
+    IOB Slave Pads:                              7
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      40 out of      48   83%
+    Number using BlockRAM only:                 40
+    Total primitives used:
+      Number of 36k BlockRAM used:              27
+      Number of 18k BlockRAM used:              23
+    Total Memory used (KB):                  1,386 out of   1,728   80%
+  Number of BUFG/BUFGCTRLs:                     10 out of      32   31%
+    Number used as BUFGs:                       10
+  Number of IDELAYCTRLs:                         4 out of      16   25%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFRs:                               6 out of      24   25%
+  Number of DCM_ADVs:                            1 out of      12    8%
+  Number of ISERDESs:                            6
+  Number of OSERDESs:                            6
+  Number of PLL_ADVs:                            1 out of       6   16%
+  Number of SYSMONs:                             1 out of       1  100%
+
+  Number of RPM macros:            9
+Average Fanout of Non-Clock Nets:                4.47
+
+Peak Memory Usage:  1091 MB
+Total REAL time to MAP completion:  2 mins 29 secs 
+Total CPU time to MAP completion (all processors):   2 mins 9 secs 
+
+Mapping completed.
+See MAP report file "telescope_map.mrp" for details.

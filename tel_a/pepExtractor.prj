@@ -1,0 +1,4 @@
+work	"../common/comZone.vhd"
+work	"../common/slow_ct_defs.vhd"
+work	"../common/tel_defs.vhd"
+work	"tel_conf_a.vhd"

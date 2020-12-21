@@ -1,0 +1,22 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generic values...
+Finished resolving generic values.
+Generating IP...
+WARNING:sim:89 - A core named <ram_64x16> already exists in the output
+   directory. Output products for this core may be overwritten.
+ERROR:coreutil - Error occurred during initialization of VM
+   java/lang/NoClassDefFoundError: java/lang/Object
+ERROR:coreutil:1012 - Command '/bin/sh -c
+   '/home/haein/14.3/ISE_DS/ISE/java/lin64/jre/bin/java   -cp
+   ".:/home/haein/14.3/ISE_DS/ISE/coregen/lib/coreutil.jar:/home/haein/14.3/ISE_
+   DS/ISE/coregen/lib/sim.jar:/home/haein/14.3/ISE_DS/ISE/coregen/lib/xcc.jar:/h
+   ome/haein/14.3/ISE_DS/ISE/coregen/lib/encore.jar:" -Djava.compiler=NONE
+   -Xmx1024m -Xms10m -Xss1m -XX:-UsePerfData -d64
+   com.xilinx.sim.netlisters.GenerationAPI   -cg_exp_inp ./tmp/_cg/xil_ASc8zE.in
+   -cg_exp_out ./tmp/_cg/xil_ASc8zE.out'' returned a non-zero exit code '1'
+ERROR:sim - Error found during generation.
+ERROR:sim - Failed to generate 'ram_64x16'.  An error occurred. Please see the
+   log for details.
+Wrote CGP file for project 'ram_64x16'.
