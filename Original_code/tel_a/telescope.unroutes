@@ -1,0 +1,15 @@
+Release 14.3 - par P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Oct 16 23:21:58 2020
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 3 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   ioFpga_10_IBUF
+   ioFpga_22_IBUF
+   riserv_n<7>_IBUF
+
+

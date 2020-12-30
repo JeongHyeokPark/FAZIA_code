@@ -1,0 +1,551 @@
+V3 285
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/adc_mon.vhd 2014/02/27.13:12:21 P.49d
+EN work/AdcMon 1591605703 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/adc_mon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PH work/align_defs 1591605625 PB work/slow_ct_defs 1591605610
+AR work/AdcMon/Behavioral 1591605704 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/adc_mon.vhd \
+      EN work/AdcMon 1591605703 CP SpiAdc CP work/Aligner_new
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/aligner_new.vhd 2014/02/27.13:12:21 P.49d
+EN work/Aligner_new 1591605699 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/aligner_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PH work/align_defs 1591605625 PB work/slow_ct_defs 1591605610
+AR work/Aligner_new/Behavioral 1591605700 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/aligner_new.vhd \
+      EN work/Aligner_new 1591605699 CP aligner_rom_128x8 CP aligner_ram_128x8
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/align_defs.vhd 2014/02/27.13:12:15 P.49d
+PH work/align_defs 1591605625 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/align_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/baseline.vhd 2019/01/31.15:07:17 P.49d
+EN work/baseline 1591605639 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/baseline.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618
+AR work/baseline/Behavioral 1591605640 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/baseline.vhd \
+      EN work/baseline 1591605639 CP ram_256x14
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/comZone.vhd 2014/05/19.12:40:25 P.49d
+EN work/comZone 1591605705 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/comZone.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PB work/slow_ct_defs 1591605610 \
+      PH work/telescope_conf 1591605626
+AR work/comZone/Behavioral 1591605706 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/comZone.vhd \
+      EN work/comZone 1591605705 CP ram_32x16_single
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/csi_channel.vhd 2019/02/27.15:42:46 P.49d
+EN work/CsiChannel 1591605717 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/csi_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/CsiChannel/Behavioral 1591605718 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/csi_channel.vhd \
+      EN work/CsiChannel 1591605717 CP tel_icon CP tel_ila_36 CP work/DDR_ADC \
+      CP work/Waver CP work/Energy CP work/ETrigger CP work/Histogrammer
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ddr_adc.vhd 2014/02/27.13:12:15 P.49d
+EN work/DDR_ADC 1591605683 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ddr_adc.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625
+AR work/DDR_ADC/Behavioral 1591605684 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ddr_adc.vhd \
+      EN work/DDR_ADC 1591605683 CP IBUFDS CP IDELAY CP BUFR CP IODELAY CP IDDR
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/energy.vhd 2017/11/24.12:00:41 P.49d
+EN work/Energy 1591605687 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/energy.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PB work/slow_ct_defs 1591605610 \
+      PH work/telescope_conf 1591605626
+AR work/energy/Behavioral 1591605688 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/energy.vhd \
+      EN work/Energy 1591605687 CP tel_icon CP tel_ila_blknrj CP work/shaper
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/e_trigger.vhd 2019/01/30.12:21:30 P.49d
+EN work/ETrigger 1591605689 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/e_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      LB UNISIM PH unisim/VCOMPONENTS 1354696165 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/ETrigger/Behavioral 1591605690 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/e_trigger.vhd \
+      EN work/ETrigger 1591605689 CP work/shaper CP work/baseline
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/clkgenerator.vhd 2014/02/27.13:12:14 P.49d
+EN work/clkgenerator 1591605673 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/clkgenerator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/clkgenerator/BEHAVIORAL 1591605674 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/clkgenerator.vhd \
+      EN work/clkgenerator 1591605673 CP the_pll
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/deserialiseur.vhd 2014/02/27.13:12:15 P.49d
+EN work/DESERIALISEUR 1591605675 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/deserialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/DESERIALISEUR/BEHAVIORAL 1591605676 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/deserialiseur.vhd \
+      EN work/DESERIALISEUR 1591605675 CP N_ISERDES8b_MsAllign
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/fastlink.vhd 2017/12/12.08:57:24 P.49d
+EN work/FASTLINK 1591605723 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/fastlink.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/FASTLINK/BEHAVIORAL 1591605724 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/fastlink.vhd \
+      EN work/FASTLINK 1591605723 CP tel_icon CP tel_ila_128 CP IDELAYCTRL \
+      CP clkgenerator CP DESERIALISEUR CP SERIALISEUR CP OBUFDS CP IBUFDS CP myfifo \
+      CP myfifo2
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo.vhd 2014/02/27.13:12:15 P.49d
+EN work/myfifo 1591605679 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo/myfifo_a 1591605680 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo.vhd \
+      EN work/myfifo 1591605679
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo2.vhd 2014/02/27.13:12:14 P.49d
+EN work/myfifo2 1591605681 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo2.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo2/myfifo2_a 1591605682 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo2.vhd \
+      EN work/myfifo2 1591605681
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ISER8b.vhd 2014/02/27.13:12:15 P.49d
+EN work/ISER8b 1591605615 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ISER8b.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/ISER8b/Behavioral 1591605616 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ISER8b.vhd \
+      EN work/ISER8b 1591605615 CP IBUFDS CP IODELAY CP ISERDES_NODELAY
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/N_ISERDES8b_MsAllign.vhd 2014/02/27.13:12:14 P.49d
+EN work/N_ISERDES8b_MsAllign 1591605633 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/N_ISERDES8b_MsAllign/Behavioral 1591605634 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      EN work/N_ISERDES8b_MsAllign 1591605633 CP tel_icon CP tel_ila_128 CP ISER8b
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/OSER8B.vhd 2014/02/27.13:12:15 P.49d
+EN work/OSER8B 1591605631 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/OSER8B.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/OSER8B/Behavioral 1591605632 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/OSER8B.vhd \
+      EN work/OSER8B 1591605631 CP OSERDES
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/serialiseur.vhd 2014/02/27.13:12:15 P.49d
+EN work/SERIALISEUR 1591605677 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/serialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/SERIALISEUR/BEHAVIORAL 1591605678 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/serialiseur.vhd \
+      EN work/SERIALISEUR 1591605677 CP OSER8B CP OBUFDS
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/f_channel.vhd 2018/03/29.17:33:17 P.49d
+EN work/FastChannel 1591605715 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/f_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610
+AR work/FastChannel/Behavioral 1591605716 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/f_channel.vhd \
+      EN work/FastChannel 1591605715 CP work/DDR_ADC CP work/Waver
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/general_io.vhd 2017/12/14.11:08:42 P.49d
+EN work/GeneralIo 1591605707 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/general_io.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PH work/telescope_conf 1591605626 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/GeneralIo/Behavioral 1591605708 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/general_io.vhd \
+      EN work/GeneralIo 1591605707
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/histogrammer.vhd 2014/02/27.13:12:15 P.49d
+EN work/Histogrammer 1591605691 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/histogrammer.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610
+AR work/Histogrammer/Behavioral 1591605692 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/histogrammer.vhd \
+      EN work/Histogrammer 1591605691 CP ram_1kx24
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_byte.vhd 2014/02/27.13:12:15 P.49d
+EN work/i2c_byte 1591605629 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_byte.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/i2c_byte/Behavioral 1591605630 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_byte.vhd \
+      EN work/i2c_byte 1591605629
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_master.vhd 2014/02/27.13:12:14 P.49d
+EN work/I2cMaster 1591605671 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_master.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/I2cMaster/Behavioral 1591605672 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_master.vhd \
+      EN work/I2cMaster 1591605671 CP work/i2c_byte
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/identity.vhd 2015/02/03.09:17:27 P.49d
+EN work/identity 1591605711 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/identity.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/identity/Behavioral 1591605712 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/identity.vhd \
+      EN work/identity 1591605711
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd 2014/02/27.13:12:17 P.49d
+EN work/aligner_ram_128x8 1591605663 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_ram_128x8/aligner_ram_128x8_a 1591605664 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      EN work/aligner_ram_128x8 1591605663
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_rom_128x8.vhd 2014/02/27.13:12:17 P.49d
+EN work/aligner_rom_128x8 1591605661 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_rom_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_rom_128x8/aligner_rom_128x8_a 1591605662 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_rom_128x8.vhd \
+      EN work/aligner_rom_128x8 1591605661
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/My_sysmon.vhd 2014/02/27.13:12:19 P.49d
+EN work/My_sysmon 1591605659 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/My_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/My_sysmon/xilinx 1591605660 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/My_sysmon.vhd \
+      EN work/My_sysmon 1591605659 CP SYSMON
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd 2014/02/27.13:12:19 P.49d
+EN work/ram_128x16 1591605653 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_128x16/ram_128x16_a 1591605654 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd \
+      EN work/ram_128x16 1591605653
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd 2014/02/27.13:12:19 P.49d
+EN work/ram_16x16 1591605647 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_16x16/ram_16x16_a 1591605648 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd \
+      EN work/ram_16x16 1591605647
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd 2014/02/27.13:12:18 P.49d
+EN work/ram_1kx14 1591605641 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx14/ram_1kx14_a 1591605642 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd \
+      EN work/ram_1kx14 1591605641
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd 2014/02/27.13:12:18 P.49d
+EN work/ram_1kx15 1591605611 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx15/ram_1kx15_a 1591605612 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd \
+      EN work/ram_1kx15 1591605611
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd 2014/02/27.13:12:20 P.49d
+EN work/ram_1kx24 1591605635 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx24/ram_1kx24_a 1591605636 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd \
+      EN work/ram_1kx24 1591605635
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd 2017/04/07.16:37:28 P.49d
+EN work/ram_256x14 1591605619 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x14/ram_256x14_a 1591605620 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd \
+      EN work/ram_256x14 1591605619
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd 2017/11/20.15:05:42 P.49d
+EN work/ram_256x16 1591605655 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x16/ram_256x16_a 1591605656 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd \
+      EN work/ram_256x16 1591605655
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd 2016/12/01.17:11:52 P.49d
+EN work/ram_2kx15 1591605613 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_2kx15/ram_2kx15_a 1591605614 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd \
+      EN work/ram_2kx15 1591605613
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd 2014/02/27.13:12:17 P.49d
+EN work/ram_32x16 1591605649 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16/ram_32x16_a 1591605650 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd \
+      EN work/ram_32x16 1591605649
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16_single.vhd 2014/02/27.13:12:19 P.49d
+EN work/ram_32x16_single 1591605695 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16_single.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16_single/ram_32x16_single_a 1591605696 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16_single.vhd \
+      EN work/ram_32x16_single 1591605695
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd 2014/02/27.13:12:20 P.49d
+EN work/ram_4kx14 1591605643 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_4kx14/ram_4kx14_a 1591605644 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd \
+      EN work/ram_4kx14 1591605643
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd 2014/02/27.13:12:20 P.49d
+EN work/ram_64x16 1591605651 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_64x16/ram_64x16_a 1591605652 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd \
+      EN work/ram_64x16 1591605651
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd 2014/02/27.13:12:20 P.49d
+EN work/ram_8kx14 1591605645 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_8kx14/ram_8kx14_a 1591605646 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd \
+      EN work/ram_8kx14 1591605645
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/spi_adc_rom.vhd 2014/02/27.13:12:20 P.49d
+EN work/spi_adc_rom 1591605665 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/spi_adc_rom.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/spi_adc_rom/spi_adc_rom_a 1591605666 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/spi_adc_rom.vhd \
+      EN work/spi_adc_rom 1591605665
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/offset_ctrl.vhd 2014/09/24.13:44:23 P.49d
+EN work/OffsetCtrl 1591605727 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/offset_ctrl.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/OffsetCtrl/Behavioral 1591605728 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/offset_ctrl.vhd \
+      EN work/OffsetCtrl 1591605727 CP work/I2cMaster
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/pic_itf.vhd 2014/02/27.13:12:23 P.49d
+EN work/PicItf 1591605669 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/pic_itf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1591605610
+AR work/PicItf/Behavioral 1591605670 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/pic_itf.vhd \
+      EN work/PicItf 1591605669
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/reader.vhd 2019/02/27.15:40:44 P.49d
+EN work/reader 1591605657 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/reader.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/reader/Behavioral 1591605658 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/reader.vhd \
+      EN work/reader 1591605657 CP tel_icon CP tel_ila
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/read_engine_new.vhd 2019/01/18.15:43:45 P.49d
+EN work/ReadEngine 1591605721 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/read_engine_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/NUMERIC_STD 1354696164 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/ReadEngine/Behavioral 1591605722 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/read_engine_new.vhd \
+      EN work/ReadEngine 1591605721 CP tel_icon CP tel_ila_dual_128 CP ram_32x16 \
+      CP ram_64x16 CP ram_128x16
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_1.vhd 2014/02/27.13:12:21 P.49d
+EN work/retard_1 1591605621 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_1.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_1/Behavioral 1591605622 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_1.vhd \
+      EN work/retard_1 1591605621 CP ram_1kx15
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_2.vhd 2016/12/01.11:20:32 P.49d
+EN work/retard_2 1591605623 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_2.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_2/Behavioral 1591605624 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_2.vhd \
+      EN work/retard_2 1591605623 CP ram_1kx15 CP ram_2kx15
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/scItf.vhd 2015/02/25.18:20:27 P.49d
+EN work/ScItf 1591605729 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/scItf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1591605610
+AR work/ScItf/Behavioral 1591605730 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/scItf.vhd \
+      EN work/ScItf 1591605729 CP work/UsbItf_new CP work/PicItf
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/shaper.vhd 2018/04/11.17:55:25 P.49d
+EN work/shaper 1591605637 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/shaper.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_SIGNED 1354696161 PB work/tel_defs 1591605618
+AR work/shaper/Behavioral 1591605638 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/shaper.vhd \
+      EN work/shaper 1591605637 CP work/retard_1 CP work/retard_2
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/slow_ct_defs.vhd 2014/02/27.13:12:15 P.49d
+PH work/slow_ct_defs 1591605609 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/slow_ct_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+PB work/slow_ct_defs 1591605610 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/slow_ct_defs.vhd \
+      PH work/slow_ct_defs 1591605609
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/spi.vhd 2014/02/27.13:12:21 P.49d
+EN work/SpiAdc 1591605697 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/spi.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PH work/align_defs 1591605625 PB work/slow_ct_defs 1591605610
+AR work/SpiAdc/Behavioral 1591605698 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/spi.vhd EN work/SpiAdc 1591605697 \
+      CP spi_adc_rom
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/sysmon.vhd 2014/02/27.13:12:23 P.49d
+EN work/USERSYSMON 1591605693 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/USERSYSMON/toto 1591605694 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/sysmon.vhd \
+      EN work/USERSYSMON 1591605693 CP My_sysmon
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/s_channel.vhd 2019/02/27.17:35:49 P.49d
+EN work/SlowChannel 1591605713 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/s_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610
+AR work/SlowChannel/Behavioral 1591605714 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/s_channel.vhd \
+      EN work/SlowChannel 1591605713 CP work/DDR_ADC CP work/Waver CP work/Energy \
+      CP work/ETrigger CP work/Histogrammer
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/telescope.vhd 2019/09/19.10:38:41 P.49d
+EN work/telescope 1591605739 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/telescope.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/telescope/telescope_arch 1591605740 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/telescope.vhd \
+      EN work/telescope 1591605739 CP tel_icon CP tel_ila CP dcm_200 CP IBUFGDS \
+      CP work/AdcMon CP work/comZone CP work/GeneralIo CP work/SysMonitor \
+      CP work/identity CP work/SlowChannel CP work/FastChannel CP work/CsiChannel \
+      CP work/Terminator CP work/readEngine CP work/FASTLINK CP work/trigger \
+      CP work/OffsetCtrl CP TalkToLmk CP work/ScItf CP IBUFDS CP GlobalTrigger \
+      CP work/Virblock CP OBUFDS CP IOBUF CP work/Gene CP work/psSyncGen
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_defs.vhd 2019/02/27.17:42:07 P.49d
+PH work/tel_defs 1591605617 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_defs.vhd \
+      PB ieee/std_logic_1164 1354696159 PB work/slow_ct_defs 1591605610
+PB work/tel_defs 1591605618 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_defs.vhd \
+      PH work/tel_defs 1591605617
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_sysmon.vhd 2014/02/27.13:12:21 P.49d
+EN work/SysMonitor 1591605709 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PB work/slow_ct_defs 1591605610
+AR work/SysMonitor/behavioral 1591605710 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_sysmon.vhd \
+      EN work/SysMonitor 1591605709 CP work/UserSysMon
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/terminator.vhd 2014/02/27.13:12:21 P.49d
+EN work/Terminator 1591605719 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/terminator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB work/tel_defs 1591605618
+AR work/Terminator/Behavioral 1591605720 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/terminator.vhd \
+      EN work/Terminator 1591605719
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/trigger.vhd 2018/03/27.10:31:52 P.49d
+EN work/trigger 1591605725 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/trigger/Behavioral 1591605726 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/trigger.vhd \
+      EN work/trigger 1591605725 CP tel_icon CP tel_ila_trig64
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_get_new.vhd 2015/02/25.19:06:08 P.49d
+EN work/usbGet_new 1591605627 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_get_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/usbGet_new/usbGetArch 1591605628 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_get_new.vhd \
+      EN work/usbGet_new 1591605627
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_itf_new.vhd 2015/02/25.16:23:27 P.49d
+EN work/usbItf_new 1591605667 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_itf_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/slow_ct_defs 1591605610
+AR work/UsbItf_new/usbItfArch 1591605668 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_itf_new.vhd \
+      EN work/usbItf_new 1591605667 CP work/usbGet_new
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/waver.vhd 2019/09/19.10:36:56 P.49d
+EN work/Waver 1591605685 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/waver.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PH work/align_defs 1591605625 \
+      PB work/slow_ct_defs 1591605610 PH work/telescope_conf 1591605626
+AR work/Waver/Behavioral 1591605686 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/waver.vhd \
+      EN work/Waver 1591605685 CP tel_icon CP tel_ila_36 CP ram_1kx14 CP ram_4kx14 \
+      CP ram_8kx14 CP ram_16x16 CP ram_32x16 CP ram_64x16 CP ram_128x16 CP ram_256x16 \
+      CP work/Reader
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/global_trigger.vhd 2014/02/27.13:11:15 P.49d
+EN work/GlobalTrigger 1591605731 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/global_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618
+AR work/GlobalTrigger/Behavioral 1591605732 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/global_trigger.vhd \
+      EN work/GlobalTrigger 1591605731
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/virBlock.vhd 2014/02/27.13:11:13 P.49d
+EN work/VirBlock 1591605733 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/virBlock.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1591605618 PB work/slow_ct_defs 1591605610
+AR work/virBlock/virBlock_arch 1591605734 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/virBlock.vhd \
+      EN work/VirBlock 1591605733
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/dcm_200.vhd 2020/06/08.10:40:05 P.49d
+EN work/dcm_200 1591605701 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/dcm_200.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/dcm_200/BEHAVIORAL 1591605702 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/dcm_200.vhd \
+      EN work/dcm_200 1591605701 CP BUFG CP DCM_ADV
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/gene.vhd 2018/02/05.10:30:38 P.49d
+EN work/Gene 1591605735 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/gene.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/std_logic_arith 1354696160 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/gene/Behavioral 1591605736 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/gene.vhd EN work/Gene 1591605735
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/psSyncGen.vhd 2015/06/16.11:31:02 P.49d
+EN work/PsSyncGen 1591605737 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/psSyncGen.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1591605618 \
+      PB work/slow_ct_defs 1591605610
+AR work/PsSyncGen/Behavioral 1591605738 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/psSyncGen.vhd \
+      EN work/PsSyncGen 1591605737
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/tel_conf_b.vhd 2019/09/19.11:11:21 P.49d
+PH work/telescope_conf 1591605626 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/tel_conf_b.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160

@@ -1,0 +1,18 @@
+# Output products list for <aligner_rom_128x8>
+_xmsgs/pn_parser.xmsgs
+aligner_rom_128x8.asy
+aligner_rom_128x8.gise
+aligner_rom_128x8.mif
+aligner_rom_128x8.ngc
+aligner_rom_128x8.sym
+aligner_rom_128x8.v
+aligner_rom_128x8.veo
+aligner_rom_128x8.vhd
+aligner_rom_128x8.vho
+aligner_rom_128x8.xco
+aligner_rom_128x8.xise
+aligner_rom_128x8_flist.txt
+aligner_rom_128x8_readme.txt
+aligner_rom_128x8_xmdf.tcl
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt
