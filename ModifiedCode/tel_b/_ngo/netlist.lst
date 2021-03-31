@@ -1,0 +1,18 @@
+/home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/telescope.ngc 1591605712
+../common/ipcore_dir/ram_32x16_single.ngc 1393503139
+../common/ipcore_dir/spi_adc_rom.ngc 1393503138
+../common/ipcore_dir/aligner_ram_128x8.ngc 1393503136
+../common/ipcore_dir/aligner_rom_128x8.ngc 1393503139
+../common/ipcore_dir/ram_128x16.ngc 1393503138
+../common/ipcore_dir/ram_1kx14.ngc 1393503140
+../common/ipcore_dir/ram_8kx14.ngc 1393503140
+../common/ipcore_dir/ram_32x16.ngc 1393503138
+../common/ipcore_dir/ram_256x14.ngc 1491575843
+../common/ipcore_dir/ram_1kx15.ngc 1393503138
+../common/ipcore_dir/ram_4kx14.ngc 1393503136
+../common/ipcore_dir/ram_256x16.ngc 1511186738
+../common/ipcore_dir/ram_1kx24.ngc 1393503136
+../common/ipcore_dir/ram_2kx15.ngc 1480608708
+../common/fastlink/ipcore_dir/myfifo.ngc 1393503134
+../common/fastlink/ipcore_dir/myfifo2.ngc 1393503134
+OK

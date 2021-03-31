@@ -1,0 +1,18 @@
+# Output products list for <spi_adc_rom>
+_xmsgs/pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt
+spi_adc_rom.asy
+spi_adc_rom.gise
+spi_adc_rom.mif
+spi_adc_rom.ngc
+spi_adc_rom.sym
+spi_adc_rom.v
+spi_adc_rom.veo
+spi_adc_rom.vhd
+spi_adc_rom.vho
+spi_adc_rom.xco
+spi_adc_rom.xise
+spi_adc_rom_flist.txt
+spi_adc_rom_readme.txt
+spi_adc_rom_xmdf.tcl

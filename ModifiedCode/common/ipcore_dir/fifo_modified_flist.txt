@@ -1,0 +1,16 @@
+# Output products list for <fifo_modified>
+_xmsgs/pn_parser.xmsgs
+fifo_modified/doc/fifo_generator_v9_3_readme.txt
+fifo_modified/doc/fifo_generator_v9_3_vinfo.html
+fifo_modified/doc/pg057-fifo-generator.pdf
+fifo_modified/fifo_generator_v9_3_readme.txt
+fifo_modified.asy
+fifo_modified.gise
+fifo_modified.ngc
+fifo_modified.sym
+fifo_modified.vhd
+fifo_modified.vho
+fifo_modified.xco
+fifo_modified.xise
+fifo_modified_flist.txt
+fifo_modified_xmdf.tcl

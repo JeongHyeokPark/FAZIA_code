@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="tel_a.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/fastlink/ipcore_dir/myfifo.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/fastlink/ipcore_dir/myfifo2.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/My_sysmon.asy" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/My_sysmon.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/My_sysmon.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/My_sysmon.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/My_sysmon.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="../common/ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_16x16.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_16x16.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_16x16.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_16x16.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_16x16.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_16x16.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_16x16.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_1kx14.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_1kx14.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_1kx14.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_1kx14.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_1kx14.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_1kx14.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_1kx14.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_1kx15.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_1kx15.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_1kx15.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_1kx15.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_1kx15.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_1kx15.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_1kx15.vho" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_256x14.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_256x14.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_2kx15.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_32x16.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_32x16.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_32x16.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_32x16.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_32x16.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_32x16.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_32x16.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_4kx14.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_4kx14.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_4kx14.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_4kx14.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_4kx14.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_4kx14.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_4kx14.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_64x16.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_64x16.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_64x16.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_64x16.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_64x16.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_64x16.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_64x16.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/ram_8kx14.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/ram_8kx14.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/ram_8kx14.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/ram_8kx14.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/ram_8kx14.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/ram_8kx14.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/ram_8kx14.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/spi_adc_rom.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/spi_adc_rom.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../common/ipcore_dir/spi_adc_rom.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/spi_adc_rom.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/spi_adc_rom.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/spi_adc_rom.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/spi_adc_rom.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_icon.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_icon.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_icon.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_icon.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_icon.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_icon.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila_128.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila_128.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila_128.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila_128.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila_128.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila_128.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila_36.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila_36.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila_36.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila_36.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila_36.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila_36.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../common/ipcore_dir/tel_ila_trig64.vho" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Histogrammer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Histogrammer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Histogrammer.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="dcm_200.vhd"/>
+    <file xil_pn:fileType="FILE_UCF" xil_pn:name="dcm_200_arwz.ucf" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir/micro_wire_rom.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir/micro_wire_rom.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir/micro_wire_rom.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="ipcore_dir/micro_wire_rom.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="ipcore_dir/micro_wire_rom.veo" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir/micro_wire_rom.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/micro_wire_rom.vho" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="telescope.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="telescope.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="telescope.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="telescope.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="telescope.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="telescope.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="telescope.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="telescope.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="telescope.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="telescope.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="telescope.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="telescope.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="telescope.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="telescope.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="telescope.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="telescope.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="telescope.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="telescope.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="telescope.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="telescope.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="telescope.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="telescope.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="telescope.xst"/>
+    <file xil_pn:fileType="FILE_BLIF" xil_pn:name="telescope_cs.blc"/>
+    <file xil_pn:fileType="FILE_NGC" xil_pn:name="telescope_cs.ngc"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="telescope_envsettings.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="telescope_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="telescope_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="telescope_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="telescope_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="telescope_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="telescope_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telescope_map.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="telescope_map_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telescope_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="telescope_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="telescope_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telescope_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="telescope_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="telescope_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="telescope_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telescope_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="xaw2vhdl.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1602857746" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1602857746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1617174019" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2970228913882997223" xil_pn:start_ts="1617174019">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1617174020" xil_pn:in_ck="8949069389743081039" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5380808925591423064" xil_pn:start_ts="1617174019">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../common/ipcore_dir/My_sysmon.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/aligner_ram_128x8.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/aligner_rom_128x8.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/fifo2_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/fifo2_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/fifo_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/fifo_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_128x16_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_128x16_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_16x16_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_16x16_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx14_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx14_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx15_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx15_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx24_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_1kx24_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_256x14_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_256x14_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_256x16_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_256x16_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_2kx15_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_2kx15_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_32x16_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_32x16_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_32x16_single_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_32x16_single_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_4kx14_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_4kx14_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_64x16_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_64x16_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_8kx14_modified.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/ram_8kx14_modified.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/spi_adc_rom.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/spi_adc_rom.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_icon.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_icon.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_128.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_128.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_36.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_36.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_blknrj.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_dual_128.vhd"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_trig64.ngc"/>
+      <outfile xil_pn:name="../common/ipcore_dir/tel_ila_trig64.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/micro_wire_rom.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/micro_wire_rom.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1602857748" xil_pn:in_ck="5510877453100237190" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1602857748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1617174021" xil_pn:in_ck="488077561215086165" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2204322288917483989" xil_pn:start_ts="1617174020">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="dcm_200.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1602857748" xil_pn:in_ck="5510877453100237190" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3974906649025208565" xil_pn:start_ts="1602857748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1617174021" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-63461576172250462" xil_pn:start_ts="1617174021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1617174397" xil_pn:in_ck="4239691940062166113" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="-1649269978902733592" xil_pn:start_ts="1617174240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="telescope.lso"/>
+      <outfile xil_pn:name="telescope.ngc"/>
+      <outfile xil_pn:name="telescope.ngr"/>
+      <outfile xil_pn:name="telescope.prj"/>
+      <outfile xil_pn:name="telescope.stx"/>
+      <outfile xil_pn:name="telescope.syr"/>
+      <outfile xil_pn:name="telescope.xst"/>
+      <outfile xil_pn:name="telescope_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1602857907" xil_pn:in_ck="1578205917437302387" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1785063627241337856" xil_pn:start_ts="1602857907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1617167810" xil_pn:in_ck="76748245558859493" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8138647668988617365" xil_pn:start_ts="1617167786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1617167952" xil_pn:in_ck="-1021622252536622338" xil_pn:name="TRANEXT_map_virtex5" xil_pn:prop_ck="8710243148813693299" xil_pn:start_ts="1617167810">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1617168021" xil_pn:in_ck="420668772734316823" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="2760518065444412574" xil_pn:start_ts="1617167952">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1591604741" xil_pn:in_ck="-4163984123964630745" xil_pn:name="TRANEXT_bitFile_virtex5" xil_pn:prop_ck="-4008143788065839743" xil_pn:start_ts="1591604694">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1617168021" xil_pn:in_ck="-1021622252536622470" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1617168001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1612256742" xil_pn:in_ck="-4163984123964630613" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="4325249517400472238" xil_pn:start_ts="1612256740">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>
