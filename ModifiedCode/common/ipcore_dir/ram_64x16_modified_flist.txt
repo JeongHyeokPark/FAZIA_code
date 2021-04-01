@@ -1,0 +1,16 @@
+# Output products list for <ram_64x16_modified>
+_xmsgs/pn_parser.xmsgs
+ram_64x16_modified/dist_mem_gen_v7_2_readme.txt
+ram_64x16_modified/doc/dist_mem_gen_v7_2_vinfo.html
+ram_64x16_modified/doc/pg063-dist-mem-gen.pdf
+ram_64x16_modified.asy
+ram_64x16_modified.gise
+ram_64x16_modified.ngc
+ram_64x16_modified.sym
+ram_64x16_modified.vhd
+ram_64x16_modified.vho
+ram_64x16_modified.xco
+ram_64x16_modified.xise
+ram_64x16_modified_flist.txt
+ram_64x16_modified_synth.vhd
+ram_64x16_modified_xmdf.tcl

@@ -1,0 +1,18 @@
+/home/parallels/Desktop/newCode/ModifiedCode/tel_b/telescope.ngc 1617260056
+../common/ipcore_dir/ram_32x16_single_modified.ngc 1617256923
+../common/ipcore_dir/spi_adc_rom.ngc 1617255707
+../common/ipcore_dir/aligner_ram_128x8_modified.ngc 1617255933
+../common/ipcore_dir/aligner_rom_128x8.ngc 1617255707
+../common/ipcore_dir/ram_128x16_modified.ngc 1617256010
+../common/ipcore_dir/ram_1kx14_modified.ngc 1617256206
+../common/ipcore_dir/ram_8kx14_modified.ngc 1617257215
+../common/ipcore_dir/ram_32x16_modified.ngc 1617257373
+../common/ipcore_dir/ram_256x14_modified.ngc 1617256556
+../common/ipcore_dir/ram_1kx15_modified.ngc 1617256333
+../common/ipcore_dir/ram_4kx14_modified.ngc 1617257094
+../common/ipcore_dir/ram_256x16_modified.ngc 1617256637
+../common/ipcore_dir/ram_1kx24_modified.ngc 1617256440
+../common/ipcore_dir/ram_2kx15_modified.ngc 1617256753
+../common/fastlink/ipcore_dir/myfifo.ngc 1617255707
+../common/fastlink/ipcore_dir/myfifo2.ngc 1617255707
+OK

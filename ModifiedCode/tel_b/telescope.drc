@@ -1,0 +1,81 @@
+Release 14.4 Drc P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Jun  8 10:48:03 2020
+
+drc -z telescope.ncd telescope.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net q3/itemData_11_or0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_or0000
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_11_or0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/resetEvtReceived_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemRd_or0000
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_12_or0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_15_or0000 is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   rEngine/resetTsRequest_or0000 is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetBitmask_or0000
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_and0000
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<ql1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins
+   CE and CLR are not used for BUFR_DIVIDE BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<i1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE
+   and CLR are not used for BUFR_DIVIDE BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<i2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE
+   and CLR are not used for BUFR_DIVIDE BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<qh1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins
+   CE and CLR are not used for BUFR_DIVIDE BYPASS.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration
+   on block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use
+   of INIT_OQ requires the OQ output pin to be connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration
+   on block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use
+   of SRVAL_OQ requires the OQ output pin to be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration
+   on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDES_ISE
+   RDES>.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being
+   ignored.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration
+   on block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use
+   of INIT_OQ requires the OQ output pin to be connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration
+   on block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use
+   of SRVAL_OQ requires the OQ output pin to be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration
+   on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_slave>:<ISERDES_ISER
+   DES>.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being
+   ignored.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<q2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE
+   and CLR are not used for BUFR_DIVIDE BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration
+   on block:<q3/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE
+   and CLR are not used for BUFR_DIVIDE BYPASS.
+DRC detected 0 errors and 22 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

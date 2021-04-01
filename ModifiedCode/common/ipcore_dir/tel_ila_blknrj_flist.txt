@@ -1,0 +1,15 @@
+# Output products list for <tel_ila_blknrj>
+_xmsgs/pn_parser.xmsgs
+tel_ila_blknrj.asy
+tel_ila_blknrj.cdc
+tel_ila_blknrj.gise
+tel_ila_blknrj.ngc
+tel_ila_blknrj.v
+tel_ila_blknrj.veo
+tel_ila_blknrj.vhd
+tel_ila_blknrj.vho
+tel_ila_blknrj.xco
+tel_ila_blknrj.xise
+tel_ila_blknrj_flist.txt
+tel_ila_blknrj_readme.txt
+tel_ila_blknrj_xmdf.tcl

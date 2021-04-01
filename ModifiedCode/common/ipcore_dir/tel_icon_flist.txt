@@ -1,0 +1,14 @@
+# Output products list for <tel_icon>
+_xmsgs/pn_parser.xmsgs
+tel_icon.asy
+tel_icon.gise
+tel_icon.ngc
+tel_icon.v
+tel_icon.veo
+tel_icon.vhd
+tel_icon.vho
+tel_icon.xco
+tel_icon.xise
+tel_icon_flist.txt
+tel_icon_readme.txt
+tel_icon_xmdf.tcl

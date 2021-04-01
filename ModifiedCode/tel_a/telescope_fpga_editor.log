@@ -1,0 +1,24 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   SPARC M2.1 P.40xd
+#Current Working Directory:
+#:D   /home/haein/Downloads/fazia_original/tel_a
+#Host Name:
+#:H   haein-VirtualBox
+#Date/Time:
+#:T   Mon Oct 19 15:25:22 2020
+#------------------------------
+	#Reading telescope.ncd...
+	#Loading device for application Rf_Device from file '5vlx50.nph' in environment /home/haein/14.3/ISE_DS/ISE/.
+	#   "telescope" is an NCD, version 3.2, device xc5vlx50, package ff676, speed -2
+	#Design creation date: 2020.10.16.14.19.09
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+select comp 'sysMonBlock/slowCtBusRd<3>'
+	#comp "sysMonBlock/slowCtBusRd<3>",  site "SLICE_X25Y60",  type = SLICEL  (RPM grid X67Y120)
