@@ -1,5 +1,0 @@
-Tue Mar  2 02:01:20 2021
-
-Upgraded ram_4kx14_modified from Block Memory Generator 6.2 to Block Memory Generator 7.3
-
-No changes made to parameter values.

@@ -1,5 +1,0 @@
-vhdl work "../common/ipcore_dir/ram_1kx24.vhd"
-vhdl work "../common/slow_ct_defs.vhd"
-vhdl work "../common/tel_defs.vhd"
-vhdl work "../common/align_defs.vhd"
-vhdl work "../common/histogrammer.vhd"

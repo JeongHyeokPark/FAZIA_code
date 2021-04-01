@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/telescope.ncd
-OUTFILE=/home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/telescope.bit
-FAMILY=Virtex5
-PART=xc5vlx50-2ff676
-WORKINGDIR=/home/valdre/Documenti/FAZIA/new_fpga_code/tel_b
-LICENSE=ISE
-USER_INFO=211642733_180332142_208889452_907

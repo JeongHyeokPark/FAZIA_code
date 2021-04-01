@@ -1,4 +1,0 @@
-# Output products list for <the_pll>
-the_pll_flist.txt
-the_pll_readme.txt
-the_pll_xmdf.tcl
