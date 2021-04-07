@@ -1,0 +1,685 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: AdcMon.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "AdcMon.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "AdcMon"
+Output Format                      : NGC
+Target Device                      : xc5vlx50-2-ff676
+
+---- Source Options
+Top Module Name                    : AdcMon
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir" "../common/ipcore_dir" "../common/fastlink/ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/haein/Downloads/fazia/common/slow_ct_defs.vhd" in Library work.
+Architecture slow_ct_defs of Entity slow_ct_defs is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/tel_defs.vhd" in Library work.
+Architecture tel_defs of Entity tel_defs is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/align_defs.vhd" in Library work.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/ipcore_dir/aligner_rom_128x8.vhd" in Library work.
+Architecture aligner_rom_128x8_a of Entity aligner_rom_128x8 is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/ipcore_dir/aligner_ram_128x8.vhd" in Library work.
+Architecture aligner_ram_128x8_a of Entity aligner_ram_128x8 is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/ipcore_dir/spi_adc_rom.vhd" in Library work.
+Architecture spi_adc_rom_a of Entity spi_adc_rom is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/spi.vhd" in Library work.
+Architecture behavioral of Entity spiadc is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/aligner_new.vhd" in Library work.
+Architecture behavioral of Entity aligner_new is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/adc_mon.vhd" in Library work.
+Architecture behavioral of Entity adcmon is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <AdcMon> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SpiAdc> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Aligner_new> in library <work> (architecture <Behavioral>) with generics.
+	MemAdr = "0001100000000000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <AdcMon> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "/home/haein/Downloads/fazia/common/adc_mon.vhd" line 164: Index value(s) does not match array range, simulation mismatch.
+Entity <AdcMon> analyzed. Unit <AdcMon> generated.
+
+Analyzing Entity <SpiAdc> in library <work> (Architecture <behavioral>).
+Entity <SpiAdc> analyzed. Unit <SpiAdc> generated.
+
+Analyzing generic Entity <Aligner_new> in library <work> (Architecture <Behavioral>).
+	MemAdr = "0001100000000000"
+INFO:Xst:2679 - Register <slowCtBusRd<15>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<14>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<13>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<12>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<11>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<10>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<9>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <slowCtBusRd<8>> in unit <Aligner_new> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <Aligner_new> analyzed. Unit <Aligner_new> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SpiAdc>.
+    Related source file is "/home/haein/Downloads/fazia/common/spi.vhd".
+WARNING:Xst:646 - Signal <srData<15:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <srAddr<15:11>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <initCs>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | start                                          |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <spiCs>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 18                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <adcNrReg>.
+    Found 5-bit up counter for signal <bitCnt>.
+    Found 1-bit register for signal <rdWr_n>.
+    Found 4-bit up counter for signal <romAddr>.
+    Found 8-bit register for signal <shiftIn>.
+    Found 24-bit register for signal <shiftReg>.
+    Found 1-bit register for signal <spiType>.
+    Found 6-bit up counter for signal <timerCnt>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred  37 D-type flip-flop(s).
+Unit <SpiAdc> synthesized.
+
+
+Synthesizing Unit <Aligner_new>.
+    Related source file is "/home/haein/Downloads/fazia/common/aligner_new.vhd".
+WARNING:Xst:647 - Input <alignDataBit> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <slowCtBus.data<15:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Register <remoteStart> equivalent to <memWr1> has been removed
+    Found finite state machine <FSM_2> for signal <allCs>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | not_started                                    |
+    | Power Up State     | not_started                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <delCs>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <slowCtBusRd<7:0>>.
+    Found 3-bit register for signal <adcCnter>.
+    Found 3-bit adder for signal <adcCnter$addsub0000> created at line 252.
+    Found 3-bit register for signal <adcNr>.
+    Found 4-bit register for signal <bitCnter>.
+    Found 4-bit adder for signal <bitCnter$addsub0000> created at line 250.
+    Found 4-bit register for signal <bitNr>.
+    Found 6-bit register for signal <counter>.
+    Found 6-bit subtractor for signal <counter$addsub0000> created at line 309.
+    Found 6-bit register for signal <delays>.
+    Found 7-bit register for signal <inspectReg>.
+    Found 1-bit register for signal <memWr1>.
+    Found 7-bit register for signal <ramAddrIn>.
+    Found 8-bit register for signal <ramDataIn>.
+    Found 7-bit register for signal <romAddr>.
+    Found 7-bit adder for signal <romAddr$addsub0000> created at line 233.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred  64 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+Unit <Aligner_new> synthesized.
+
+
+Synthesizing Unit <AdcMon>.
+    Related source file is "/home/haein/Downloads/fazia/common/adc_mon.vhd".
+    Found 6-bit tristate buffer for signal <rstPort_n>.
+    Found 3-bit register for signal <adcToBeReseted>.
+    Found 1-bit register for signal <Mtridata_rstPort_n<0>> created at line 151.
+    Found 1-bit register for signal <Mtridata_rstPort_n<1>> created at line 151.
+    Found 1-bit register for signal <Mtridata_rstPort_n<2>> created at line 151.
+    Found 1-bit register for signal <Mtridata_rstPort_n<3>> created at line 151.
+    Found 1-bit register for signal <Mtridata_rstPort_n<4>> created at line 151.
+    Found 1-bit register for signal <Mtridata_rstPort_n<5>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<0>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<1>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<2>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<3>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<4>> created at line 151.
+    Found 1-bit register for signal <Mtrien_rstPort_n<5>> created at line 151.
+    Found 4-bit down counter for signal <rstCnt>.
+    Found 1-bit 8-to-1 multiplexer for signal <sdo>.
+    Found 1-bit register for signal <startPulse>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   6 Tristate(s).
+Unit <AdcMon> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+ 6-bit subtractor                                      : 1
+ 7-bit adder                                           : 1
+# Counters                                             : 4
+ 4-bit down counter                                    : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 68
+ 1-bit register                                        : 56
+ 3-bit register                                        : 4
+ 4-bit register                                        : 2
+ 6-bit register                                        : 2
+ 7-bit register                                        : 3
+ 8-bit register                                        : 1
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+# Tristates                                            : 6
+ 1-bit tristate buffer                                 : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <aligneur/delCs/FSM> on signal <delCs[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ raz   | 01
+ inc   | 10
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <aligneur/allCs/FSM> on signal <allCs[1:3]> with gray encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ not_started | 000
+ copy_rom    | 001
+ idle        | 010
+ looping     | 011
+ waiting     | 110
+-------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <spi_inst/spiCs/FSM> on signal <spiCs[1:2]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 00
+ wait_low  | 01
+ wait_high | 10
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <spi_inst/initCs/FSM> on signal <initCs[1:2]> with gray encoding.
+----------------------
+ State    | Encoding
+----------------------
+ idle     | 00
+ start    | 01
+ looping  | 11
+ test_end | 10
+----------------------
+Reading core <../common/ipcore_dir/spi_adc_rom.ngc>.
+Reading core <../common/ipcore_dir/aligner_rom_128x8.ngc>.
+Reading core <../common/ipcore_dir/aligner_ram_128x8.ngc>.
+Loading core <spi_adc_rom> for timing and area information for instance <memoireRom>.
+Loading core <aligner_rom_128x8> for timing and area information for instance <memoireRom>.
+Loading core <aligner_ram_128x8> for timing and area information for instance <memoireRam>.
+WARNING:Xst:1710 - FF/Latch <Mtridata_rstPort_n<2>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<0>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<1>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<5>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<3>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<4>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<2> and Mtridata_rstPort_n<0> Mtridata_rstPort_n<0> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<1> Mtridata_rstPort_n<1> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<5> Mtridata_rstPort_n<5> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<3> Mtridata_rstPort_n<3> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<4> Mtridata_rstPort_n<4> signal will be lost.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# Adders/Subtractors                                   : 4
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+ 6-bit subtractor                                      : 1
+ 7-bit adder                                           : 1
+# Counters                                             : 4
+ 4-bit down counter                                    : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 117
+ Flip-Flops                                            : 117
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Mtridata_rstPort_n<0>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<3>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<1>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<2>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<4>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_rstPort_n<5>> (without init value) has a constant value of 0 in block <AdcMon>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<3> Mtridata_rstPort_n<3> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<1> Mtridata_rstPort_n<1> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<2> Mtridata_rstPort_n<2> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<4> Mtridata_rstPort_n<4> signal will be lost.
+WARNING:Xst:638 - in unit AdcMon Conflict on KEEP property on signal Mtridata_rstPort_n<0> and Mtridata_rstPort_n<5> Mtridata_rstPort_n<5> signal will be lost.
+
+Optimizing unit <AdcMon> ...
+
+Optimizing unit <SpiAdc> ...
+
+Optimizing unit <Aligner_new> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block AdcMon, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 139
+ Flip-Flops                                            : 139
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : AdcMon.ngr
+Top Level Output File Name         : AdcMon
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 109
+
+Cell Usage :
+# BELS                             : 311
+#      GND                         : 7
+#      INV                         : 2
+#      LUT2                        : 23
+#      LUT3                        : 26
+#      LUT4                        : 76
+#      LUT5                        : 57
+#      LUT6                        : 111
+#      MUXF7                       : 5
+#      VCC                         : 4
+# FlipFlops/Latches                : 147
+#      FD                          : 32
+#      FDC                         : 34
+#      FDCE                        : 38
+#      FDE                         : 41
+#      FDP                         : 1
+#      FDR                         : 1
+# RAMS                             : 8
+#      RAM64M                      : 4
+#      RAM64X1D                    : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 102
+#      IBUF                        : 42
+#      OBUF                        : 54
+#      OBUFT                       : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx50ff676-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             140  out of  28800     0%  
+ Number of Slice LUTs:                  319  out of  28800     1%  
+    Number used as Logic:               295  out of  28800     1%  
+    Number used as Memory:               24  out of   7680     0%  
+       Number used as RAM:               24
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    332
+   Number with an unused Flip Flop:     192  out of    332    57%  
+   Number with an unused LUT:            13  out of    332     3%  
+   Number of fully used LUT-FF pairs:   127  out of    332    38%  
+   Number of unique control sets:        20
+
+IO Utilization: 
+ Number of IOs:                         109
+ Number of bonded IOBs:                 103  out of    440    23%  
+    IOB Flip Flops/Latches:               7
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 155   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 73    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 2.762ns (Maximum Frequency: 362.004MHz)
+   Minimum input arrival time before clock: 4.575ns
+   Maximum output required time after clock: 3.838ns
+   Maximum combinational path delay: 5.160ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.762ns (frequency: 362.004MHz)
+  Total number of paths / destination ports: 1886 / 247
+-------------------------------------------------------------------------
+Delay:               2.762ns (Levels of Logic = 6)
+  Source:            spi_inst/romAddr_3 (FF)
+  Destination:       spi_inst/shiftReg_8 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: spi_inst/romAddr_3 to spi_inst/shiftReg_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.396   0.708  spi_inst/romAddr_3 (spi_inst/romAddr_3)
+     begin scope: 'spi_inst/memoireRom'
+     begin scope: 'BU2'
+     LUT4:I0->O            2   0.086   0.416  U0/gen_rom.rom_inst/Mrom_spo_int_rom000011 (spo(0))
+     end scope: 'BU2'
+     end scope: 'spi_inst/memoireRom'
+     LUT6:I5->O            1   0.086   0.487  spi_inst/shiftReg_8_mux0001_SW0 (N69)
+     LUT6:I4->O            1   0.086   0.412  spi_inst/shiftReg_8_mux0001_SW2 (N154)
+     LUT6:I5->O            1   0.086   0.000  spi_inst/shiftReg_8_rstpot (spi_inst/shiftReg_8_rstpot)
+     FD:D                     -0.022          spi_inst/shiftReg_8
+    ----------------------------------------
+    Total                      2.762ns (0.740ns logic, 2.022ns route)
+                                       (26.8% logic, 73.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2751 / 196
+-------------------------------------------------------------------------
+Offset:              4.575ns (Levels of Logic = 6)
+  Source:            slowCtBus_addr<10> (PAD)
+  Destination:       spi_inst/shiftReg_14 (FF)
+  Destination Clock: clk rising
+
+  Data Path: slowCtBus_addr<10> to spi_inst/shiftReg_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.694   1.009  slowCtBus_addr_10_IBUF (slowCtBus_addr_10_IBUF)
+     LUT6:I0->O            1   0.086   0.000  spi_inst/shiftReg_15_mux000141 (spi_inst/shiftReg_15_mux00014)
+     MUXF7:I1->O          29   0.214   0.707  spi_inst/shiftReg_15_mux00014_f7 (spi_inst/N17)
+     LUT6:I3->O           25   0.086   0.707  spi_inst/srData<9>1 (spi_inst/srData<9>)
+     LUT3:I0->O            1   0.086   0.901  spi_inst/shiftReg_14_rstpot_SW0 (N109)
+     LUT6:I0->O            1   0.086   0.000  spi_inst/shiftReg_14_rstpot (spi_inst/shiftReg_14_rstpot)
+     FD:D                     -0.022          spi_inst/shiftReg_14
+    ----------------------------------------
+    Total                      4.575ns (1.252ns logic, 3.323ns route)
+                                       (27.4% logic, 72.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 148 / 50
+-------------------------------------------------------------------------
+Offset:              3.838ns (Levels of Logic = 2)
+  Source:            aligneur/allCs_FSM_FFd1 (FF)
+  Destination:       alignBus_bit_nr<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: aligneur/allCs_FSM_FFd1 to alignBus_bit_nr<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             29   0.396   0.926  aligneur/allCs_FSM_FFd1 (aligneur/allCs_FSM_FFd1)
+     LUT5:I0->O            1   0.086   0.286  aligneur/alignBusInternal_bit_nr<3>1 (alignBus_bit_nr_3_OBUF)
+     OBUF:I->O                 2.144          alignBus_bit_nr_3_OBUF (alignBus_bit_nr<3>)
+    ----------------------------------------
+    Total                      3.838ns (2.626ns logic, 1.212ns route)
+                                       (68.4% logic, 31.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 159 / 10
+-------------------------------------------------------------------------
+Delay:               5.160ns (Levels of Logic = 4)
+  Source:            slowCtBus_addr<10> (PAD)
+  Destination:       slowCtBusRd<8> (PAD)
+
+  Data Path: slowCtBus_addr<10> to slowCtBusRd<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.694   1.009  slowCtBus_addr_10_IBUF (slowCtBus_addr_10_IBUF)
+     LUT6:I0->O            9   0.086   0.856  spi_inst/slowCtBusRd_and000023 (spi_inst/slowCtBusRd_and000023)
+     LUT5:I0->O            1   0.086   0.286  spi_inst/slowCtBusRd<8>1 (slowCtBusRd_8_OBUF)
+     OBUF:I->O                 2.144          slowCtBusRd_8_OBUF (slowCtBusRd<8>)
+    ----------------------------------------
+    Total                      5.160ns (3.010ns logic, 2.150ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 9.42 secs
+ 
+--> 
+
+
+Total memory usage is 577012 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

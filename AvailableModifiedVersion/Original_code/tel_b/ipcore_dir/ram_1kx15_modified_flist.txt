@@ -1,0 +1,16 @@
+# Output products list for <ram_1kx15_modified>
+_xmsgs/pn_parser.xmsgs
+ram_1kx15_modified/blk_mem_gen_v7_3_readme.txt
+ram_1kx15_modified/doc/blk_mem_gen_v7_3_vinfo.html
+ram_1kx15_modified/doc/pg058-blk-mem-gen.pdf
+ram_1kx15_modified.asy
+ram_1kx15_modified.gise
+ram_1kx15_modified.ngc
+ram_1kx15_modified.sym
+ram_1kx15_modified.vhd
+ram_1kx15_modified.vho
+ram_1kx15_modified.xco
+ram_1kx15_modified.xise
+ram_1kx15_modified_flist.txt
+ram_1kx15_modified_xmdf.tcl
+summary.log

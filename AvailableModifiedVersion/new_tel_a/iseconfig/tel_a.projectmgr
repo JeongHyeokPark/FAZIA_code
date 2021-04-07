@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="tel_a" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AdcMon - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|adc_mon.vhd</ClosedNode>
+         <ClosedNode>/ETrigger - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|e_trigger.vhd</ClosedNode>
+         <ClosedNode>/Energy - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|energy.vhd</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/deser_H - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/deser_L - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/deser_VM - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/FASTLINK - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|fastlink|fastlink.vhd/ser_VM - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/OffsetCtrl - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|offset_ctrl.vhd</ClosedNode>
+         <ClosedNode>/SlowChannel - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|csi_channel.vhd/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/SlowChannel - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|csi_channel.vhd/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/SlowChannel - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|csi_channel.vhd/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/SlowChannel - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|csi_channel.vhd/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/TEL_SER - BEHAVIORAL |home|ebk|fazia|phase_2|step_2|fpga|common|top_sysmon.vhd</ClosedNode>
+         <ClosedNode>/tb_canaux - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_canaux.vhd</ClosedNode>
+         <ClosedNode>/tb_scope - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_scope.vhd</ClosedNode>
+         <ClosedNode>/tb_scope - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_scope.vhd/uut - Scope - Behavioral/canal - Channel - Behavioral/ondeur - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/q2 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/adc_monitor - AdcMon - Behavioral/aligneur - Aligner - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/deser_H - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/deser_L - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/deser_VM - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/fLink - FASTLINK - BEHAVIORAL/ser_VM - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/offsetAnalog - OffsetCtrl - Behavioral/i2c_master - I2cMaster - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/scBloc - ScItf - Behavioral/usb - UsbItf - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_a - tel_a_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/offsetAnalog - OffsetCtrl - Behavioral/i2c_master - I2cMaster - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral/meb_16 - MEB16 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q2 - SlowChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/qh1 - SlowChannel - Behavioral/meb_16 - MEB16 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd/scBloc - ScItf - Behavioral/usb - UsbItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockFastNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/fastHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/totHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/ql1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard_2 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/rising - retard_1 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb5|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb5|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb5|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb5|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb5|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockFastNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/q3 - CsiChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/rising - retard_1 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/ql1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christellePartb|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral/fastHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral/totHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard_1 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch X:|FEE|fpga146_2015_christelle|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral/aligneur - Aligner - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral/spi_inst - SpiAdc - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/clkgen_inst - clkgenerator - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_H - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_L - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_VM - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_VM - DESERIALISEUR - BEHAVIORAL/deser_inst - N_ISERDES8b_MsAllign - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_VM - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral/i2c_master - I2cMaster - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockFastNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard_1 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/rising - retard - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/rising - retard_1 - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/ddr_16_1 - DDR_ADC - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/rEngine - readEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral/mw - MicroWire - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc - ScItf - Behavioral/usb - UsbItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral/usb - usbItf_new - usbItfArch</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/clkgen_inst - clkgenerator - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_H - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_L - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_VM - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_VM - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral/waverFast - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/rEngine - readEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral/system_mon - USERSYSMON - toto</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|salomon|fazia|fpga|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146_2015|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral/i2c_master - I2cMaster - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/scBloc_a - ScItf - Behavioral/usb - usbItf_new - usbItfArch</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/clkgen_inst - clkgenerator - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_H - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/deser_VM - DESERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral/mw - MicroWire - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/scBloc_a - ScItf - Behavioral/usb - usbItf_new - usbItfArch</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral/usb - usbItf_new - usbItfArch</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|Documents_step_3|Conception|fpga|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|BacASable|fpga146_2015|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/baseMean - baseline - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb2|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb4|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christellePartb|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |projet|faziasep|FEE|fpga146_2015_christelle|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/clkgen_inst - clkgenerator - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_H - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_L - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL/ser_VM - SERIALISEUR - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral/lecteur - reader - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/rEngine - readEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|franck|faziasep|Documents_step_3|Conception|fpga146|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/picoBlock - comZone - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/q3 - CsiChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/monHisto - Histogrammer - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/rEngine - ReadEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/rEngine - readEngine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/scBloc_a - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/scBloc_b - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/sysMonBlock - SysMonitor - behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |vol0|pierre|fazia|fpga|common|telescope.vhd/trigger - trigger - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>telescope - telescope_arch (/home/parallels/Desktop/newCode/NewTest/common/telescope.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000366000000020000000000000000000000000000000064ffffffff000000810000000000000002000003660000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>telescope - telescope_arch (/home/parallels/Desktop/newCode/NewTest/common/telescope.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff000000810000000000000004000000f70000000100000000000000ed00000001000000000000008f00000001000000000000011d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>/home/parallels/Desktop/newCode/NewTest/common/adc_mon.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000010000000000000000000000000000000000000119000000010001000100000000000000000000000064ffffffff000000810000000000000001000001190000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Implement Design</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000118000000010000000100000000000000000000000064ffffffff000000810000000000000001000001180000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Implement Design</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Edit Constraints (Text)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Edit Constraints (Text)</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001920000010a01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000127000000010000000100000000000000000000000064ffffffff000000810000000000000001000001270000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000003c6000000010000000100000000000000000000000064ffffffff000000810000000000000001000003c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AdcMon - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|adc_mon.vhd</ClosedNode>
+         <ClosedNode>/Aligner - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|aligner.vhd</ClosedNode>
+         <ClosedNode>/I2cMaster - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|i2c_master.vhd</ClosedNode>
+         <ClosedNode>/OffsetCtrl - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|offset_ctrl.vhd</ClosedNode>
+         <ClosedNode>/ScItf - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|scItf.vhd</ClosedNode>
+         <ClosedNode>/Scope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|scope.vhd</ClosedNode>
+         <ClosedNode>/UsbItf - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|common|usb_itf.vhd</ClosedNode>
+         <ClosedNode>/tb_channel - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_canaux.vhd/uut - Channel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_channel - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_channel.vhd</ClosedNode>
+         <ClosedNode>/tb_channel - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_channel.vhd/uut - Channel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_fast_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_fast_slow.vhd</ClosedNode>
+         <ClosedNode>/tb_fast_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_fast_slow.vhd/lent - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_fast_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_fast_slow.vhd/lent - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_fast_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_fast_slow.vhd/rapide - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_fast_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_fast_slow.vhd/uut - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_scope - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_scope.vhd</ClosedNode>
+         <ClosedNode>/tb_scope - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_scope.vhd/uut - Scope - Behavioral/canal - Channel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/i1 - FastChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/tb_simple - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd/telescope - tel_simple - tel_simple_arch/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/falling - retard - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral/rising - retard - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/tb_slow - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_slow.vhd/uut - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/adc_monitor - AdcMon - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/q2 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/q2 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral/meb_16 - MEB16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/tb_tel_a - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_tel_a.vhd/uut - telescope - Behavioral/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/tb_usb - behavior |home|ebk|fazia|phase_2|step_2|fpga|simu|tb_usb.vhd</ClosedNode>
+         <ClosedNode>/tb_waver - behavior |home|ebk|fazia|phase_2|step_2|fpga|common|tb_waver.vhd</ClosedNode>
+         <ClosedNode>/tb_waver - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_waver.vhd</ClosedNode>
+         <ClosedNode>/tel_simple - tel_simple_arch |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_simple.vhd</ClosedNode>
+         <ClosedNode>/telescope - Behavioral |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tel_a.vhd</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/adc_monitor - AdcMon - Behavioral/aligneur - Aligner - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/fLink - FASTLINK - BEHAVIORAL</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i1 - FastChannel - Behavioral/waverFast - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/i2 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/offsetAnalog - OffsetCtrl - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q2 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/q3 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockNrj - Energy - Behavioral/formeur - shaper - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/blockTrig - ETrigger - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/qh1 - SlowChannel - Behavioral/waverSlow - Waver - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/ql1 - FastChannel - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/rEngine - read_engine - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/r_lmk - TalkToLmk - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc - ScItf - Behavioral</ClosedNode>
+         <ClosedNode>/telescope - telescope_arch |home|ebk|fazia|phase_2|step_2|fpga|common|telescope.vhd/scBloc - ScItf - Behavioral/usb - UsbItf - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|ebk|fazia|phase_2|step_2|fpga|tel_a|tb_simple.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002fe000000020000000000000000000000000000000064ffffffff000000810000000000000002000002fe0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>picoBlock - comZone - Behavioral (/home/haein/Downloads/fazia/common/comZone.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc5vlx50-2ff676</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002bf000000020000000000000000000000000000000064ffffffff0000008100000000000000020000022b0000000100000000000000940000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc5vlx50-2ff676</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b3000000020000000100000000000000000000000064ffffffff000000810000000000000002000001b30000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000127000000010000000100000000000000000000000064ffffffff000000810000000000000001000001270000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <CopyAdditionalFiles/>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000304000000010000000100000000000000000000000064ffffffff000000810000000000000001000003040000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>/home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single_modified.vhd (/home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single_modified.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002d2000000020000000000000000000000000000000064ffffffff000000810000000000000002000002400000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>/home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single_modified.vhd (/home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single_modified.vhd)</CurrentItem>
+   </ItemView>
+</Project>

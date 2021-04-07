@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/haein/Downloads/fazia/tel_a/AdcMon.xst" -ofn "/home/haein/Downloads/fazia/tel_a/AdcMon.syr" 
+netgen -intstyle ise -ar Structure -tm telescope -w -dir netgen/synthesis -ofmt vhdl -sim AdcMon.ngc tb_simple_synthesis.v 
+xst -intstyle ise -ifn "/home/haein/Downloads/fazia/tel_a/AdcMon.xst" -ofn "/home/haein/Downloads/fazia/tel_a/AdcMon.syr" 
+xst -intstyle ise -ifn "/home/haein/Downloads/fazia/tel_a/AdcMon.xst" -ofn "/home/haein/Downloads/fazia/tel_a/AdcMon.syr" 

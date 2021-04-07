@@ -1,0 +1,318 @@
+  #
+# Fichier de contraintes telescope.ucf
+# classé par N° de banque
+# ce fichier est commun aux télescopes a et b (les i/o spécifiques ont un nom générique ioFpgaxx)
+
+# Banque 1 ======================================================================================
+# kad 5514 = Énergy 250 MeV Si-1 ----------------------------
+NET "adcQL1Sclk"  LOC = G16 | IOSTANDARD = LVCMOS18;
+NET "adcQL1Rst_n" LOC = H18 | IOSTANDARD = LVCMOS18 | pullup;
+NET "adcQL1Cs_n"  LOC = G17 | IOSTANDARD = LVCMOS18;
+NET "adcQL1Sdo"   LOC = H17 | IOSTANDARD = LVCMOS18;
+NET "adcQL1Sdio"  LOC = G19 | IOSTANDARD = LVCMOS18;
+
+# Banque 3 ======================================================================================
+# signaux généraux ------------------------------------------
+
+NET "sysClk_n"     LOC = F10 | PERIOD = 10 ns HIGH 50 % | IOSTANDARD = LVDS_25;
+NET "sysClk_p"     LOC =  F9 | IOSTANDARD = LVDS_25;
+NET "clk25MHz_n"   LOC = E15 | PERIOD = 40 ns HIGH 50 % | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "clk25MHz_p"   LOC = D15 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+# Banque 11 =====================================================================================
+# LTC 2260 = Énergie 4 GeV Si-1 -----------------------------
+NET "AdcQH1Sclk"  LOC = E21 | IOSTANDARD = LVCMOS18;
+NET "adcQH1Cs_n"  LOC = E23 | IOSTANDARD = LVCMOS18;
+NET "adcQH1Sdo"   LOC = E22 | IOSTANDARD = LVCMOS18;
+NET "adcQH1Sdio"  LOC = F22 | IOSTANDARD = LVCMOS18;
+# kad 5514 = Current Si-1 -----------------------------------
+NET "adcI1Sclk"   LOC = J20 | IOSTANDARD = LVCMOS18;
+NET "adcI1Rst_n"  LOC = H19 | IOSTANDARD = LVCMOS18 | pullup;
+NET "adcI1Cs_n"   LOC = K20 | IOSTANDARD = LVCMOS18;
+NET "adcI1Sdo"    LOC = J19 | IOSTANDARD = LVCMOS18;
+NET "adcI1SdiO"   LOC = K21 | IOSTANDARD = LVCMOS18;
+# LTC 2260 = Energy 4.0 GeV Si-2 ----------------------------
+NET "adcQ2Sclk"   LOC = J21 | IOSTANDARD = LVCMOS18;
+NET "adcQ2Cs_n"   LOC = H22 | IOSTANDARD = LVCMOS18;
+NET "adcQ2Sdo"    LOC = J23 | IOSTANDARD = LVCMOS18;
+NET "adcQ2sdiO"   LOC = H23 | IOSTANDARD = LVCMOS18;
+# KAD 5514 = Current Si-2 -----------------------------------
+NET "adcI2Sclk"   LOC = G21 | IOSTANDARD = LVCMOS18;
+NET "adcI2Rst_n"  LOC = E20 | IOSTANDARD = LVCMOS18 | pullup;
+NET "adcI2Cs_n"   LOC = F20 | IOSTANDARD = LVCMOS18;
+NET "adcI2Sdo"    LOC = G20 | IOSTANDARD = LVCMOS18;
+NET "adcI2sdiO"   LOC = H21 | IOSTANDARD = LVCMOS18;
+# LTC 2260 = Énergie 4 GeV Cs-I -----------------------------
+NET "adcQ3Sclk"   LOC = L23 | IOSTANDARD = LVCMOS18;
+NET "adcQ3Cs_n"   LOC = L22 | IOSTANDARD = LVCMOS18;
+NET "adcQ3Sdo"    LOC = M22 | IOSTANDARD = LVCMOS18;
+NET "adcQ3sdiO"   LOC = K23 | IOSTANDARD = LVCMOS18;
+
+
+# Banque 12 ======================================================================================
+# DACs d'offset préamplis -----------------------------------
+NET "dacSda"      LOC = L7  | IOSTANDARD = LVCMOS33 | pullup;
+NET "dacScl"      LOC = M7  | IOSTANDARD = LVCMOS33;
+NET "adjust1"     LOC = N6  | IOSTANDARD = LVCMOS33;
+NET "adjust2"     LOC = R6  | IOSTANDARD = LVCMOS33;
+NET "adjust3"     LOC = P6  | IOSTANDARD = LVCMOS33;
+# Interface PIC ----------------------------------------------
+NET "ucSpiSdi"    LOC = E6  | IOSTANDARD = LVCMOS33; # ceci est une sortie du FPGA
+NET "ucSpiSdo"    LOC = E5  | IOSTANDARD = LVCMOS33; # ceci est une entrée du FPGA
+NET "ucSpiSs_n"   LOC = F4  | IOSTANDARD = LVCMOS33 | pullup;
+NET "ucSpiSck"    LOC = F5  | IOSTANDARD = LVCMOS33
+                            | CLOCK_DEDICATED_ROUTE = FALSE; #
+# Interface USB -----------------------------------------------
+NET dataUsb<0>  LOC = E7  | IOSTANDARD = LVCMOS33;
+NET dataUsb<1>  LOC = F7  | IOSTANDARD = LVCMOS33;
+NET dataUsb<2>  LOC = G7  | IOSTANDARD = LVCMOS33;
+NET dataUsb<3>  LOC = G6  | IOSTANDARD = LVCMOS33;
+NET dataUsb<4>  LOC = G5  | IOSTANDARD = LVCMOS33;
+NET dataUsb<5>  LOC = G4  | IOSTANDARD = LVCMOS33;
+NET dataUsb<6>  LOC = H4  | IOSTANDARD = LVCMOS33;
+NET dataUsb<7>  LOC = J4  | IOSTANDARD = LVCMOS33;
+
+NET rdUsb_n     LOC = H6  | IOSTANDARD = LVCMOS33 | pullup;
+NET wrUsb       LOC = H7  | IOSTANDARD = LVCMOS33 | pullup;
+NET rxf_n       LOC = J6  | IOSTANDARD = LVCMOS33 | pullup;
+NET txe_n       LOC = J5  | IOSTANDARD = LVCMOS33 | pullup;
+
+NET idFpga      LOC = M4  | IOSTANDARD = LVCMOS33;
+NET ledJaune    LOC = P4  | IOSTANDARD = LVCMOS33;
+NET ledVerte    LOC = R3  | IOSTANDARD = LVCMOS33;
+NET ledRouge    LOC = N4  | IOSTANDARD = LVCMOS33;
+NET ledBleue    LOC = T3  | IOSTANDARD = LVCMOS33;
+# i/o générales notamment synchro des alims sur tel_b
+net ioFpga_11   loc = L4  | IOSTANDARD = LVCMOS33 | pulldown;
+net ioFpga_12   loc = L5  | IOSTANDARD = LVCMOS33 | pulldown;
+net ioFpga_13   loc = K5  | IOSTANDARD = LVCMOS33 | pulldown;
+net ioFpga_14   loc = K6  | IOSTANDARD = LVCMOS33 | pulldown;
+net ioFpga_15   loc = K7  | IOSTANDARD = LVCMOS33 | pulldown;
+
+# Banque 13 ======================================================================================
+NET "adcQ2_n<0>"  LOC = E26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<0>"  LOC = E25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<1>"  LOC = F25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<1>"  LOC = F24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<2>"  LOC = G25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<2>"  LOC = G24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<3>"  LOC = H26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<3>"  LOC = G26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<4>"  LOC = J24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<4>"  LOC = H24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<5>"  LOC = J26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<5>"  LOC = J25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<6>"  LOC = K26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<6>"  LOC = K25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_n<7>"  LOC = L25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ2_p<7>"  LOC = L24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "ckAdcQ2_n"   LOC = M26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true | PERIOD = 10 ns HIGH 50 %;
+NET "ckAdcQ2_p"   LOC = M25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+# LTC 2260 = Energy 4.0 GeV CsI ------------------------------------------------
+NET "adcQ3_n<0>"  LOC = R26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<0>"  LOC = R25  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<1>"  LOC = T25  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<1>"  LOC = T24  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<2>"  LOC = U25  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<2>"  LOC = U24  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<3>"  LOC = U26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<3>"  LOC = V26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<4>"  LOC = W26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<4>"  LOC = W25  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<5>"  LOC = Y26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<5>"  LOC = Y25  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<6>"  LOC = AA25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<6>"  LOC = AB25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_n<7>"  LOC = AB26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQ3_p<7>"  LOC = AC26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "ckAdcQ3_n"   LOC = N26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true | PERIOD = 10 ns HIGH 50 %;
+NET "ckAdcQ3_p"   LOC = P26  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+# Banque 14 =====================================================================================
+# Interface série rapide --------------------------------------
+net sdi_p         loc = Y1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdi_n         loc = W1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdi_H_p       loc = P1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdi_H_n       loc = R1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdi_L_p       loc = T2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdi_L_n       loc = R2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+#
+net sdo_p         loc = M1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdo_n         loc = N1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdo_H_p       loc = V2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdo_H_n       loc = V1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdo_L_p       loc = U2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net sdo_L_n       loc = U1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+net riserv_n<0>   loc = E3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<0>   loc = F3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<1>   loc = E1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<1>   loc = E2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<2>   loc = G2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<2>   loc = F2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<3>   loc = H1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<3>   loc = G1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<4>   loc = H2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<4>   loc = J1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<5>   loc = J3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<5>   loc = H3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<6>   loc = K2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_p<6>   loc = K3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+#net riserv_n<7>   loc = K1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+#net riserv_p<7>   loc = L2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+net riserv_n<7>   loc = K1;
+net riserv_p<7>   loc = L2;
+
+# Banque 15 =====================================================================================
+NET "adcQH1_n<0>" LOC = A22 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<0>" LOC = B22 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<1>" LOC = A24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<1>" LOC = A23 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<2>" LOC = C23 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<2>" LOC = B24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<3>" LOC = A25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<3>" LOC = B25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<4>" LOC = C26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<4>" LOC = B26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<5>" LOC = C24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<5>" LOC = D24 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<6>" LOC = D25 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<6>" LOC = D26 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_n<7>" LOC = C22 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQH1_p<7>" LOC = D23 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "ckAdcQH1_n"  LOC = B21 | IOSTANDARD = LVDS_25 | DIFF_TERM = true | PERIOD = 10 ns HIGH 50 %;
+NET "ckAdcQH1_p"  LOC = C21 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "adcI2_n<0>"  LOC = B14 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<0>"  LOC = C14 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<1>"  LOC = A15 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<1>"  LOC = A14 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<2>"  LOC = B16 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<2>"  LOC = B15 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<3>"  LOC = C16 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<3>"  LOC = D16 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<4>"  LOC = A17 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<4>"  LOC = B17 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<5>"  LOC = A19 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<5>"  LOC = A18 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<6>"  LOC = C18 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<6>"  LOC = B19 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_n<7>"  LOC = B20 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI2_p<7>"  LOC = A20 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+# original Ben Yung
+
+# NET "ADC_250_CLK" TNM_NET = ADC_250_CLK;
+# TIMESPEC TS_ADC_250_CLK = PERIOD "ADC_250_CLK" 250 MHz HIGH 50% PRIORITY 1;
+
+TIMESPEC TS_ADC_250_CLK = PERIOD "ADC_250_CLK" 4 ns HIGH 50% PRIORITY 1;
+
+NET "ckAdcI2_n"   LOC = D20 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcI2_n"   TNM_NET = ADC_250_CLK;
+NET "ckAdcI2_p"   LOC = D21 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcI2_p"   TNM_NET = ADC_250_CLK;
+
+# Banque 16 =====================================================================================
+NET "adcI1_n<0>"  LOC = A7  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<0>"  LOC = B7  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<1>"  LOC = A8  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<1>"  LOC = A9  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<2>"  LOC = D9  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<2>"  LOC = C9  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<3>"  LOC = B10 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<3>"  LOC = B9  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<4>"  LOC = A10 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<4>"  LOC = B11 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<5>"  LOC = C12 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<5>"  LOC = C11 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<6>"  LOC = B12 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<6>"  LOC = C13 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_n<7>"  LOC = A12 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcI1_p<7>"  LOC = A13 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "ckAdcI1_n"   LOC = C8  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcI1_n"   TNM_NET = ADC_250_CLK;
+NET "ckAdcI1_p"   LOC = D8  | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcI1_p"   TNM_NET = ADC_250_CLK;
+
+NET "adcQL1_n<0>" LOC = C1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<0>" LOC = D1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<1>" LOC = B2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<1>" LOC = B1 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<2>" LOC = C3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<2>" LOC = C2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<3>" LOC = A3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<3>" LOC = A2 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<4>" LOC = D4 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<4>" LOC = D3 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<5>" LOC = B4 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<5>" LOC = C4 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<6>" LOC = A5 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<6>" LOC = A4 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_n<7>" LOC = B6 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "adcQL1_p<7>" LOC = B5 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+
+NET "ckAdcQL1_n"  LOC = C7 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcQL1_n"  TNM_NET = ADC_250_CLK;
+NET "ckAdcQL1_p"  LOC = C6 | IOSTANDARD = LVDS_25 | DIFF_TERM = true;
+NET "ckAdcQL1_p"  TNM_NET = ADC_250_CLK;
+                          
+# Banque 17 =====================================================================================
+NET syncZer     loc = AC22 | IOSTANDARD = LVCMOS25 | in_term = untuned_split_50;
+NET lt          loc =  Y23 | IOSTANDARD = LVCMOS25;
+NET glt         loc = AC23 | IOSTANDARD = LVCMOS25 | pulldown;
+
+NET aVersB_0    loc = AB21 | IOSTANDARD = LVCMOS25;
+NET aVersB_1    loc = AC21 | IOSTANDARD = LVCMOS25;
+NET aVersB_2    loc = AB20 | IOSTANDARD = LVCMOS25;
+NET aVersB_3    loc = AA20 | IOSTANDARD = LVCMOS25;
+
+NET ioFpga_4    LOC = AD19 | IOSTANDARD = LVCMOS25 | pulldown; # pulser si B
+NET ioFpga_5    LOC = AC19 | IOSTANDARD = LVCMOS25;
+NET ioFpga_6    LOC = AB19 | IOSTANDARD = LVCMOS25;
+NET ioFpga_7    LOC = AA19 | IOSTANDARD = LVCMOS25;
+NET ioFpga_8    LOC =  W19 | IOSTANDARD = LVCMOS25;
+NET ioFpga_9    LOC =  V19 | IOSTANDARD = LVCMOS25;
+NET ioFpga_10   LOC =  U19 | IOSTANDARD = LVCMOS25 | pulldown;
+#
+net alignIn     loc = AA23 | IOSTANDARD = LVCMOS25 | PULLDOWN;
+net lWaitIn     loc = AB22 | IOSTANDARD = LVCMOS25 | PULLDOWN;
+net blkBusyIn   loc = AC24 | IOSTANDARD = LVCMOS25 | PULLDOWN;
+net alignOut    loc = AA24 | IOSTANDARD = LVCMOS25;
+net lWaitOut    loc = AA22 | IOSTANDARD = LVCMOS25;
+net blkBusyOut  loc = AB24 | IOSTANDARD = LVCMOS25;
+
+# Banque 18 =====================================================================================
+
+NET resetIn     LOC = V4  | IOSTANDARD = LVCMOS33 | pulldown;
+# les entrée-sorties générales (notamment DAC rapide)
+NET galClk      LOC =  Y7 | IOSTANDARD = LVCMOS33;
+NET galIO<0>    LOC =  V6 | IOSTANDARD = LVCMOS33;
+NET galIO<1>    LOC =  W3 | IOSTANDARD = LVCMOS33;
+NET galIO<2>    LOC =  W4 | IOSTANDARD = LVCMOS33;
+NET galIO<3>    LOC =  Y3 | IOSTANDARD = LVCMOS33;
+NET galIO<4>    LOC = AA4 | IOSTANDARD = LVCMOS33;
+NET galIO<5>    LOC = AA3 | IOSTANDARD = LVCMOS33;
+NET galIO<6>    LOC = AD3 | IOSTANDARD = LVCMOS33;
+NET galIO<7>    LOC = AF3 | IOSTANDARD = LVCMOS33;
+NET galIO<8>    LOC = AE3 | IOSTANDARD = LVCMOS33;
+NET galIO<9>    LOC = AF4 | IOSTANDARD = LVCMOS33;
+NET galIO<10>   LOC = AD4 | IOSTANDARD = LVCMOS33;
+NET galIO<11>   LOC = AF5 | IOSTANDARD = LVCMOS33;
+NET galIO<12>   LOC = AE5 | IOSTANDARD = LVCMOS33;
+NET galIO<13>   LOC = AE6 | IOSTANDARD = LVCMOS33;
+NET aux_0       LOC =  W6 | IOSTANDARD = LVCMOS33;
+NET aux_1       LOC =  V7 | IOSTANDARD = LVCMOS33;
+NET aux_2       LOC =  V3 | IOSTANDARD = LVCMOS33;
+
+NET ioFpga_17    LOC = U4 | IOSTANDARD = LVCMOS33; # LE1 (tel_a)  syncHV  (tel_b)
+NET ioFpga_18    LOC = T4 | IOSTANDARD = LVCMOS33; # LE2 (tel_a)  clkGene (tel_b)
+NET ioFpga_19    LOC = U5 | IOSTANDARD = LVCMOS33;
+NET ioFpga_20    LOC = T5 | IOSTANDARD = LVCMOS33;
+NET ioFpga_21    LOC = U6 | IOSTANDARD = LVCMOS33;
+NET ioFpga_22    LOC = W5 | IOSTANDARD = LVCMOS33;
+

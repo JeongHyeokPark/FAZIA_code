@@ -1,0 +1,18 @@
+# Output products list for <get_icon>
+_xmsgs/pn_parser.xmsgs
+get_icon.asy
+get_icon.constraints/get_icon.ucf
+get_icon.constraints/get_icon.xdc
+get_icon.gise
+get_icon.ngc
+get_icon.ucf
+get_icon.v
+get_icon.veo
+get_icon.vhd
+get_icon.vho
+get_icon.xco
+get_icon.xdc
+get_icon.xise
+get_icon_flist.txt
+get_icon_readme.txt
+get_icon_xmdf.tcl

@@ -1,0 +1,5 @@
+set -tmpdir "/home/haein/Downloads/fazia/tel_a/xst/projnav.tmp"
+set -xsthdpdir "/home/haein/Downloads/fazia/tel_a/xst"
+elaborate
+-ifn ram_32x16_single_modified.prj
+-ifmt mixed

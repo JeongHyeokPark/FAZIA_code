@@ -1,0 +1,16 @@
+# Output products list for <ram_1kx15>
+_xmsgs/pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+ram_1kx15.asy
+ram_1kx15.gise
+ram_1kx15.ngc
+ram_1kx15.sym
+ram_1kx15.v
+ram_1kx15.veo
+ram_1kx15.vhd
+ram_1kx15.vho
+ram_1kx15.xco
+ram_1kx15.xise
+ram_1kx15_flist.txt
+ram_1kx15_readme.txt
+ram_1kx15_xmdf.tcl

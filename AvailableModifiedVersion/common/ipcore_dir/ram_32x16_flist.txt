@@ -1,0 +1,17 @@
+# Output products list for <ram_32x16>
+_xmsgs/pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt
+ram_32x16.asy
+ram_32x16.gise
+ram_32x16.ngc
+ram_32x16.sym
+ram_32x16.v
+ram_32x16.veo
+ram_32x16.vhd
+ram_32x16.vho
+ram_32x16.xco
+ram_32x16.xise
+ram_32x16_flist.txt
+ram_32x16_readme.txt
+ram_32x16_xmdf.tcl

@@ -1,0 +1,406 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: telescope.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "telescope.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "telescope"
+Output Format                      : NGC
+Target Device                      : xc5vlx50-2-ff676
+
+---- Source Options
+Top Module Name                    : telescope
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir" "../common/ipcore_dir" "../Original_code/tel_b/ipcore_dir" "../common/fastlink/ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_dual_128.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_trig64.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_36.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_blknrj.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_icon.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_128.vhd. Ignore this file from project file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj".
+WARNING:HDLParsers:3607 - Unit work/ram_32x16_single_modified is now defined in a different file.  It was defined in "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified_synth.vhd", and is now defined in "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd".
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/slow_ct_defs.vhd" in Library work.
+Architecture slow_ct_defs of Entity slow_ct_defs is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx15_modified.vhd" in Library work.
+Architecture ram_1kx15_modified_a of Entity ram_1kx15_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_2kx15_modified.vhd" in Library work.
+Architecture ram_2kx15_modified_a of Entity ram_2kx15_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/ISER8b.vhd" in Library work.
+Architecture behavioral of Entity iser8b is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/tel_defs.vhd" in Library work.
+Architecture tel_defs of Entity tel_defs is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x14_modified.vhd" in Library work.
+Architecture ram_256x14_modified_a of Entity ram_256x14_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/retard_1.vhd" in Library work.
+Architecture behavioral of Entity retard_1 is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/retard_2.vhd" in Library work.
+Architecture behavioral of Entity retard_2 is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/align_defs.vhd" in Library work.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/tel_conf_a.vhd" in Library work.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/usb_get_new.vhd" in Library work.
+Architecture usbgetarch of Entity usbget_new is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/compteur.vhd" in Library work.
+Architecture behavioral of Entity compteur is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/i2c_byte.vhd" in Library work.
+Architecture behavioral of Entity i2c_byte is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/OSER8B.vhd" in Library work.
+Architecture behavioral of Entity oser8b is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/N_ISERDES8b_MsAllign.vhd" in Library work.
+Architecture behavioral of Entity n_iserdes8b_msallign is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx24_modified.vhd" in Library work.
+Architecture ram_1kx24_modified_a of Entity ram_1kx24_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/shaper.vhd" in Library work.
+Architecture behavioral of Entity shaper is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/baseline.vhd" in Library work.
+Architecture behavioral of Entity baseline is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx14_modified.vhd" in Library work.
+Architecture ram_1kx14_modified_a of Entity ram_1kx14_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_4kx14_modified.vhd" in Library work.
+Architecture ram_4kx14_modified_a of Entity ram_4kx14_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_8kx14_modified.vhd" in Library work.
+Architecture ram_8kx14_modified_a of Entity ram_8kx14_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_16x16_modified.vhd" in Library work.
+Architecture ram_16x16_modified_a of Entity ram_16x16_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_modified.vhd" in Library work.
+Architecture ram_32x16_modified_a of Entity ram_32x16_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_64x16_modified.vhd" in Library work.
+Architecture ram_64x16_modified_a of Entity ram_64x16_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_128x16_modified.vhd" in Library work.
+Architecture ram_128x16_modified_a of Entity ram_128x16_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x16_modified.vhd" in Library work.
+Architecture ram_256x16_modified_a of Entity ram_256x16_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/reader.vhd" in Library work.
+Architecture behavioral of Entity reader is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/My_sysmon.vhd" in Library work.
+Architecture xilinx of Entity my_sysmon is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/aligner_rom_128x8.vhd" in Library work.
+Architecture aligner_rom_128x8_a of Entity aligner_rom_128x8 is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/aligner_ram_128x8_modified.vhd" in Library work.
+Architecture aligner_ram_128x8_modified_a of Entity aligner_ram_128x8_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/spi_adc_rom.vhd" in Library work.
+Architecture spi_adc_rom_a of Entity spi_adc_rom is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/usb_itf_new.vhd" in Library work.
+Architecture usbitfarch of Entity usbitf_new is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/pic_itf.vhd" in Library work.
+Architecture behavioral of Entity picitf is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/micro_wire.vhd" in Library work.
+Architecture behavioral of Entity microwire is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/ipcore_dir/micro_wire_rom.vhd" in Library work.
+Architecture micro_wire_rom_a of Entity micro_wire_rom is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/i2c_master.vhd" in Library work.
+Architecture behavioral of Entity i2cmaster is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/clkgenerator.vhd" in Library work.
+Architecture behavioral of Entity clkgenerator is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/deserialiseur.vhd" in Library work.
+Architecture behavioral of Entity deserialiseur is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/serialiseur.vhd" in Library work.
+Architecture behavioral of Entity serialiseur is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo.vhd" in Library work.
+Architecture myfifo_a of Entity myfifo is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo2.vhd" in Library work.
+Architecture myfifo2_a of Entity myfifo2 is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/ddr_adc.vhd" in Library work.
+Architecture behavioral of Entity ddr_adc is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/waver.vhd" in Library work.
+Architecture behavioral of Entity waver is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/energy.vhd" in Library work.
+Architecture behavioral of Entity energy is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/e_trigger.vhd" in Library work.
+Architecture behavioral of Entity etrigger is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/histogrammer.vhd" in Library work.
+Architecture behavioral of Entity histogrammer is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/sysmon.vhd" in Library work.
+Architecture toto of Entity usersysmon is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd" in Library work.
+Architecture ram_32x16_single_modified_a of Entity ram_32x16_single_modified is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/spi.vhd" in Library work.
+Architecture behavioral of Entity spiadc is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/aligner_new.vhd" in Library work.
+Architecture behavioral of Entity aligner_new is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/dcm_200.vhd" in Library work.
+Architecture behavioral of Entity dcm_200 is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/adc_mon.vhd" in Library work.
+Architecture behavioral of Entity adcmon is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/comZone.vhd" in Library work.
+Architecture behavioral of Entity comzone is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/general_io.vhd" in Library work.
+Architecture behavioral of Entity generalio is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/tel_sysmon.vhd" in Library work.
+Architecture behavioral of Entity sysmonitor is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/identity.vhd" in Library work.
+Architecture behavioral of Entity identity is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/s_channel.vhd" in Library work.
+Architecture behavioral of Entity slowchannel is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/f_channel.vhd" in Library work.
+Architecture behavioral of Entity fastchannel is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/csi_channel.vhd" in Library work.
+Architecture behavioral of Entity csichannel is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/terminator.vhd" in Library work.
+Architecture behavioral of Entity terminator is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/read_engine_new.vhd" in Library work.
+Architecture behavioral of Entity readengine is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/fastlink/fastlink.vhd" in Library work.
+Architecture behavioral of Entity fastlink is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/trigger.vhd" in Library work.
+Architecture behavioral of Entity trigger is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/offset_ctrl.vhd" in Library work.
+Architecture behavioral of Entity offsetctrl is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/talk_to_lmk.vhd" in Library work.
+Architecture behavioral of Entity talktolmk is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/scItf.vhd" in Library work.
+Architecture behavioral of Entity scitf is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/global_trigger.vhd" in Library work.
+Architecture behavioral of Entity globaltrigger is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/new_tel_a/virBlock.vhd" in Library work.
+Architecture virblock_arch of Entity virblock is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/tel_b/gene.vhd" in Library work.
+Architecture behavioral of Entity gene is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/tel_b/psSyncGen.vhd" in Library work.
+Architecture behavioral of Entity pssyncgen is up to date.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/common/telescope.vhd" in Library work.
+Entity <telescope> compiled.
+Entity <telescope> (Architecture <telescope_arch>) compiled.
+Compiling vhdl file "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified_synth.vhd" in Library work.
+Architecture virtex5 of Entity ram_32x16_single_modified is up to date.
+Compiling verilog file "ipcore_dir/the_pll.v" in library work
+Module <the_pll> compiled
+No errors in compilation
+Analysis of file <"telescope.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <telescope> in library <work> (architecture <telescope_arch>).
+
+Analyzing hierarchy for entity <dcm_200> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AdcMon> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <comZone> in library <work> (architecture <Behavioral>).
+ERROR:HDLParsers:333 - Binary file "xst/work/sub01/vhpl141" is corrupted. Recompile unit ram_32x16_single_modified.behavioral.
+
+Analyzing hierarchy for entity <GeneralIo> in library <work> (architecture <Behavioral>) with generics.
+	regAd = "0000000000000000"
+
+Analyzing hierarchy for entity <SysMonitor> in library <work> (architecture <behavioral>) with generics.
+	regAd = "0000001000000000"
+
+Analyzing hierarchy for entity <identity> in library <work> (architecture <Behavioral>) with generics.
+	RegAd = "0000000000000111"
+
+Analyzing hierarchy for entity <SlowChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 0
+	CirSize = 1024
+	CircAd = "1011000000000000"
+	HistoAd = "1101000000000000"
+	MebAd = "1000000000000000"
+	MebSize = 4096
+	RegAd = "0001000000000000"
+	SegAd = "1100100000000000"
+	SegSize = 16
+	WaveId = 0
+	detId = 0
+	reverse = true
+
+Analyzing hierarchy for entity <FastChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 1
+	CirSize = 1024
+	MebAd = "0010000000000000"
+	MebSize = 8192
+	RegAd = "0001000100000000"
+	SegAd = "1100100010000000"
+	SegSize = 16
+	WaveId = 1
+	detId = 0
+	reverse = false
+
+Analyzing hierarchy for entity <FastChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 2
+	CirSize = 1024
+	MebAd = "0100000000000000"
+	MebSize = 8192
+	RegAd = "0001001000000000"
+	SegAd = "1100100100000000"
+	SegSize = 16
+	WaveId = 2
+	detId = 0
+	reverse = true
+
+Analyzing hierarchy for entity <SlowChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 3
+	CirSize = 1024
+	CircAd = "1011110000000000"
+	HistoAd = "1101100000000000"
+	MebAd = "1001000000000000"
+	MebSize = 4096
+	RegAd = "0001001100000000"
+	SegAd = "1100100110000000"
+	SegSize = 16
+	WaveId = 0
+	detId = 1
+	reverse = false
+
+Analyzing hierarchy for entity <FastChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 4
+	CirSize = 1024
+	MebAd = "0110000000000000"
+	MebSize = 8192
+	RegAd = "0001010000000000"
+	SegAd = "1100101000000000"
+	SegSize = 16
+	WaveId = 1
+	detId = 1
+	reverse = false
+
+Analyzing hierarchy for entity <CsiChannel> in library <work> (architecture <Behavioral>) with generics.
+	AdcNr = 5
+	CirSize = 1024
+	CircAd = "1100010000000000"
+	Histo1 = "1110000000000000"
+	Histo2 = "1110100000000000"
+	MebAd = "1010000000000000"
+	MebSize = 4096
+	RegAd = "0001010100000000"
+	SegAd = "1100101010000000"
+	SegSize = 16
+	WaveId = 0
+	detId = 2
+	reverse = true
+
+Analyzing hierarchy for entity <Terminator> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ReadEngine> in library <work> (architecture <Behavioral>) with generics.
+	build_a = true
+	withChipScope = false
+
+Analyzing hierarchy for entity <FASTLINK> in library <work> (architecture <BEHAVIORAL>) with generics.
+	last = false
+	withChipScope = false
+
+Analyzing hierarchy for entity <trigger> in library <work> (architecture <Behavioral>) with generics.
+	RegAd = "0001011000000000"
+
+Analyzing hierarchy for entity <OffsetCtrl> in library <work> (architecture <Behavioral>) with generics.
+	RegAd = "0000000000000100"
+
+Analyzing hierarchy for entity <TalkToLmk> in library <work> (architecture <behavioral>) with generics.
+	RegAd = "0000000100000000"
+
+Analyzing hierarchy for entity <ScItf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <GlobalTrigger> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VirBlock> in library <work> (architecture <virBlock_arch>).
+
+Analyzing hierarchy for entity <SpiAdc> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Aligner_new> in library <work> (architecture <Behavioral>) with generics.
+	MemAdr = "0001100000000000"
+
+Analyzing hierarchy for entity <ram_32x16_single_modified> in library <work> (architecture <behavioral>).
+ERROR:HDLParsers:333 - Binary file "xst/work/sub01/vhpl141" is corrupted. Recompile unit ram_32x16_single_modified.behavioral.
+FATAL_ERROR:HDLParsers:vhptype.c:174:$Id: vhptype.c,v 1.9 2005/08/22 17:03:34 mikev Exp $:200 - INTERNAL ERROR... while parsing "/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified_synth.vhd" line 63. Contact your hot line.   Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.

@@ -1,0 +1,45 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/haein/Downloads/fazia/tel_a/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/haein/Downloads/fazia/tel_a/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/haein/Downloads/fazia/common/slow_ct_defs.vhd" in Library work.
+Architecture slow_ct_defs of Entity slow_ct_defs is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/tel_defs.vhd" in Library work.
+Architecture tel_defs of Entity tel_defs is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/tel_a/tel_conf_a.vhd" in Library work.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single_modified.vhd" in Library work.
+Architecture behavioral of Entity ram_32x16_single_modified is up to date.
+Compiling vhdl file "/home/haein/Downloads/fazia/common/comZone.vhd" in Library work.
+Architecture behavioral of Entity comzone is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+
+
+Total memory usage is 483344 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

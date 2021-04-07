@@ -1,0 +1,177 @@
+#:C79    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   SPARC M2.1 P.40xd
+#Current Working Directory:
+#:D   /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/new_tel_b
+#Host Name:
+#:H   parallels-Parallels-Virtual-Platform
+#Date/Time:
+#:T   Wed Mar  3 11:16:49 2021
+#------------------------------
+	#Reading telescope.ncd...
+	#Loading device for application Rf_Device from file '5vlx50.nph' in environment /opt/Xilinx/14.3/ISE_DS/ISE/.
+	#   "telescope" is an NCD, version 3.2, device xc5vlx50, package ff676, speed -2
+	#Design creation date: 2021.03.03.02.04.18
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'qh1/blockTrig/Mcompar_trigFastL_internal_cmp_gt0000_cy<7>'
+	#3
+unselect comp 'qh1/blockTrig/Mcompar_trigFastL_internal_cmp_gt0000_cy<7>'
+	#4
+select -k comp 'fLink/fifo3/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<5>'
+	#5
+unselect comp 'fLink/fifo3/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<5>'
+	#6
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N67'
+	#7
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N67'
+	#8
+select -k comp 'ql1/waverFast/decimator<3>'
+	#9
+unselect comp 'ql1/waverFast/decimator<3>'
+	#10
+select -k comp 'ql1/waverFast/ctStore<6>'
+	#11
+unselect comp 'ql1/waverFast/ctStore<6>'
+	#12
+select -k comp 'ql1/waverFast/segsOut<5>'
+	#13
+unselect comp 'ql1/waverFast/segsOut<5>'
+	#14
+select -k comp 'ql1/waverFast/segsOut<15>'
+	#15
+unselect comp 'ql1/waverFast/segsOut<15>'
+	#16
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#17
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#18
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#19
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#20
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#21
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#22
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#23
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#24
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#25
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#26
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#27
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#28
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#29
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#30
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#31
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#32
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#33
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#34
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#35
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#36
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#37
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N125'
+	#38
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#39
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N113'
+	#40
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#41
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N119'
+	#42
+select -k comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#43
+unselect comp 'qh1/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#44
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#45
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N107'
+	#46
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N35'
+	#47
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N35'
+	#48
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N53'
+	#49
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N53'
+	#50
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N101'
+	#51
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N101'
+	#52
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N77'
+	#53
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N77'
+	#54
+select -k comp 'ql1/waverFast/segsOut<11>'
+	#55
+unselect comp 'ql1/waverFast/segsOut<11>'
+	#56
+select -k comp 'picoBlock/ramDataOut<15>'
+	#57
+unselect comp 'picoBlock/ramDataOut<15>'
+	#58
+select -k comp 'picoBlock/ramDataOut<7>'
+	#59
+unselect comp 'picoBlock/ramDataOut<7>'
+	#60
+select -k comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N83'
+	#61
+unselect comp 'q2/waverSlow/make_256_seg.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N83'
+	#62
+select -k comp 'fLink/fifo2/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<6>'
+	#63
+unselect comp 'fLink/fifo2/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<6>'
+	#64
+select -k comp 'fLink/fifo2/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<5>'
+	#65
+unselect comp 'fLink/fifo2/BU2/U0/grf.rf/mem/gdm.dm/_varindex0000<5>'
+	#66
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N63'
+	#67
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N63'
+	#68
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N57'
+	#69
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N57'
+	#70
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N33'
+	#71
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N33'
+	#72
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N39'
+	#73
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N39'
+	#74
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N21'
+	#75
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N21'
+	#76
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N27'
+	#77
+unselect comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N27'
+	#78
+select -k comp 'rEngine/make_128_fifo.seg/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/N45'
+	#79
+post saveas
+	#80
+unpost saveas

@@ -1,0 +1,727 @@
+V3 443
+FL /home/haein/Downloads/fazia/common/adc_mon.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/aligner_new.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/align_defs.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/baseline.vhd 2019/01/31.16:07:18 P.40xd
+FL /home/haein/Downloads/fazia/common/compteur.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/comZone.vhd 2014/05/19.12:40:26 P.40xd
+FL /home/haein/Downloads/fazia/common/csi_channel.vhd 2019/02/27.16:42:46 P.40xd
+FL /home/haein/Downloads/fazia/common/ddr_adc.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/energy.vhd 2017/11/24.13:00:42 P.40xd
+FL /home/haein/Downloads/fazia/common/e_trigger.vhd 2019/01/30.13:21:30 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/clkgenerator.vhd 2014/02/27.14:12:14 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/deserialiseur.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/fastlink.vhd 2017/12/12.09:57:24 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/ipcore_dir/myfifo.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/ipcore_dir/myfifo2.vhd 2014/02/27.14:12:14 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/ISER8b.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/N_ISERDES8b_MsAllign.vhd 2014/02/27.14:12:14 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/OSER8B.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/fastlink/serialiseur.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/f_channel.vhd 2018/03/29.17:33:18 P.40xd
+FL /home/haein/Downloads/fazia/common/general_io.vhd 2017/12/14.12:08:42 P.40xd
+FL /home/haein/Downloads/fazia/common/histogrammer.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/i2c_byte.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/i2c_master.vhd 2014/02/27.14:12:14 P.40xd
+FL /home/haein/Downloads/fazia/common/identity.vhd 2015/02/03.10:17:28 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/aligner_ram_128x8.vhd 2014/02/27.14:12:18 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/aligner_rom_128x8.vhd 2014/02/27.14:12:18 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/My_sysmon.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_128x16.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_16x16.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_1kx14.vhd 2014/02/27.14:12:18 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_1kx15.vhd 2014/02/27.14:12:18 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_1kx24.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_256x14.vhd 2017/04/07.16:37:28 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_256x16.vhd 2017/11/20.16:05:42 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_2kx15.vhd 2016/12/01.18:11:52 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16.vhd 2014/02/27.14:12:18 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_32x16_single.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_4kx14.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_64x16.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/ram_8kx14.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/ipcore_dir/spi_adc_rom.vhd 2014/02/27.14:12:20 P.40xd
+FL /home/haein/Downloads/fazia/common/offset_ctrl.vhd 2014/09/24.13:44:24 P.40xd
+FL /home/haein/Downloads/fazia/common/pic_itf.vhd 2014/02/27.14:12:24 P.40xd
+FL /home/haein/Downloads/fazia/common/reader.vhd 2019/02/27.16:40:44 P.40xd
+FL /home/haein/Downloads/fazia/common/read_engine_new.vhd 2019/01/18.16:43:46 P.40xd
+FL /home/haein/Downloads/fazia/common/retard_1.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/retard_2.vhd 2016/12/01.12:20:32 P.40xd
+FL /home/haein/Downloads/fazia/common/scItf.vhd 2015/02/25.19:20:28 P.40xd
+FL /home/haein/Downloads/fazia/common/shaper.vhd 2018/04/11.17:55:26 P.40xd
+FL /home/haein/Downloads/fazia/common/slow_ct_defs.vhd 2014/02/27.14:12:16 P.40xd
+FL /home/haein/Downloads/fazia/common/spi.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/sysmon.vhd 2014/02/27.14:12:24 P.40xd
+FL /home/haein/Downloads/fazia/common/s_channel.vhd 2019/02/27.18:35:50 P.40xd
+FL /home/haein/Downloads/fazia/common/telescope.vhd 2019/09/19.10:38:42 P.40xd
+FL /home/haein/Downloads/fazia/common/tel_defs.vhd 2019/02/27.18:42:08 P.40xd
+FL /home/haein/Downloads/fazia/common/tel_sysmon.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/terminator.vhd 2014/02/27.14:12:22 P.40xd
+FL /home/haein/Downloads/fazia/common/trigger.vhd 2018/03/27.10:31:52 P.40xd
+FL /home/haein/Downloads/fazia/common/usb_get_new.vhd 2015/02/25.20:06:08 P.40xd
+FL /home/haein/Downloads/fazia/common/usb_itf_new.vhd 2015/02/25.17:23:28 P.40xd
+FL /home/haein/Downloads/fazia/common/waver.vhd 2019/09/19.10:36:56 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/dcm_200.vhd 2020/06/08.10:16:22 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/global_trigger.vhd 2014/02/27.14:11:16 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/ipcore_dir/micro_wire_rom.vhd 2014/02/27.14:11:14 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/micro_wire.vhd 2014/02/27.14:11:16 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/talk_to_lmk.vhd 2014/02/27.14:11:18 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/tel_conf_a.vhd 2019/09/19.10:56:50 P.40xd
+FL /home/haein/Downloads/fazia/tel_a/virBlock.vhd 2014/02/27.14:11:14 P.40xd
+FL /home/haein/Downloads/fazia/tel_b/gene.vhd 2018/02/05.11:30:38 P.40xd
+FL /home/haein/Downloads/fazia/tel_b/psSyncGen.vhd 2015/06/16.11:31:02 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/adc_mon.vhd 2021/02/02.18:03:15 P.40xd
+EN work/AdcMon 1612260277 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/adc_mon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PH work/align_defs 1612260195 PB work/slow_ct_defs 1612260180
+AR work/AdcMon/Behavioral 1612260278 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/adc_mon.vhd \
+      EN work/AdcMon 1612260277 CP SpiAdc CP work/Aligner_new
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/aligner_new.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Aligner_new 1612260273 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/aligner_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PH work/align_defs 1612260195 PB work/slow_ct_defs 1612260180
+AR work/Aligner_new/Behavioral 1612260274 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/aligner_new.vhd \
+      EN work/Aligner_new 1612260273 CP aligner_rom_128x8 CP aligner_ram_128x8
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/align_defs.vhd 2021/02/02.18:03:15 P.40xd
+PH work/align_defs 1612260195 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/align_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/baseline.vhd 2021/02/02.18:03:15 P.40xd
+EN work/baseline 1612260211 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/baseline.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188
+AR work/baseline/Behavioral 1612260212 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/baseline.vhd \
+      EN work/baseline 1612260211 CP ram_256x14
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/compteur.vhd 2021/02/02.18:03:15 P.40xd
+EN work/compteur 1612260199 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/compteur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/compteur/Behavioral 1612260200 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/compteur.vhd \
+      EN work/compteur 1612260199
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/comZone.vhd 2021/02/02.18:47:04 P.40xd
+EN work/comZone 1612260279 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/comZone.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PB work/slow_ct_defs 1612260180 \
+      PH work/telescope_conf 1612260196
+AR work/comZone/Behavioral 1612260280 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/comZone.vhd \
+      EN work/comZone 1612260279 CP ram_32x16_single_modified
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/csi_channel.vhd 2021/02/02.18:03:15 P.40xd
+EN work/CsiChannel 1612260291 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/csi_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/CsiChannel/Behavioral 1612260292 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/csi_channel.vhd \
+      EN work/CsiChannel 1612260291 CP tel_icon CP tel_ila_36 CP work/DDR_ADC \
+      CP work/Waver CP work/Energy CP work/ETrigger CP work/Histogrammer
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ddr_adc.vhd 2021/02/02.18:03:15 P.40xd
+EN work/DDR_ADC 1612260259 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ddr_adc.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195
+AR work/DDR_ADC/Behavioral 1612260260 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ddr_adc.vhd \
+      EN work/DDR_ADC 1612260259 CP IBUFDS CP IDELAY CP BUFR CP IODELAY CP IDDR
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/energy.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Energy 1612260263 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/energy.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PB work/slow_ct_defs 1612260180 \
+      PH work/telescope_conf 1612260196
+AR work/energy/Behavioral 1612260264 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/energy.vhd \
+      EN work/Energy 1612260263 CP tel_icon CP tel_ila_blknrj CP work/shaper
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/e_trigger.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ETrigger 1612260265 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/e_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      LB UNISIM PH unisim/VCOMPONENTS 1354696165 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/ETrigger/Behavioral 1612260266 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/e_trigger.vhd \
+      EN work/ETrigger 1612260265 CP work/shaper CP work/baseline
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/clkgenerator.vhd 2021/02/02.18:03:15 P.40xd
+EN work/clkgenerator 1612260249 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/clkgenerator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/clkgenerator/BEHAVIORAL 1612260250 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/clkgenerator.vhd \
+      EN work/clkgenerator 1612260249 CP the_pll
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/deserialiseur.vhd 2021/02/02.18:03:15 P.40xd
+EN work/DESERIALISEUR 1612260251 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/deserialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/DESERIALISEUR/BEHAVIORAL 1612260252 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/deserialiseur.vhd \
+      EN work/DESERIALISEUR 1612260251 CP N_ISERDES8b_MsAllign
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/fastlink.vhd 2021/02/02.18:03:15 P.40xd
+EN work/FASTLINK 1612260297 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/fastlink.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/FASTLINK/BEHAVIORAL 1612260298 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/fastlink.vhd \
+      EN work/FASTLINK 1612260297 CP tel_icon CP tel_ila_128 CP IDELAYCTRL \
+      CP clkgenerator CP DESERIALISEUR CP SERIALISEUR CP OBUFDS CP IBUFDS CP myfifo \
+      CP myfifo2
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo.vhd 2021/02/02.18:03:15 P.40xd
+EN work/myfifo 1612260255 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo/myfifo_a 1612260256 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo.vhd \
+      EN work/myfifo 1612260255
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo2.vhd 2021/02/02.18:03:15 P.40xd
+EN work/myfifo2 1612260257 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo2.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo2/myfifo2_a 1612260258 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ipcore_dir/myfifo2.vhd \
+      EN work/myfifo2 1612260257
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ISER8b.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ISER8b 1612260185 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ISER8b.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/ISER8b/Behavioral 1612260186 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/ISER8b.vhd \
+      EN work/ISER8b 1612260185 CP IBUFDS CP IODELAY CP ISERDES_NODELAY
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/N_ISERDES8b_MsAllign.vhd 2021/02/02.18:03:15 P.40xd
+EN work/N_ISERDES8b_MsAllign 1612260205 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/N_ISERDES8b_MsAllign/Behavioral 1612260206 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      EN work/N_ISERDES8b_MsAllign 1612260205 CP tel_icon CP tel_ila_128 CP ISER8b
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/OSER8B.vhd 2021/02/02.18:03:15 P.40xd
+EN work/OSER8B 1612260203 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/OSER8B.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/OSER8B/Behavioral 1612260204 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/OSER8B.vhd \
+      EN work/OSER8B 1612260203 CP OSERDES
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/serialiseur.vhd 2021/02/02.18:03:15 P.40xd
+EN work/SERIALISEUR 1612260253 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/serialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/SERIALISEUR/BEHAVIORAL 1612260254 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/fastlink/serialiseur.vhd \
+      EN work/SERIALISEUR 1612260253 CP OSER8B CP OBUFDS
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/f_channel.vhd 2021/02/02.18:03:15 P.40xd
+EN work/FastChannel 1612260289 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/f_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180
+AR work/FastChannel/Behavioral 1612260290 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/f_channel.vhd \
+      EN work/FastChannel 1612260289 CP work/DDR_ADC CP work/Waver
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/general_io.vhd 2021/02/02.18:03:15 P.40xd
+EN work/GeneralIo 1612260281 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/general_io.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PH work/telescope_conf 1612260196 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/GeneralIo/Behavioral 1612260282 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/general_io.vhd \
+      EN work/GeneralIo 1612260281
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/histogrammer.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Histogrammer 1612260267 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/histogrammer.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180
+AR work/Histogrammer/Behavioral 1612260268 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/histogrammer.vhd \
+      EN work/Histogrammer 1612260267 CP ram_1kx24
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_byte.vhd 2021/02/02.18:03:15 P.40xd
+EN work/i2c_byte 1612260201 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_byte.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/i2c_byte/Behavioral 1612260202 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_byte.vhd \
+      EN work/i2c_byte 1612260201
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_master.vhd 2021/02/02.18:03:15 P.40xd
+EN work/I2cMaster 1612260247 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_master.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/I2cMaster/Behavioral 1612260248 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/i2c_master.vhd \
+      EN work/I2cMaster 1612260247 CP work/i2c_byte
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/identity.vhd 2021/02/02.18:03:15 P.40xd
+EN work/identity 1612260285 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/identity.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/identity/Behavioral 1612260286 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/identity.vhd \
+      EN work/identity 1612260285
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_ram_128x8.vhd 2021/02/02.18:03:15 P.40xd
+EN work/aligner_ram_128x8 1612260235 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_ram_128x8/aligner_ram_128x8_a 1612260236 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      EN work/aligner_ram_128x8 1612260235
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_rom_128x8.vhd 2021/02/02.18:03:15 P.40xd
+EN work/aligner_rom_128x8 1612260233 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_rom_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_rom_128x8/aligner_rom_128x8_a 1612260234 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/aligner_rom_128x8.vhd \
+      EN work/aligner_rom_128x8 1612260233
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/My_sysmon.vhd 2021/02/02.18:03:15 P.40xd
+EN work/My_sysmon 1612260231 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/My_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/My_sysmon/xilinx 1612260232 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/My_sysmon.vhd \
+      EN work/My_sysmon 1612260231 CP SYSMON
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_128x16.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_128x16 1612260225 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_128x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_128x16/ram_128x16_a 1612260226 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_128x16.vhd \
+      EN work/ram_128x16 1612260225
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_16x16.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_16x16 1612260219 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_16x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_16x16/ram_16x16_a 1612260220 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_16x16.vhd \
+      EN work/ram_16x16 1612260219
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx14.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_1kx14 1612260213 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx14/ram_1kx14_a 1612260214 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx14.vhd \
+      EN work/ram_1kx14 1612260213
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx15.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_1kx15 1612260181 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx15/ram_1kx15_a 1612260182 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx15.vhd \
+      EN work/ram_1kx15 1612260181
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx24.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_1kx24 1612260207 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx24.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx24/ram_1kx24_a 1612260208 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_1kx24.vhd \
+      EN work/ram_1kx24 1612260207
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x14.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_256x14 1612260189 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x14/ram_256x14_a 1612260190 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x14.vhd \
+      EN work/ram_256x14 1612260189
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x16.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_256x16 1612260227 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x16/ram_256x16_a 1612260228 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_256x16.vhd \
+      EN work/ram_256x16 1612260227
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_2kx15.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_2kx15 1612260183 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_2kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_2kx15/ram_2kx15_a 1612260184 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_2kx15.vhd \
+      EN work/ram_2kx15 1612260183
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_32x16 1612260221 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16/ram_32x16_a 1612260222 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16.vhd \
+      EN work/ram_32x16 1612260221
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16_single.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_32x16_single 1612256889 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16_single.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16_single/ram_32x16_single_a 1612256890 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_32x16_single.vhd \
+      EN work/ram_32x16_single 1612256889
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_4kx14.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_4kx14 1612260215 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_4kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_4kx14/ram_4kx14_a 1612260216 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_4kx14.vhd \
+      EN work/ram_4kx14 1612260215
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_64x16.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_64x16 1612260223 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_64x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_64x16/ram_64x16_a 1612260224 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_64x16.vhd \
+      EN work/ram_64x16 1612260223
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_8kx14.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_8kx14 1612260217 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_8kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_8kx14/ram_8kx14_a 1612260218 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/ram_8kx14.vhd \
+      EN work/ram_8kx14 1612260217
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/spi_adc_rom.vhd 2021/02/02.18:03:15 P.40xd
+EN work/spi_adc_rom 1612260237 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/spi_adc_rom.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/spi_adc_rom/spi_adc_rom_a 1612260238 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/ipcore_dir/spi_adc_rom.vhd \
+      EN work/spi_adc_rom 1612260237
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/offset_ctrl.vhd 2021/02/02.18:03:15 P.40xd
+EN work/OffsetCtrl 1612260301 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/offset_ctrl.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/OffsetCtrl/Behavioral 1612260302 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/offset_ctrl.vhd \
+      EN work/OffsetCtrl 1612260301 CP work/I2cMaster
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/pic_itf.vhd 2021/02/02.18:03:15 P.40xd
+EN work/PicItf 1612260241 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/pic_itf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1612260180
+AR work/PicItf/Behavioral 1612260242 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/pic_itf.vhd \
+      EN work/PicItf 1612260241
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/reader.vhd 2021/02/02.18:03:15 P.40xd
+EN work/reader 1612260229 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/reader.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/reader/Behavioral 1612260230 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/reader.vhd \
+      EN work/reader 1612260229 CP tel_icon CP tel_ila
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/read_engine_new.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ReadEngine 1612260295 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/read_engine_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/NUMERIC_STD 1354696164 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/ReadEngine/Behavioral 1612260296 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/read_engine_new.vhd \
+      EN work/ReadEngine 1612260295 CP tel_icon CP tel_ila_dual_128 CP ram_32x16 \
+      CP ram_64x16 CP ram_128x16
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_1.vhd 2021/02/02.18:03:15 P.40xd
+EN work/retard_1 1612260191 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_1.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_1/Behavioral 1612260192 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_1.vhd \
+      EN work/retard_1 1612260191 CP ram_1kx15
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_2.vhd 2021/02/02.18:03:15 P.40xd
+EN work/retard_2 1612260193 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_2.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_2/Behavioral 1612260194 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/retard_2.vhd \
+      EN work/retard_2 1612260193 CP ram_1kx15 CP ram_2kx15
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/scItf.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ScItf 1612260305 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/scItf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1612260180
+AR work/ScItf/Behavioral 1612260306 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/scItf.vhd \
+      EN work/ScItf 1612260305 CP work/UsbItf_new CP work/PicItf
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/shaper.vhd 2021/02/02.18:03:15 P.40xd
+EN work/shaper 1612260209 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/shaper.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_SIGNED 1354696161 PB work/tel_defs 1612260188
+AR work/shaper/Behavioral 1612260210 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/shaper.vhd \
+      EN work/shaper 1612260209 CP work/retard_1 CP work/retard_2
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/slow_ct_defs.vhd 2021/02/02.18:03:15 P.40xd
+PH work/slow_ct_defs 1612260179 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/slow_ct_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+PB work/slow_ct_defs 1612260180 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/slow_ct_defs.vhd \
+      PH work/slow_ct_defs 1612260179
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/spi.vhd 2021/02/02.18:03:15 P.40xd
+EN work/SpiAdc 1612260271 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/spi.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PH work/align_defs 1612260195 PB work/slow_ct_defs 1612260180
+AR work/SpiAdc/Behavioral 1612260272 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/spi.vhd \
+      EN work/SpiAdc 1612260271 CP spi_adc_rom
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/sysmon.vhd 2021/02/02.18:03:15 P.40xd
+EN work/USERSYSMON 1612260269 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/USERSYSMON/toto 1612260270 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/sysmon.vhd \
+      EN work/USERSYSMON 1612260269 CP My_sysmon
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/s_channel.vhd 2021/02/02.18:03:15 P.40xd
+EN work/SlowChannel 1612260287 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/s_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180
+AR work/SlowChannel/Behavioral 1612260288 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/s_channel.vhd \
+      EN work/SlowChannel 1612260287 CP work/DDR_ADC CP work/Waver CP work/Energy \
+      CP work/ETrigger CP work/Histogrammer
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.vhd 2021/02/02.18:47:36 P.40xd
+EN work/telescope 1612260315 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/telescope/telescope_arch 1612260316 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.vhd \
+      EN work/telescope 1612260315 CP tel_icon CP tel_ila CP dcm_200 CP IBUFGDS \
+      CP work/AdcMon CP work/comZone CP work/GeneralIo CP work/SysMonitor \
+      CP work/identity CP work/SlowChannel CP work/FastChannel CP work/CsiChannel \
+      CP work/Terminator CP work/readEngine CP work/FASTLINK CP work/trigger \
+      CP work/OffsetCtrl CP TalkToLmk CP work/ScItf CP IBUFDS CP GlobalTrigger \
+      CP work/Virblock CP OBUFDS CP IOBUF CP work/Gene CP work/psSyncGen
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_defs.vhd 2021/02/02.18:03:15 P.40xd
+PH work/tel_defs 1612260187 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_defs.vhd \
+      PB ieee/std_logic_1164 1354696159 PB work/slow_ct_defs 1612260180
+PB work/tel_defs 1612260188 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_defs.vhd \
+      PH work/tel_defs 1612260187
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_sysmon.vhd 2021/02/02.18:03:15 P.40xd
+EN work/SysMonitor 1612260283 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PB work/slow_ct_defs 1612260180
+AR work/SysMonitor/behavioral 1612260284 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/tel_sysmon.vhd \
+      EN work/SysMonitor 1612260283 CP work/UserSysMon
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/terminator.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Terminator 1612260293 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/terminator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB work/tel_defs 1612260188
+AR work/Terminator/Behavioral 1612260294 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/terminator.vhd \
+      EN work/Terminator 1612260293
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/trigger.vhd 2021/02/02.18:03:15 P.40xd
+EN work/trigger 1612260299 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/trigger/Behavioral 1612260300 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/trigger.vhd \
+      EN work/trigger 1612260299 CP tel_icon CP tel_ila_trig64
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_get_new.vhd 2021/02/02.18:03:15 P.40xd
+EN work/usbGet_new 1612260197 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_get_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/usbGet_new/usbGetArch 1612260198 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_get_new.vhd \
+      EN work/usbGet_new 1612260197
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_itf_new.vhd 2021/02/02.18:03:15 P.40xd
+EN work/usbItf_new 1612260239 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_itf_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/slow_ct_defs 1612260180
+AR work/UsbItf_new/usbItfArch 1612260240 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/usb_itf_new.vhd \
+      EN work/usbItf_new 1612260239 CP work/usbGet_new
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/waver.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Waver 1612260261 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/waver.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PH work/align_defs 1612260195 \
+      PB work/slow_ct_defs 1612260180 PH work/telescope_conf 1612260196
+AR work/Waver/Behavioral 1612260262 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/waver.vhd \
+      EN work/Waver 1612260261 CP tel_icon CP tel_ila_36 CP ram_1kx14 CP ram_4kx14 \
+      CP ram_8kx14 CP ram_16x16 CP ram_32x16 CP ram_64x16 CP ram_128x16 CP ram_256x16 \
+      CP work/Reader
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/dcm_200.vhd 2021/02/02.18:03:15 P.40xd
+EN work/dcm_200 1612260275 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/dcm_200.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/dcm_200/BEHAVIORAL 1612260276 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/dcm_200.vhd \
+      EN work/dcm_200 1612260275 CP BUFG CP DCM_ADV
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/global_trigger.vhd 2021/02/02.18:03:15 P.40xd
+EN work/GlobalTrigger 1612260307 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/global_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188
+AR work/GlobalTrigger/Behavioral 1612260308 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/global_trigger.vhd \
+      EN work/GlobalTrigger 1612260307
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/ipcore_dir/micro_wire_rom.vhd 2021/02/02.18:03:15 P.40xd
+EN work/micro_wire_rom 1612260245 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/ipcore_dir/micro_wire_rom.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/micro_wire_rom/micro_wire_rom_a 1612260246 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/ipcore_dir/micro_wire_rom.vhd \
+      EN work/micro_wire_rom 1612260245
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/micro_wire.vhd 2021/02/02.18:03:15 P.40xd
+EN work/MicroWire 1612260243 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/micro_wire.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/MicroWire/Behavioral 1612260244 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/micro_wire.vhd \
+      EN work/MicroWire 1612260243 CP work/compteur
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/talk_to_lmk.vhd 2021/02/02.18:03:15 P.40xd
+EN work/TalkToLmk 1612260303 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/talk_to_lmk.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/TalkToLmk/Behavioral 1612260304 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/talk_to_lmk.vhd \
+      EN work/TalkToLmk 1612260303 CP work/MicroWire CP micro_wire_rom \
+      CP work/compteur
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/tel_conf_a.vhd 2021/02/02.18:03:15 P.40xd
+PH work/telescope_conf 1612260196 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/tel_conf_a.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/virBlock.vhd 2021/02/02.18:03:15 P.40xd
+EN work/VirBlock 1612260309 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/virBlock.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1612260188 PB work/slow_ct_defs 1612260180
+AR work/virBlock/virBlock_arch 1612260310 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_a/virBlock.vhd \
+      EN work/VirBlock 1612260309
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/gene.vhd 2021/02/02.18:03:15 P.40xd
+EN work/Gene 1612260311 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/gene.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/std_logic_arith 1354696160 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/gene/Behavioral 1612260312 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/gene.vhd \
+      EN work/Gene 1612260311
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/psSyncGen.vhd 2021/02/02.18:03:15 P.40xd
+EN work/PsSyncGen 1612260313 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/psSyncGen.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1612260188 \
+      PB work/slow_ct_defs 1612260180
+AR work/PsSyncGen/Behavioral 1612260314 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/psSyncGen.vhd \
+      EN work/PsSyncGen 1612260313
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/adc_mon.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/aligner_new.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/align_defs.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/baseline.vhd 2019/01/31.15:07:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/compteur.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/comZone.vhd 2014/05/19.12:40:25 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/csi_channel.vhd 2019/02/27.15:42:46 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ddr_adc.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/energy.vhd 2017/11/24.12:00:41 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/e_trigger.vhd 2019/01/30.12:21:30 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/clkgenerator.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/deserialiseur.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/fastlink.vhd 2017/12/12.08:57:24 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo2.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ISER8b.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/N_ISERDES8b_MsAllign.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/OSER8B.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/serialiseur.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/f_channel.vhd 2018/03/29.17:33:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/general_io.vhd 2017/12/14.11:08:42 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/histogrammer.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_byte.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_master.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/identity.vhd 2015/02/03.09:17:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd 2014/02/27.13:12:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_rom_128x8.vhd 2014/02/27.13:12:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/My_sysmon.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd 2014/02/27.13:12:18 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd 2014/02/27.13:12:18 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd 2017/04/07.16:37:28 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd 2017/11/20.15:05:42 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd 2016/12/01.17:11:52 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd 2014/02/27.13:12:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16_single.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/spi_adc_rom.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/offset_ctrl.vhd 2014/09/24.13:44:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/pic_itf.vhd 2014/02/27.13:12:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/reader.vhd 2019/02/27.15:40:44 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/read_engine_new.vhd 2019/01/18.15:43:45 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_1.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_2.vhd 2016/12/01.11:20:32 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/scItf.vhd 2015/02/25.18:20:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/shaper.vhd 2018/04/11.17:55:25 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/slow_ct_defs.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/spi.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/sysmon.vhd 2014/02/27.13:12:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/s_channel.vhd 2019/02/27.17:35:49 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/telescope.vhd 2019/09/19.10:38:41 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_defs.vhd 2019/02/27.17:42:07 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_sysmon.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/terminator.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/trigger.vhd 2018/03/27.10:31:52 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_get_new.vhd 2015/02/25.19:06:08 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_itf_new.vhd 2015/02/25.16:23:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/waver.vhd 2019/09/19.10:36:56 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/dcm_200.vhd 2020/06/08.10:16:22 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/global_trigger.vhd 2014/02/27.13:11:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/ipcore_dir/micro_wire_rom.vhd 2014/02/27.13:11:13 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/micro_wire.vhd 2014/02/27.13:11:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/talk_to_lmk.vhd 2014/02/27.13:11:18 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/tel_conf_a.vhd 2019/09/19.10:56:49 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/virBlock.vhd 2014/02/27.13:11:13 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/gene.vhd 2018/02/05.10:30:38 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/psSyncGen.vhd 2015/06/16.11:31:02 P.40xd

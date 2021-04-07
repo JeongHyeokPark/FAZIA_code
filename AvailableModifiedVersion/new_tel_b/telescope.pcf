@@ -1,0 +1,862 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Wed Apr 07 18:04:44 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "galIO<10>" LOCATE = SITE "AD4" LEVEL 1;
+COMP "galIO<11>" LOCATE = SITE "AF5" LEVEL 1;
+COMP "galIO<12>" LOCATE = SITE "AE5" LEVEL 1;
+COMP "galIO<13>" LOCATE = SITE "AE6" LEVEL 1;
+COMP "glt" LOCATE = SITE "AC23" LEVEL 1;
+COMP "blkBusyIn" LOCATE = SITE "AC24" LEVEL 1;
+COMP "ioFpga_10" LOCATE = SITE "U19" LEVEL 1;
+COMP "ioFpga_11" LOCATE = SITE "L4" LEVEL 1;
+COMP "ioFpga_20" LOCATE = SITE "T5" LEVEL 1;
+COMP "ioFpga_12" LOCATE = SITE "L5" LEVEL 1;
+COMP "ioFpga_13" LOCATE = SITE "K5" LEVEL 1;
+COMP "ioFpga_21" LOCATE = SITE "U6" LEVEL 1;
+COMP "ioFpga_22" LOCATE = SITE "W5" LEVEL 1;
+COMP "ioFpga_14" LOCATE = SITE "K6" LEVEL 1;
+COMP "ioFpga_15" LOCATE = SITE "K7" LEVEL 1;
+COMP "ioFpga_17" LOCATE = SITE "U4" LEVEL 1;
+COMP "ioFpga_18" LOCATE = SITE "T4" LEVEL 1;
+COMP "ioFpga_19" LOCATE = SITE "U5" LEVEL 1;
+COMP "dataUsb<0>" LOCATE = SITE "E7" LEVEL 1;
+COMP "dataUsb<1>" LOCATE = SITE "F7" LEVEL 1;
+COMP "dataUsb<2>" LOCATE = SITE "G7" LEVEL 1;
+COMP "dataUsb<3>" LOCATE = SITE "G6" LEVEL 1;
+COMP "dataUsb<4>" LOCATE = SITE "G5" LEVEL 1;
+COMP "dataUsb<5>" LOCATE = SITE "G4" LEVEL 1;
+COMP "dataUsb<6>" LOCATE = SITE "H4" LEVEL 1;
+COMP "dataUsb<7>" LOCATE = SITE "J4" LEVEL 1;
+COMP "adjust1" LOCATE = SITE "N6" LEVEL 1;
+COMP "adjust2" LOCATE = SITE "R6" LEVEL 1;
+COMP "adjust3" LOCATE = SITE "P6" LEVEL 1;
+COMP "lWaitIn" LOCATE = SITE "AB22" LEVEL 1;
+COMP "alignIn" LOCATE = SITE "AA23" LEVEL 1;
+COMP "blkBusyOut" LOCATE = SITE "AB24" LEVEL 1;
+COMP "aux_0" LOCATE = SITE "W6" LEVEL 1;
+COMP "aux_1" LOCATE = SITE "V7" LEVEL 1;
+COMP "aux_2" LOCATE = SITE "V3" LEVEL 1;
+COMP "sdi_n" LOCATE = SITE "W1" LEVEL 1;
+COMP "sdi_p" LOCATE = SITE "Y1" LEVEL 1;
+COMP "sdo_n" LOCATE = SITE "N1" LEVEL 1;
+COMP "sdo_p" LOCATE = SITE "M1" LEVEL 1;
+COMP "rdUsb_n" LOCATE = SITE "H6" LEVEL 1;
+COMP "wrUsb" LOCATE = SITE "H7" LEVEL 1;
+COMP "rxf_n" LOCATE = SITE "J6" LEVEL 1;
+COMP "txe_n" LOCATE = SITE "J5" LEVEL 1;
+COMP "sdo_H_n" LOCATE = SITE "V1" LEVEL 1;
+COMP "sdo_H_p" LOCATE = SITE "V2" LEVEL 1;
+COMP "sdo_L_n" LOCATE = SITE "U1" LEVEL 1;
+COMP "sdo_L_p" LOCATE = SITE "U2" LEVEL 1;
+COMP "resetIn" LOCATE = SITE "V4" LEVEL 1;
+COMP "adcI1Sdo" LOCATE = SITE "J19" LEVEL 1;
+COMP "adcI2Sdo" LOCATE = SITE "G20" LEVEL 1;
+COMP "adcQ2Sdo" LOCATE = SITE "J23" LEVEL 1;
+COMP "adcQ3Sdo" LOCATE = SITE "M22" LEVEL 1;
+COMP "aVersB_0" LOCATE = SITE "AB21" LEVEL 1;
+COMP "aVersB_1" LOCATE = SITE "AC21" LEVEL 1;
+COMP "aVersB_2" LOCATE = SITE "AB20" LEVEL 1;
+COMP "aVersB_3" LOCATE = SITE "AA20" LEVEL 1;
+COMP "syncZer" LOCATE = SITE "AC22" LEVEL 1;
+COMP "ucSpiSs_n" LOCATE = SITE "F4" LEVEL 1;
+COMP "galIO<0>" LOCATE = SITE "V6" LEVEL 1;
+COMP "galIO<1>" LOCATE = SITE "W3" LEVEL 1;
+COMP "galIO<2>" LOCATE = SITE "W4" LEVEL 1;
+COMP "galIO<3>" LOCATE = SITE "Y3" LEVEL 1;
+COMP "galIO<4>" LOCATE = SITE "AA4" LEVEL 1;
+COMP "galIO<5>" LOCATE = SITE "AA3" LEVEL 1;
+COMP "galIO<6>" LOCATE = SITE "AD3" LEVEL 1;
+COMP "galIO<7>" LOCATE = SITE "AF3" LEVEL 1;
+COMP "galIO<8>" LOCATE = SITE "AE3" LEVEL 1;
+COMP "galIO<9>" LOCATE = SITE "AF4" LEVEL 1;
+COMP "adcQH1_n<0>" LOCATE = SITE "A22" LEVEL 1;
+COMP "adcQH1_n<1>" LOCATE = SITE "A24" LEVEL 1;
+COMP "adcQH1_n<2>" LOCATE = SITE "C23" LEVEL 1;
+COMP "adcQH1_n<3>" LOCATE = SITE "A25" LEVEL 1;
+COMP "adcQH1_n<4>" LOCATE = SITE "C26" LEVEL 1;
+COMP "adcQH1_n<5>" LOCATE = SITE "C24" LEVEL 1;
+COMP "adcQH1_n<6>" LOCATE = SITE "D25" LEVEL 1;
+COMP "adcQH1_n<7>" LOCATE = SITE "C22" LEVEL 1;
+COMP "adcQH1_p<0>" LOCATE = SITE "B22" LEVEL 1;
+COMP "adcQH1_p<1>" LOCATE = SITE "A23" LEVEL 1;
+COMP "adcQH1_p<2>" LOCATE = SITE "B24" LEVEL 1;
+COMP "adcQH1_p<3>" LOCATE = SITE "B25" LEVEL 1;
+COMP "adcQH1_p<4>" LOCATE = SITE "B26" LEVEL 1;
+COMP "adcQH1_p<5>" LOCATE = SITE "D24" LEVEL 1;
+COMP "adcQH1_p<6>" LOCATE = SITE "D26" LEVEL 1;
+COMP "adcQH1_p<7>" LOCATE = SITE "D23" LEVEL 1;
+COMP "adcQL1_n<0>" LOCATE = SITE "C1" LEVEL 1;
+COMP "adcQL1_n<1>" LOCATE = SITE "B2" LEVEL 1;
+COMP "adcQL1_n<2>" LOCATE = SITE "C3" LEVEL 1;
+COMP "adcQL1_n<3>" LOCATE = SITE "A3" LEVEL 1;
+COMP "adcQL1_n<4>" LOCATE = SITE "D4" LEVEL 1;
+COMP "adcQL1_n<5>" LOCATE = SITE "B4" LEVEL 1;
+COMP "adcQL1_n<6>" LOCATE = SITE "A5" LEVEL 1;
+COMP "adcQL1_n<7>" LOCATE = SITE "B6" LEVEL 1;
+COMP "adcQL1_p<0>" LOCATE = SITE "D1" LEVEL 1;
+COMP "adcQL1_p<1>" LOCATE = SITE "B1" LEVEL 1;
+COMP "adcQL1_p<2>" LOCATE = SITE "C2" LEVEL 1;
+COMP "adcQL1_p<3>" LOCATE = SITE "A2" LEVEL 1;
+COMP "adcQL1_p<4>" LOCATE = SITE "D3" LEVEL 1;
+COMP "adcQL1_p<5>" LOCATE = SITE "C4" LEVEL 1;
+COMP "adcQL1_p<6>" LOCATE = SITE "A4" LEVEL 1;
+COMP "adcQL1_p<7>" LOCATE = SITE "B5" LEVEL 1;
+COMP "adcQL1Rst_n" LOCATE = SITE "H18" LEVEL 1;
+COMP "lWaitOut" LOCATE = SITE "AA22" LEVEL 1;
+COMP "alignOut" LOCATE = SITE "AA24" LEVEL 1;
+COMP "ioFpga_4" LOCATE = SITE "AD19" LEVEL 1;
+COMP "ioFpga_5" LOCATE = SITE "AC19" LEVEL 1;
+COMP "ioFpga_6" LOCATE = SITE "AB19" LEVEL 1;
+COMP "ioFpga_7" LOCATE = SITE "AA19" LEVEL 1;
+COMP "ioFpga_8" LOCATE = SITE "W19" LEVEL 1;
+COMP "ioFpga_9" LOCATE = SITE "V19" LEVEL 1;
+COMP "ledBleue" LOCATE = SITE "T3" LEVEL 1;
+COMP "dacSda" LOCATE = SITE "L7" LEVEL 1;
+COMP "dacScl" LOCATE = SITE "M7" LEVEL 1;
+COMP "lt" LOCATE = SITE "Y23" LEVEL 1;
+COMP "ledJaune" LOCATE = SITE "P4" LEVEL 1;
+COMP "idFpga" LOCATE = SITE "M4" LEVEL 1;
+COMP "galClk" LOCATE = SITE "Y7" LEVEL 1;
+COMP "ledVerte" LOCATE = SITE "R3" LEVEL 1;
+COMP "ledRouge" LOCATE = SITE "N4" LEVEL 1;
+COMP "riserv_n<0>" LOCATE = SITE "E3" LEVEL 1;
+COMP "riserv_n<1>" LOCATE = SITE "E1" LEVEL 1;
+COMP "riserv_n<2>" LOCATE = SITE "G2" LEVEL 1;
+COMP "riserv_n<3>" LOCATE = SITE "H1" LEVEL 1;
+COMP "riserv_n<4>" LOCATE = SITE "H2" LEVEL 1;
+COMP "riserv_n<5>" LOCATE = SITE "J3" LEVEL 1;
+COMP "riserv_n<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "riserv_n<7>" LOCATE = SITE "K1" LEVEL 1;
+COMP "riserv_p<0>" LOCATE = SITE "F3" LEVEL 1;
+COMP "riserv_p<1>" LOCATE = SITE "E2" LEVEL 1;
+COMP "riserv_p<2>" LOCATE = SITE "F2" LEVEL 1;
+COMP "riserv_p<3>" LOCATE = SITE "G1" LEVEL 1;
+COMP "riserv_p<4>" LOCATE = SITE "J1" LEVEL 1;
+COMP "riserv_p<5>" LOCATE = SITE "H3" LEVEL 1;
+COMP "riserv_p<6>" LOCATE = SITE "K3" LEVEL 1;
+COMP "riserv_p<7>" LOCATE = SITE "L2" LEVEL 1;
+COMP "adcI1_n<0>" LOCATE = SITE "A7" LEVEL 1;
+COMP "adcI1_n<1>" LOCATE = SITE "A8" LEVEL 1;
+COMP "adcI1_n<2>" LOCATE = SITE "D9" LEVEL 1;
+COMP "adcI1_n<3>" LOCATE = SITE "B10" LEVEL 1;
+COMP "adcI1_n<4>" LOCATE = SITE "A10" LEVEL 1;
+COMP "adcI1_n<5>" LOCATE = SITE "C12" LEVEL 1;
+COMP "adcI1_n<6>" LOCATE = SITE "B12" LEVEL 1;
+COMP "adcI1_n<7>" LOCATE = SITE "A12" LEVEL 1;
+COMP "adcI1_p<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "adcI1_p<1>" LOCATE = SITE "A9" LEVEL 1;
+COMP "adcI1_p<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "adcI1_p<3>" LOCATE = SITE "B9" LEVEL 1;
+COMP "adcI1_p<4>" LOCATE = SITE "B11" LEVEL 1;
+COMP "adcI1_p<5>" LOCATE = SITE "C11" LEVEL 1;
+COMP "adcI1_p<6>" LOCATE = SITE "C13" LEVEL 1;
+COMP "adcI1_p<7>" LOCATE = SITE "A13" LEVEL 1;
+COMP "adcI2_n<0>" LOCATE = SITE "B14" LEVEL 1;
+COMP "adcI2_n<1>" LOCATE = SITE "A15" LEVEL 1;
+COMP "adcI2_n<2>" LOCATE = SITE "B16" LEVEL 1;
+COMP "adcI2_n<3>" LOCATE = SITE "C16" LEVEL 1;
+COMP "adcI2_n<4>" LOCATE = SITE "A17" LEVEL 1;
+COMP "adcI2_n<5>" LOCATE = SITE "A19" LEVEL 1;
+COMP "adcI2_n<6>" LOCATE = SITE "C18" LEVEL 1;
+COMP "adcI2_n<7>" LOCATE = SITE "B20" LEVEL 1;
+COMP "adcI2_p<0>" LOCATE = SITE "C14" LEVEL 1;
+COMP "adcI2_p<1>" LOCATE = SITE "A14" LEVEL 1;
+COMP "adcI2_p<2>" LOCATE = SITE "B15" LEVEL 1;
+COMP "adcI2_p<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "adcI2_p<4>" LOCATE = SITE "B17" LEVEL 1;
+COMP "adcI2_p<5>" LOCATE = SITE "A18" LEVEL 1;
+COMP "adcI2_p<6>" LOCATE = SITE "B19" LEVEL 1;
+COMP "adcI2_p<7>" LOCATE = SITE "A20" LEVEL 1;
+COMP "adcI1Rst_n" LOCATE = SITE "H19" LEVEL 1;
+COMP "adcI2Rst_n" LOCATE = SITE "E20" LEVEL 1;
+COMP "ucSpiSdi" LOCATE = SITE "E6" LEVEL 1;
+COMP "ucSpiSck" LOCATE = SITE "F5" LEVEL 1;
+PIN ucSpiSck_pin<0> = BEL "ucSpiSck" PINNAME PAD;
+PIN "ucSpiSck_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "ucSpiSdo" LOCATE = SITE "E5" LEVEL 1;
+COMP "adcQH1Cs_n" LOCATE = SITE "E23" LEVEL 1;
+COMP "adcQ2_n<0>" LOCATE = SITE "E26" LEVEL 1;
+COMP "adcQ2_n<1>" LOCATE = SITE "F25" LEVEL 1;
+COMP "adcQ2_n<2>" LOCATE = SITE "G25" LEVEL 1;
+COMP "adcQ2_n<3>" LOCATE = SITE "H26" LEVEL 1;
+COMP "adcQ2_n<4>" LOCATE = SITE "J24" LEVEL 1;
+COMP "adcQ2_n<5>" LOCATE = SITE "J26" LEVEL 1;
+COMP "adcQ2_n<6>" LOCATE = SITE "K26" LEVEL 1;
+COMP "adcQ2_n<7>" LOCATE = SITE "L25" LEVEL 1;
+COMP "adcQ2_p<0>" LOCATE = SITE "E25" LEVEL 1;
+COMP "adcQ2_p<1>" LOCATE = SITE "F24" LEVEL 1;
+COMP "adcQ2_p<2>" LOCATE = SITE "G24" LEVEL 1;
+COMP "adcQ2_p<3>" LOCATE = SITE "G26" LEVEL 1;
+COMP "adcQ2_p<4>" LOCATE = SITE "H24" LEVEL 1;
+COMP "adcQ2_p<5>" LOCATE = SITE "J25" LEVEL 1;
+COMP "adcQ2_p<6>" LOCATE = SITE "K25" LEVEL 1;
+COMP "adcQ2_p<7>" LOCATE = SITE "L24" LEVEL 1;
+COMP "adcQ3_n<0>" LOCATE = SITE "R26" LEVEL 1;
+COMP "adcQ3_n<1>" LOCATE = SITE "T25" LEVEL 1;
+COMP "adcQ3_n<2>" LOCATE = SITE "U25" LEVEL 1;
+COMP "adcQ3_n<3>" LOCATE = SITE "U26" LEVEL 1;
+COMP "adcQ3_n<4>" LOCATE = SITE "W26" LEVEL 1;
+COMP "adcQ3_n<5>" LOCATE = SITE "Y26" LEVEL 1;
+COMP "adcQ3_n<6>" LOCATE = SITE "AA25" LEVEL 1;
+COMP "adcQ3_n<7>" LOCATE = SITE "AB26" LEVEL 1;
+COMP "adcQ3_p<0>" LOCATE = SITE "R25" LEVEL 1;
+COMP "adcQ3_p<1>" LOCATE = SITE "T24" LEVEL 1;
+COMP "adcQ3_p<2>" LOCATE = SITE "U24" LEVEL 1;
+COMP "adcQ3_p<3>" LOCATE = SITE "V26" LEVEL 1;
+COMP "adcQ3_p<4>" LOCATE = SITE "W25" LEVEL 1;
+COMP "adcQ3_p<5>" LOCATE = SITE "Y25" LEVEL 1;
+COMP "adcQ3_p<6>" LOCATE = SITE "AB25" LEVEL 1;
+COMP "adcQ3_p<7>" LOCATE = SITE "AC26" LEVEL 1;
+COMP "adcQH1Sclk" LOCATE = SITE "E21" LEVEL 1;
+COMP "adcQH1Sdio" LOCATE = SITE "F22" LEVEL 1;
+COMP "adcQL1Cs_n" LOCATE = SITE "G17" LEVEL 1;
+COMP "adcQL1Sclk" LOCATE = SITE "G16" LEVEL 1;
+COMP "adcQL1Sdio" LOCATE = SITE "G19" LEVEL 1;
+COMP "ckAdcQH1_n" LOCATE = SITE "B21" LEVEL 1;
+COMP "ckAdcQH1_p" LOCATE = SITE "C21" LEVEL 1;
+COMP "ckAdcQL1_n" LOCATE = SITE "C7" LEVEL 1;
+COMP "ckAdcQL1_p" LOCATE = SITE "C6" LEVEL 1;
+COMP "adcI1Cs_n" LOCATE = SITE "K20" LEVEL 1;
+COMP "adcI2Cs_n" LOCATE = SITE "F20" LEVEL 1;
+COMP "adcI1Sclk" LOCATE = SITE "J20" LEVEL 1;
+COMP "adcI1Sdio" LOCATE = SITE "K21" LEVEL 1;
+COMP "adcI2Sclk" LOCATE = SITE "G21" LEVEL 1;
+COMP "adcI2Sdio" LOCATE = SITE "H21" LEVEL 1;
+COMP "adcQ2Cs_n" LOCATE = SITE "H22" LEVEL 1;
+COMP "adcQ3Cs_n" LOCATE = SITE "L22" LEVEL 1;
+COMP "adcQ2Sclk" LOCATE = SITE "J21" LEVEL 1;
+COMP "adcQ2Sdio" LOCATE = SITE "H23" LEVEL 1;
+COMP "adcQH1Sdo" LOCATE = SITE "E22" LEVEL 1;
+COMP "adcQ3Sclk" LOCATE = SITE "L23" LEVEL 1;
+COMP "adcQ3Sdio" LOCATE = SITE "K23" LEVEL 1;
+COMP "adcQL1Sdo" LOCATE = SITE "H17" LEVEL 1;
+COMP "sysClk_n" LOCATE = SITE "F10" LEVEL 1;
+COMP "sysClk_p" LOCATE = SITE "F9" LEVEL 1;
+COMP "ckAdcI1_n" LOCATE = SITE "C8" LEVEL 1;
+COMP "ckAdcI1_p" LOCATE = SITE "D8" LEVEL 1;
+COMP "ckAdcI2_n" LOCATE = SITE "D20" LEVEL 1;
+COMP "ckAdcI2_p" LOCATE = SITE "D21" LEVEL 1;
+COMP "ckAdcQ2_n" LOCATE = SITE "M26" LEVEL 1;
+COMP "ckAdcQ2_p" LOCATE = SITE "M25" LEVEL 1;
+COMP "ckAdcQ3_n" LOCATE = SITE "N26" LEVEL 1;
+COMP "ckAdcQ3_p" LOCATE = SITE "P26" LEVEL 1;
+COMP "clk25MHz_n" LOCATE = SITE "E15" LEVEL 1;
+COMP "clk25MHz_p" LOCATE = SITE "D15" LEVEL 1;
+PIN i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CKB;
+PIN i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1> = BEL
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CK;
+PIN i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2> = BEL
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CKB;
+PIN ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1> = BEL
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CK;
+PIN ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2> = BEL
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x" PINNAME CKB;
+PIN i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1> = BEL
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CK;
+PIN i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2> = BEL
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x" PINNAME CKB;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAL;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKBL;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAL;
+PIN
+        i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>
+        = BEL
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKBL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAU;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAL;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKBL;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAL;
+PIN
+        i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>
+        = BEL
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKBL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAU;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAL;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKBL;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAL;
+PIN
+        ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>
+        = BEL
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKBL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME CLKAU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP"
+        PINNAME REGCLKAU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAL;
+PIN
+        ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>
+        = BEL
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP"
+        PINNAME CLKAU;
+TIMEGRP ADC_250_CLK = BEL "i1/waverFast/valResync" BEL "i1/waverFast/syncADC"
+        BEL "i1/waverFast/fifoWrDone" BEL "i1/waverFast/acqFastCs_0" BEL
+        "i1/waverFast/acqFastCs_1" BEL "i1/waverFast/acqFastCs_2" BEL
+        "i1/waverFast/dataDecim_0" BEL "i1/waverFast/dataDecim_1" BEL
+        "i1/waverFast/dataDecim_2" BEL "i1/waverFast/dataDecim_3" BEL
+        "i1/waverFast/dataDecim_4" BEL "i1/waverFast/dataDecim_5" BEL
+        "i1/waverFast/dataDecim_6" BEL "i1/waverFast/dataDecim_7" BEL
+        "i1/waverFast/dataDecim_8" BEL "i1/waverFast/dataDecim_9" BEL
+        "i1/waverFast/dataDecim_10" BEL "i1/waverFast/dataDecim_11" BEL
+        "i1/waverFast/dataDecim_12" BEL "i1/waverFast/dataDecim_13" BEL
+        "i1/waverFast/adWrCap_0" BEL "i1/waverFast/adWrCap_1" BEL
+        "i1/waverFast/adWrCap_2" BEL "i1/waverFast/adWrCap_3" BEL
+        "i1/waverFast/adWrCap_4" BEL "i1/waverFast/adWrCap_5" BEL
+        "i1/waverFast/adWrCap_6" BEL "i1/waverFast/adWrCap_7" BEL
+        "i1/waverFast/adWrCap_8" BEL "i1/waverFast/adWrCap_9" BEL
+        "i1/waverFast/adWrCap_10" BEL "i1/waverFast/adWrCap_11" BEL
+        "i1/waverFast/adWrCap_12" BEL "i1/waverFast/ctRdCirc_0" BEL
+        "i1/waverFast/ctRdCirc_1" BEL "i1/waverFast/ctRdCirc_2" BEL
+        "i1/waverFast/ctRdCirc_3" BEL "i1/waverFast/ctRdCirc_4" BEL
+        "i1/waverFast/ctRdCirc_5" BEL "i1/waverFast/ctRdCirc_6" BEL
+        "i1/waverFast/ctRdCirc_7" BEL "i1/waverFast/ctRdCirc_8" BEL
+        "i1/waverFast/ctRdCirc_9" BEL "i1/waverFast/decimator_0" BEL
+        "i1/waverFast/decimator_1" BEL "i1/waverFast/decimator_2" BEL
+        "i1/waverFast/decimator_3" BEL "i1/waverFast/decimator_4" BEL
+        "i1/waverFast/ctStore_0" BEL "i1/waverFast/ctStore_1" BEL
+        "i1/waverFast/ctStore_2" BEL "i1/waverFast/ctStore_3" BEL
+        "i1/waverFast/ctStore_4" BEL "i1/waverFast/ctStore_5" BEL
+        "i1/waverFast/ctStore_6" BEL "i1/waverFast/ctStore_7" BEL
+        "i1/waverFast/ctStore_8" BEL "i1/waverFast/ctStore_9" BEL
+        "i1/waverFast/ctStore_10" BEL "i1/waverFast/ctStore_11" BEL
+        "i1/waverFast/ctStore_12" BEL "i1/waverFast/ctWrCirc_0" BEL
+        "i1/waverFast/ctWrCirc_1" BEL "i1/waverFast/ctWrCirc_2" BEL
+        "i1/waverFast/ctWrCirc_3" BEL "i1/waverFast/ctWrCirc_4" BEL
+        "i1/waverFast/ctWrCirc_5" BEL "i1/waverFast/ctWrCirc_6" BEL
+        "i1/waverFast/ctWrCirc_7" BEL "i1/waverFast/ctWrCirc_8" BEL
+        "i1/waverFast/ctWrCirc_9" BEL "i1/waverFast/adWrFifo_0" BEL
+        "i1/waverFast/adWrFifo_1" BEL "i1/waverFast/adWrFifo_2" BEL
+        "i1/waverFast/adWrFifo_3" BEL "i1/waverFast/adWrFifo_4" BEL
+        "i1/waverFast/adWrFifo_5" BEL "i1/waverFast/adWrFifo_6" BEL
+        "i1/waverFast/adWrFifo_7" BEL "i1/waverFast/adWrFifo_8" BEL
+        "i1/waverFast/adWrFifo_9" BEL "i1/waverFast/adWrFifo_10" BEL
+        "i1/waverFast/adWrFifo_11" BEL "i1/waverFast/adWrFifo_12" BEL
+        "i1/ddr_16_1/sysClkTest" BEL "i1/ddr_16_1/bufferR" PIN
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" PIN
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "i1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" BEL
+        "ql1/waverFast/valResync" BEL "ql1/waverFast/syncADC" BEL
+        "ql1/waverFast/fifoWrDone" BEL "ql1/waverFast/acqFastCs_0" BEL
+        "ql1/waverFast/acqFastCs_1" BEL "ql1/waverFast/acqFastCs_2" BEL
+        "ql1/waverFast/dataDecim_0" BEL "ql1/waverFast/dataDecim_1" BEL
+        "ql1/waverFast/dataDecim_2" BEL "ql1/waverFast/dataDecim_3" BEL
+        "ql1/waverFast/dataDecim_4" BEL "ql1/waverFast/dataDecim_5" BEL
+        "ql1/waverFast/dataDecim_6" BEL "ql1/waverFast/dataDecim_7" BEL
+        "ql1/waverFast/dataDecim_8" BEL "ql1/waverFast/dataDecim_9" BEL
+        "ql1/waverFast/dataDecim_10" BEL "ql1/waverFast/dataDecim_11" BEL
+        "ql1/waverFast/dataDecim_12" BEL "ql1/waverFast/dataDecim_13" BEL
+        "ql1/waverFast/adWrCap_0" BEL "ql1/waverFast/adWrCap_1" BEL
+        "ql1/waverFast/adWrCap_2" BEL "ql1/waverFast/adWrCap_3" BEL
+        "ql1/waverFast/adWrCap_4" BEL "ql1/waverFast/adWrCap_5" BEL
+        "ql1/waverFast/adWrCap_6" BEL "ql1/waverFast/adWrCap_7" BEL
+        "ql1/waverFast/adWrCap_8" BEL "ql1/waverFast/adWrCap_9" BEL
+        "ql1/waverFast/adWrCap_10" BEL "ql1/waverFast/adWrCap_11" BEL
+        "ql1/waverFast/adWrCap_12" BEL "ql1/waverFast/ctRdCirc_0" BEL
+        "ql1/waverFast/ctRdCirc_1" BEL "ql1/waverFast/ctRdCirc_2" BEL
+        "ql1/waverFast/ctRdCirc_3" BEL "ql1/waverFast/ctRdCirc_4" BEL
+        "ql1/waverFast/ctRdCirc_5" BEL "ql1/waverFast/ctRdCirc_6" BEL
+        "ql1/waverFast/ctRdCirc_7" BEL "ql1/waverFast/ctRdCirc_8" BEL
+        "ql1/waverFast/ctRdCirc_9" BEL "ql1/waverFast/decimator_0" BEL
+        "ql1/waverFast/decimator_1" BEL "ql1/waverFast/decimator_2" BEL
+        "ql1/waverFast/decimator_3" BEL "ql1/waverFast/decimator_4" BEL
+        "ql1/waverFast/ctStore_0" BEL "ql1/waverFast/ctStore_1" BEL
+        "ql1/waverFast/ctStore_2" BEL "ql1/waverFast/ctStore_3" BEL
+        "ql1/waverFast/ctStore_4" BEL "ql1/waverFast/ctStore_5" BEL
+        "ql1/waverFast/ctStore_6" BEL "ql1/waverFast/ctStore_7" BEL
+        "ql1/waverFast/ctStore_8" BEL "ql1/waverFast/ctStore_9" BEL
+        "ql1/waverFast/ctStore_10" BEL "ql1/waverFast/ctStore_11" BEL
+        "ql1/waverFast/ctStore_12" BEL "ql1/waverFast/ctWrCirc_0" BEL
+        "ql1/waverFast/ctWrCirc_1" BEL "ql1/waverFast/ctWrCirc_2" BEL
+        "ql1/waverFast/ctWrCirc_3" BEL "ql1/waverFast/ctWrCirc_4" BEL
+        "ql1/waverFast/ctWrCirc_5" BEL "ql1/waverFast/ctWrCirc_6" BEL
+        "ql1/waverFast/ctWrCirc_7" BEL "ql1/waverFast/ctWrCirc_8" BEL
+        "ql1/waverFast/ctWrCirc_9" BEL "ql1/waverFast/adWrFifo_0" BEL
+        "ql1/waverFast/adWrFifo_1" BEL "ql1/waverFast/adWrFifo_2" BEL
+        "ql1/waverFast/adWrFifo_3" BEL "ql1/waverFast/adWrFifo_4" BEL
+        "ql1/waverFast/adWrFifo_5" BEL "ql1/waverFast/adWrFifo_6" BEL
+        "ql1/waverFast/adWrFifo_7" BEL "ql1/waverFast/adWrFifo_8" BEL
+        "ql1/waverFast/adWrFifo_9" BEL "ql1/waverFast/adWrFifo_10" BEL
+        "ql1/waverFast/adWrFifo_11" BEL "ql1/waverFast/adWrFifo_12" BEL
+        "ql1/ddr_16_1/sysClkTest" BEL "ql1/ddr_16_1/bufferR" PIN
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" PIN
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "ql1/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" BEL
+        "i2/waverFast/valResync" BEL "i2/waverFast/syncADC" BEL
+        "i2/waverFast/fifoWrDone" BEL "i2/waverFast/acqFastCs_0" BEL
+        "i2/waverFast/acqFastCs_1" BEL "i2/waverFast/acqFastCs_2" BEL
+        "i2/waverFast/dataDecim_0" BEL "i2/waverFast/dataDecim_1" BEL
+        "i2/waverFast/dataDecim_2" BEL "i2/waverFast/dataDecim_3" BEL
+        "i2/waverFast/dataDecim_4" BEL "i2/waverFast/dataDecim_5" BEL
+        "i2/waverFast/dataDecim_6" BEL "i2/waverFast/dataDecim_7" BEL
+        "i2/waverFast/dataDecim_8" BEL "i2/waverFast/dataDecim_9" BEL
+        "i2/waverFast/dataDecim_10" BEL "i2/waverFast/dataDecim_11" BEL
+        "i2/waverFast/dataDecim_12" BEL "i2/waverFast/dataDecim_13" BEL
+        "i2/waverFast/adWrCap_0" BEL "i2/waverFast/adWrCap_1" BEL
+        "i2/waverFast/adWrCap_2" BEL "i2/waverFast/adWrCap_3" BEL
+        "i2/waverFast/adWrCap_4" BEL "i2/waverFast/adWrCap_5" BEL
+        "i2/waverFast/adWrCap_6" BEL "i2/waverFast/adWrCap_7" BEL
+        "i2/waverFast/adWrCap_8" BEL "i2/waverFast/adWrCap_9" BEL
+        "i2/waverFast/adWrCap_10" BEL "i2/waverFast/adWrCap_11" BEL
+        "i2/waverFast/adWrCap_12" BEL "i2/waverFast/ctRdCirc_0" BEL
+        "i2/waverFast/ctRdCirc_1" BEL "i2/waverFast/ctRdCirc_2" BEL
+        "i2/waverFast/ctRdCirc_3" BEL "i2/waverFast/ctRdCirc_4" BEL
+        "i2/waverFast/ctRdCirc_5" BEL "i2/waverFast/ctRdCirc_6" BEL
+        "i2/waverFast/ctRdCirc_7" BEL "i2/waverFast/ctRdCirc_8" BEL
+        "i2/waverFast/ctRdCirc_9" BEL "i2/waverFast/decimator_0" BEL
+        "i2/waverFast/decimator_1" BEL "i2/waverFast/decimator_2" BEL
+        "i2/waverFast/decimator_3" BEL "i2/waverFast/decimator_4" BEL
+        "i2/waverFast/ctStore_0" BEL "i2/waverFast/ctStore_1" BEL
+        "i2/waverFast/ctStore_2" BEL "i2/waverFast/ctStore_3" BEL
+        "i2/waverFast/ctStore_4" BEL "i2/waverFast/ctStore_5" BEL
+        "i2/waverFast/ctStore_6" BEL "i2/waverFast/ctStore_7" BEL
+        "i2/waverFast/ctStore_8" BEL "i2/waverFast/ctStore_9" BEL
+        "i2/waverFast/ctStore_10" BEL "i2/waverFast/ctStore_11" BEL
+        "i2/waverFast/ctStore_12" BEL "i2/waverFast/ctWrCirc_0" BEL
+        "i2/waverFast/ctWrCirc_1" BEL "i2/waverFast/ctWrCirc_2" BEL
+        "i2/waverFast/ctWrCirc_3" BEL "i2/waverFast/ctWrCirc_4" BEL
+        "i2/waverFast/ctWrCirc_5" BEL "i2/waverFast/ctWrCirc_6" BEL
+        "i2/waverFast/ctWrCirc_7" BEL "i2/waverFast/ctWrCirc_8" BEL
+        "i2/waverFast/ctWrCirc_9" BEL "i2/waverFast/adWrFifo_0" BEL
+        "i2/waverFast/adWrFifo_1" BEL "i2/waverFast/adWrFifo_2" BEL
+        "i2/waverFast/adWrFifo_3" BEL "i2/waverFast/adWrFifo_4" BEL
+        "i2/waverFast/adWrFifo_5" BEL "i2/waverFast/adWrFifo_6" BEL
+        "i2/waverFast/adWrFifo_7" BEL "i2/waverFast/adWrFifo_8" BEL
+        "i2/waverFast/adWrFifo_9" BEL "i2/waverFast/adWrFifo_10" BEL
+        "i2/waverFast/adWrFifo_11" BEL "i2/waverFast/adWrFifo_12" BEL
+        "i2/ddr_16_1/sysClkTest" BEL "i2/ddr_16_1/bufferR" PIN
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[0].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[1].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[2].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[3].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[4].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[5].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" PIN
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<1>" PIN
+        "i2/ddr_16_1/make_path[6].fastInstance.iddr_x_pins<2>" BEL "aux_0" PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "i1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "i2/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<32>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<33>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<110>"
+        PIN
+        "ql1/waverFast/bufCirc/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<111>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<30>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP_pins<108>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<62>"
+        PIN
+        "ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_pins<63>";
+NET "clk25MHz1" PERIOD = 40 ns HIGH 50%;
+NET "clk1" PERIOD = 10 ns HIGH 50%;
+NET "qh1/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+NET "q2/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+NET "q3/ddr_16_1/inputClk" PERIOD = 10 ns HIGH 50%;
+TS_ADC_250_CLK = PERIOD TIMEGRP "ADC_250_CLK" 4 ns HIGH 50% PRIORITY 1;
+SCHEMATIC END;
+

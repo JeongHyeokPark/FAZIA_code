@@ -1,0 +1,19 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   SPARC M2.1 P.40xd
+#Current Working Directory:
+#:D   /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b
+#Host Name:
+#:H   parallels-Parallels-Virtual-Platform
+#Date/Time:
+#:T   Thu Feb 18 11:49:12 2021
+#------------------------------
+	#Reading telescope_map.ncd...
+	#Loading device for application Rf_Device from file '5vlx50.nph' in environment /opt/Xilinx/14.3/ISE_DS/ISE/.
+	#   "telescope" is an NCD, version 3.2, device xc5vlx50, package ff676, speed -2
+	#Design creation date: 2021.02.18.02.46.52
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

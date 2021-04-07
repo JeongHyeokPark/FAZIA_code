@@ -1,0 +1,17 @@
+/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/telescope.ngc 1615868914
+ipcore_dir/ram_32x16_single_modified.ngc 1612259123
+../common/ipcore_dir/spi_adc_rom.ngc 1612256595
+ipcore_dir/aligner_ram_128x8_modified.ngc 1614240174
+../common/ipcore_dir/aligner_rom_128x8.ngc 1612256595
+ipcore_dir/ram_128x16_modified.ngc 1613278093
+ipcore_dir/ram_1kx14_modified.ngc 1614240543
+ipcore_dir/ram_8kx14_modified.ngc 1614240703
+ipcore_dir/ram_32x16_modified.ngc 1613470760
+ipcore_dir/ram_256x14_modified.ngc 1614242203
+ipcore_dir/ram_1kx15_modified.ngc 1614240862
+ipcore_dir/ram_4kx14_modified.ngc 1614650519
+ipcore_dir/ram_1kx24_modified.ngc 1614241702
+ipcore_dir/ram_2kx15_modified.ngc 1614241049
+ipcore_dir/fifo_modified.ngc 1614674323
+ipcore_dir/fifo2_modified.ngc 1614674508
+OK

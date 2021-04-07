@@ -1,0 +1,462 @@
+Release 14.4 Map P.49d (lin64)
+Xilinx Map Application Log File for Design 'telescope'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx50-ff676-2 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off
+-ignore_keep_hierarchy -pr off -lc off -power off -o telescope_map.ncd
+telescope.ngd telescope.pcf 
+Target Device  : xc5vlx50
+Target Package : ff676
+Target Speed   : -2
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Mon Jun  8 10:42:05 2020
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc5vlx50' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal sdi_L_p connected to top level port sdi_L_p has been
+   removed.
+WARNING:MapLib:701 - Signal sdi_L_n connected to top level port sdi_L_n has been
+   removed.
+WARNING:MapLib:701 - Signal sdi_H_p connected to top level port sdi_H_p has been
+   removed.
+WARNING:MapLib:701 - Signal sdi_H_n connected to top level port sdi_H_n has been
+   removed.
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 22 secs 
+Total CPU  time at the beginning of Placer: 22 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:eb60052) REAL time: 23 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: riserv_p<0>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<1>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<2>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<3>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<4>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<5>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<6>   IOSTANDARD = LVDS_25
+   	 Comp: riserv_p<7>   IOSTANDARD = LVCMOS25
+
+
+Phase 2.7  Design Feasibility Check (Checksum:eb60052) REAL time: 23 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:51dceff2) REAL time: 23 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:51dceff2) REAL time: 23 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:51dceff2) REAL time: 23 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:51dceff2) REAL time: 24 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+...
+.............
+
+
+There are 12 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 1 in use      |   4 Regional Clock Spines, 1 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 1 in use            |   2 BUFRs available, 1 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 2 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 1 in use            |   2 BUFRs available, 1 in use            |
+|   4 Regional Clock Spines, 3 in use      |   4 Regional Clock Spines, 3 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 1 in use            |   2 BUFRs available, 1 in use            |
+|   4 Regional Clock Spines, 2 in use      |   4 Regional Clock Spines, 2 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 1 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y1>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/2; bufrs - 1/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  2  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  4  |  0 |   40   |   40   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "qh1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1>
+  key resource utilizations (used/available): edge-bufios - 0/4; bufrs - 1/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/      |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "ql1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/2; bufrs - 1/2; regional-clock-spines - 3/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  2  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "q2/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2>
+  key resource utilizations (used/available): edge-bufios - 0/4; bufrs - 1/2; regional-clock-spines - 3/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "i2/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/2; bufrs - 1/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  2  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   60   |   60   |  2240 |  1280 |  3200 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   5  |  0  |  0 |    7   |    0   |    30 |     0 |    33 |   0  |   0  |  0  |   0  | "i1/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3>
+  key resource utilizations (used/available): edge-bufios - 0/4; bufrs - 1/2; regional-clock-spines - 2/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   40   |   40   |  2560 |  1280 |  3840 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   3  |  0  |  0 |    7   |    0   |    29 |     0 |    26 |   0  |   0  |  0  |   0  | "q3/adcClk"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 12  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 6 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# Regional-Clock "ql1/adcClk" driven by "BUFR_X1Y3"
+INST "ql1/ddr_16_1/bufferR" LOC = "BUFR_X1Y3" ;
+NET "ql1/adcClk" TNM_NET = "TN_ql1/adcClk" ;
+TIMEGRP "TN_ql1/adcClk" AREA_GROUP = "CLKAG_ql1/adcClk" ;
+AREA_GROUP "CLKAG_ql1/adcClk" RANGE = CLOCKREGION_X1Y1, CLOCKREGION_X1Y2;
+
+
+# Regional-Clock "i1/adcClk" driven by "BUFR_X0Y7"
+INST "i1/ddr_16_1/bufferR" LOC = "BUFR_X0Y7" ;
+NET "i1/adcClk" TNM_NET = "TN_i1/adcClk" ;
+TIMEGRP "TN_i1/adcClk" AREA_GROUP = "CLKAG_i1/adcClk" ;
+AREA_GROUP "CLKAG_i1/adcClk" RANGE = CLOCKREGION_X0Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y2;
+
+
+# Regional-Clock "i2/adcClk" driven by "BUFR_X1Y4"
+INST "i2/ddr_16_1/bufferR" LOC = "BUFR_X1Y4" ;
+NET "i2/adcClk" TNM_NET = "TN_i2/adcClk" ;
+TIMEGRP "TN_i2/adcClk" AREA_GROUP = "CLKAG_i2/adcClk" ;
+AREA_GROUP "CLKAG_i2/adcClk" RANGE = CLOCKREGION_X1Y2, CLOCKREGION_X1Y3, CLOCKREGION_X1Y1;
+
+
+# Regional-Clock "qh1/adcClk" driven by "BUFR_X0Y2"
+INST "qh1/ddr_16_1/bufferR" LOC = "BUFR_X0Y2" ;
+NET "qh1/adcClk" TNM_NET = "TN_qh1/adcClk" ;
+TIMEGRP "TN_qh1/adcClk" AREA_GROUP = "CLKAG_qh1/adcClk" ;
+AREA_GROUP "CLKAG_qh1/adcClk" RANGE = CLOCKREGION_X0Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y0;
+
+
+# Regional-Clock "q2/adcClk" driven by "BUFR_X0Y5"
+INST "q2/ddr_16_1/bufferR" LOC = "BUFR_X0Y5" ;
+NET "q2/adcClk" TNM_NET = "TN_q2/adcClk" ;
+TIMEGRP "TN_q2/adcClk" AREA_GROUP = "CLKAG_q2/adcClk" ;
+AREA_GROUP "CLKAG_q2/adcClk" RANGE = CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y1;
+
+
+# Regional-Clock "q3/adcClk" driven by "BUFR_X1Y6"
+INST "q3/ddr_16_1/bufferR" LOC = "BUFR_X1Y6" ;
+NET "q3/adcClk" TNM_NET = "TN_q3/adcClk" ;
+TIMEGRP "TN_q3/adcClk" AREA_GROUP = "CLKAG_q3/adcClk" ;
+AREA_GROUP "CLKAG_q3/adcClk" RANGE = CLOCKREGION_X1Y3, CLOCKREGION_X1Y4, CLOCKREGION_X1Y2;
+
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:d2aca980) REAL time: 1 mins 54 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:d2aca980) REAL time: 1 mins 54 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:d2aca980) REAL time: 1 mins 54 secs 
+
+Phase 10.3  Local Placement Optimization
+....
+Phase 10.3  Local Placement Optimization (Checksum:559ea0d3) REAL time: 1 mins 55 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:d87ba918) REAL time: 1 mins 55 secs 
+
+Phase 12.8  Global Placement
+.........................
+....................................................................................
+......................
+...............................................................................................................................................................
+.......................................................................................................................................
+............................................................................................................................................................
+Phase 12.8  Global Placement (Checksum:27a4ba44) REAL time: 2 mins 41 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:27a4ba44) REAL time: 2 mins 41 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:279e0575) REAL time: 2 mins 42 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:23e6ef0c) REAL time: 3 mins 53 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:e36b24f4) REAL time: 3 mins 54 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:e36b24f4) REAL time: 3 mins 54 secs 
+
+Total REAL time to Placer completion: 3 mins 55 secs 
+Total CPU  time to Placer completion: 3 mins 55 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net q3/itemData_11_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_11_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetEvtReceived_or0000 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemRd_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_12_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoIn_15_or0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetTsRequest_or0000 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/resetBitmask_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rEngine/fifoItemWr_and0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<ql1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<i1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<i2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<qh1/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of INIT_OQ requires the OQ output pin to be
+   connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_L/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of SRVAL_OQ requires the OQ output pin to
+   be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master>:<ISERDES_ISERDES>.  Useless CE2 input pin. With
+   NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1350 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of INIT_OQ requires the OQ output pin to be
+   connected.
+WARNING:PhysDesignRules:1351 - Issue with pin connections and/or configuration on
+   block:<fLink/ser_H/OSER8B_inst/soserdes_inst>:<OSERDES_OSERDES>.  The use of SRVAL_OQ requires the OQ output pin to
+   be connected.
+WARNING:PhysDesignRules:1325 - Issue with pin connections and/or configuration on
+   block:<fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_slave>:<ISERDES_ISERDES>.  Useless CE2 input pin. With
+   NUM_CE set 1 the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<q2/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+WARNING:PhysDesignRules:1267 - Issue with pin connections and/or configuration on
+   block:<q3/ddr_16_1/bufferR>:<BUFR_BUFR>.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE
+   BYPASS.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   27
+Slice Logic Utilization:
+  Number of Slice Registers:                 5,026 out of  28,800   17%
+    Number used as Flip Flops:               4,981
+    Number used as Latches:                     45
+  Number of Slice LUTs:                      8,301 out of  28,800   28%
+    Number used as logic:                    7,866 out of  28,800   27%
+      Number using O6 output only:           6,892
+      Number using O5 output only:             330
+      Number using O5 and O6:                  644
+    Number used as Memory:                     396 out of   7,680    5%
+      Number used as Dual Port RAM:            388
+        Number using O6 output only:           336
+        Number using O5 and O6:                 52
+      Number used as Single Port RAM:            8
+        Number using O5 and O6:                  8
+    Number used as exclusive route-thru:        39
+  Number of route-thrus:                       391
+    Number using O6 output only:               367
+    Number using O5 output only:                24
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 3,222 out of   7,200   44%
+  Number of LUT Flip Flop pairs used:        9,499
+    Number with an unused Flip Flop:         4,473 out of   9,499   47%
+    Number with an unused LUT:               1,198 out of   9,499   12%
+    Number of fully used LUT-FF pairs:       3,828 out of   9,499   40%
+    Number of unique control sets:             390
+    Number of slice register sites lost
+      to control set restrictions:             666 out of  28,800    2%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       231 out of     440   52%
+    IOB Flip Flops:                             42
+    IOB Master Pads:                             6
+    IOB Slave Pads:                              6
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      39 out of      48   81%
+    Number using BlockRAM only:                 39
+    Total primitives used:
+      Number of 36k BlockRAM used:              27
+      Number of 18k BlockRAM used:              21
+    Total Memory used (KB):                  1,350 out of   1,728   78%
+  Number of BUFG/BUFGCTRLs:                      9 out of      32   28%
+    Number used as BUFGs:                        9
+  Number of IDELAYCTRLs:                         9 out of      16   56%
+  Number of BUFRs:                               6 out of      24   25%
+  Number of DCM_ADVs:                            1 out of      12    8%
+  Number of ISERDESs:                            2
+  Number of OSERDESs:                            4
+  Number of PLL_ADVs:                            1 out of       6   16%
+  Number of SYSMONs:                             1 out of       1  100%
+
+Average Fanout of Non-Clock Nets:                4.54
+
+Peak Memory Usage:  1015 MB
+Total REAL time to MAP completion:  4 mins 
+Total CPU time to MAP completion:   4 mins 
+
+Mapping completed.
+See MAP report file "telescope_map.mrp" for details.

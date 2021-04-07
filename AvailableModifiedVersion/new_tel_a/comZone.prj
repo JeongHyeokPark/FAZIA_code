@@ -1,0 +1,5 @@
+vhdl work "../common/slow_ct_defs.vhd"
+vhdl work "tel_conf_a.vhd"
+vhdl work "../common/tel_defs.vhd"
+vhdl work "../common/ipcore_dir/ram_32x16_single_modified.vhd"
+vhdl work "../common/comZone.vhd"

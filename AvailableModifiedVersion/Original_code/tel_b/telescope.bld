@@ -1,0 +1,91 @@
+Release 14.3 ngdbuild P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.3/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../common/ipcore_dir -sd ipcore_dir -sd
+../common/fastlink/ipcore_dir -nt timestamp -uc
+/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.ucf
+-p xc5vlx50-ff676-2 telescope.ngc telescope.ngd
+
+Reading NGO file
+"/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/telescope.ngc"
+...
+Loading design module "ipcore_dir/ram_32x16_single_modified.ngc"...
+Loading design module "../common/ipcore_dir/spi_adc_rom.ngc"...
+Loading design module "ipcore_dir/aligner_ram_128x8_modified.ngc"...
+Loading design module "../common/ipcore_dir/aligner_rom_128x8.ngc"...
+Loading design module "ipcore_dir/ram_128x16_modified.ngc"...
+Loading design module "ipcore_dir/ram_1kx14_modified.ngc"...
+Loading design module "ipcore_dir/ram_8kx14_modified.ngc"...
+Loading design module "ipcore_dir/ram_32x16_modified.ngc"...
+Loading design module "ipcore_dir/ram_256x14_modified.ngc"...
+Loading design module "ipcore_dir/ram_1kx15_modified.ngc"...
+Loading design module "ipcore_dir/ram_4kx14_modified.ngc"...
+Loading design module "ipcore_dir/ram_1kx24_modified.ngc"...
+Loading design module "ipcore_dir/ram_2kx15_modified.ngc"...
+Loading design module "ipcore_dir/fifo_modified.ngc"...
+Loading design module "ipcore_dir/fifo2_modified.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.ucf
+" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD = 10 ns HIGH 50 % |>
+   [/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.
+   ucf(17)], is specified using the Net Period method which is not recommended.
+   Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 40 ns HIGH 50 % |>
+   [/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.
+   ucf(19)], is specified using the Net Period method which is not recommended.
+   Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 10 ns HIGH 50 %;>
+   [/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.
+   ucf(110)], is specified using the Net Period method which is not recommended.
+   Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 10 ns HIGH 50 %;>
+   [/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.
+   ucf(131)], is specified using the Net Period method which is not recommended.
+   Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 10 ns HIGH 50 %;>
+   [/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/common/telescope.
+   ucf(187)], is specified using the Net Period method which is not recommended.
+   Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "SIM_DEVICE" is not allowed on symbol
+   "sysMonBlock/system_mon/sysmon_inst/SYSMON_INST" of type "SYSMON".  This
+   attribute will be ignored.
+WARNING:NgdBuild:470 - bidirect pad net 'ioFpga_11' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ioFpga_13' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'ioFpga_19' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'aVersB_1' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'aVersB_2' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'riserv_n<7>' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   7
+
+Total memory usage is 462016 kilobytes
+
+Writing NGD file "telescope.ngd" ...
+Total REAL time to NGDBUILD completion:  10 sec
+Total CPU time to NGDBUILD completion:   10 sec
+
+Writing NGDBUILD log file "telescope.bld"...

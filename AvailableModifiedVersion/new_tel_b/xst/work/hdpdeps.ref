@@ -1,0 +1,772 @@
+V3 448
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/adc_mon.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/aligner_new.vhd 2021/03/03.10:23:25 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/align_defs.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/baseline.vhd 2021/03/03.10:14:57 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/comZone.vhd 2021/04/05.11:11:28 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/csi_channel.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ddr_adc.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/energy.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/e_trigger.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/clkgenerator.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/deserialiseur.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/fastlink.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/ipcore_dir/myfifo.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/ipcore_dir/myfifo2.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/ISER8b.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/N_ISERDES8b_MsAllign.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/OSER8B.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/fastlink/serialiseur.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/f_channel.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/general_io.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/histogrammer.vhd 2021/03/03.10:19:00 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/i2c_byte.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/i2c_master.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/identity.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/aligner_rom_128x8.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/My_sysmon.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/ram_32x16_single.vhd 2021/02/02.18:03:15 P.40xd
+EN work/ram_32x16_single 1617588489 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/ram_32x16_single.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16_single/ram_32x16_single_a 1617588490 \
+      FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/ram_32x16_single.vhd \
+      EN work/ram_32x16_single 1617588489
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/spi_adc_rom.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/offset_ctrl.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/pic_itf.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/reader.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/read_engine_new.vhd 2021/03/03.10:00:52 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/retard_1.vhd 2021/03/03.10:01:34 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/retard_2.vhd 2021/03/03.10:10:29 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/scItf.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/shaper.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/slow_ct_defs.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/spi.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/sysmon.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/s_channel.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/telescope.vhd 2021/03/16.13:39:40 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/tel_defs.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/tel_sysmon.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/terminator.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/trigger.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/usb_get_new.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/usb_itf_new.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/waver.vhd 2021/03/03.09:56:05 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/new_tel_b/dcm_200.vhd 2021/03/03.10:30:50 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/new_tel_b/gene.vhd 2021/03/03.10:30:50 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/new_tel_b/psSyncGen.vhd 2021/03/03.10:30:50 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/new_tel_b/tel_conf_b.vhd 2021/03/03.10:30:50 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/aligner_ram_128x8_modified.vhd 2021/02/25.17:02:54 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_128x16_modified.vhd 2021/02/14.13:48:13 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_16x16_modified.vhd 2021/02/16.19:18:31 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_1kx14_modified.vhd 2021/02/25.17:09:03 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_1kx15_modified.vhd 2021/02/25.17:14:22 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_1kx24_modified.vhd 2021/02/25.17:28:23 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_256x14_modified.vhd 2021/02/25.17:36:43 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_256x16_modified.vhd 2021/02/17.15:53:50 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_2kx15_modified.vhd 2021/02/25.17:17:29 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_32x16_modified.vhd 2021/02/16.19:19:20 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd 2021/02/02.18:45:24 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_4kx14_modified.vhd 2021/03/02.11:01:59 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_64x16_modified.vhd 2021/02/17.15:35:21 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/ram_8kx14_modified.vhd 2021/02/25.17:11:44 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/tel_a/global_trigger.vhd 2021/02/02.18:03:15 P.40xd
+FL /home/parallels/Desktop/FAZIA_FEE/FAZIA_code/tel_a/virBlock.vhd 2021/02/02.18:03:16 P.40xd
+FL /home/parallels/Desktop/newCode/NewTest/common/adc_mon.vhd 2021/04/07.17:48:14 P.40xd
+EN work/AdcMon 1617786111 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/adc_mon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PH work/align_defs 1617786033 PB work/slow_ct_defs 1617786018
+AR work/AdcMon/Behavioral 1617786112 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/adc_mon.vhd \
+      EN work/AdcMon 1617786111 CP SpiAdc CP work/Aligner_new
+FL /home/parallels/Desktop/newCode/NewTest/common/aligner_new.vhd 2021/04/07.17:48:14 P.40xd
+EN work/Aligner_new 1617786107 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/aligner_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PH work/align_defs 1617786033 PB work/slow_ct_defs 1617786018
+AR work/Aligner_new/Behavioral 1617786108 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/aligner_new.vhd \
+      EN work/Aligner_new 1617786107 CP aligner_rom_128x8 \
+      CP aligner_ram_128x8_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/align_defs.vhd 2021/04/07.17:48:14 P.40xd
+PH work/align_defs 1617786033 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/align_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+FL /home/parallels/Desktop/newCode/NewTest/common/baseline.vhd 2021/04/07.17:48:14 P.40xd
+EN work/baseline 1617786047 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/baseline.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026
+AR work/baseline/Behavioral 1617786048 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/baseline.vhd \
+      EN work/baseline 1617786047 CP ram_256x14_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/comZone.vhd 2021/04/07.17:48:14 P.40xd
+EN work/comZone 1617786113 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/comZone.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PB work/slow_ct_defs 1617786018 \
+      PH work/telescope_conf 1617786034
+AR work/comZone/Behavioral 1617786114 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/comZone.vhd \
+      EN work/comZone 1617786113 CP ram_32x16_single_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/csi_channel.vhd 2021/04/07.17:48:14 P.40xd
+EN work/CsiChannel 1617786125 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/csi_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/CsiChannel/Behavioral 1617786126 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/csi_channel.vhd \
+      EN work/CsiChannel 1617786125 CP tel_icon CP tel_ila_36 CP work/DDR_ADC \
+      CP work/Waver CP work/Energy CP work/ETrigger CP work/Histogrammer
+FL /home/parallels/Desktop/newCode/NewTest/common/ddr_adc.vhd 2021/04/07.17:48:14 P.40xd
+EN work/DDR_ADC 1617786091 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ddr_adc.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033
+AR work/DDR_ADC/Behavioral 1617786092 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ddr_adc.vhd \
+      EN work/DDR_ADC 1617786091 CP IBUFDS CP IDELAY CP BUFR CP IODELAY CP IDDR
+FL /home/parallels/Desktop/newCode/NewTest/common/energy.vhd 2021/04/07.17:48:14 P.40xd
+EN work/Energy 1617786095 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/energy.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PB work/slow_ct_defs 1617786018 \
+      PH work/telescope_conf 1617786034
+AR work/energy/Behavioral 1617786096 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/energy.vhd EN work/Energy 1617786095 \
+      CP tel_icon CP tel_ila_blknrj CP work/shaper
+FL /home/parallels/Desktop/newCode/NewTest/common/e_trigger.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ETrigger 1617786097 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/e_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      LB UNISIM PH unisim/VCOMPONENTS 1354696165 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/ETrigger/Behavioral 1617786098 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/e_trigger.vhd \
+      EN work/ETrigger 1617786097 CP work/shaper CP work/baseline
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/clkgenerator.vhd 2021/04/07.17:48:14 P.40xd
+EN work/clkgenerator 1617786081 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/clkgenerator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/clkgenerator/BEHAVIORAL 1617786082 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/clkgenerator.vhd \
+      EN work/clkgenerator 1617786081 CP the_pll
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/deserialiseur.vhd 2021/04/07.17:48:14 P.40xd
+EN work/DESERIALISEUR 1617786083 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/deserialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/DESERIALISEUR/BEHAVIORAL 1617786084 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/deserialiseur.vhd \
+      EN work/DESERIALISEUR 1617786083 CP N_ISERDES8b_MsAllign
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/fastlink.vhd 2021/04/07.17:48:14 P.40xd
+EN work/FASTLINK 1617786131 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/fastlink.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/FASTLINK/BEHAVIORAL 1617786132 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/fastlink.vhd \
+      EN work/FASTLINK 1617786131 CP tel_icon CP tel_ila_128 CP IDELAYCTRL \
+      CP clkgenerator CP DESERIALISEUR CP SERIALISEUR CP OBUFDS CP IBUFDS CP myfifo \
+      CP myfifo2
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo.vhd 2021/04/07.17:48:14 P.40xd
+EN work/myfifo 1617786087 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo/myfifo_a 1617786088 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo.vhd \
+      EN work/myfifo 1617786087
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo2.vhd 2021/04/07.17:48:14 P.40xd
+EN work/myfifo2 1617786089 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo2.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/myfifo2/myfifo2_a 1617786090 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ipcore_dir/myfifo2.vhd \
+      EN work/myfifo2 1617786089
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ISER8b.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ISER8b 1617786023 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ISER8b.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/ISER8b/Behavioral 1617786024 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/ISER8b.vhd \
+      EN work/ISER8b 1617786023 CP IBUFDS CP IODELAY CP ISERDES_NODELAY
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/N_ISERDES8b_MsAllign.vhd 2021/04/07.17:48:14 P.40xd
+EN work/N_ISERDES8b_MsAllign 1617786041 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/N_ISERDES8b_MsAllign/Behavioral 1617786042 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/N_ISERDES8b_MsAllign.vhd \
+      EN work/N_ISERDES8b_MsAllign 1617786041 CP tel_icon CP tel_ila_128 CP ISER8b
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/OSER8B.vhd 2021/04/07.17:48:14 P.40xd
+EN work/OSER8B 1617786039 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/OSER8B.vhd \
+      PB ieee/std_logic_1164 1354696159 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/OSER8B/Behavioral 1617786040 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/OSER8B.vhd \
+      EN work/OSER8B 1617786039 CP OSERDES
+FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/serialiseur.vhd 2021/04/07.17:48:14 P.40xd
+EN work/SERIALISEUR 1617786085 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/serialiseur.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/SERIALISEUR/BEHAVIORAL 1617786086 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/fastlink/serialiseur.vhd \
+      EN work/SERIALISEUR 1617786085 CP OSER8B CP OBUFDS
+FL /home/parallels/Desktop/newCode/NewTest/common/f_channel.vhd 2021/04/07.17:48:14 P.40xd
+EN work/FastChannel 1617786123 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/f_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018
+AR work/FastChannel/Behavioral 1617786124 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/f_channel.vhd \
+      EN work/FastChannel 1617786123 CP work/DDR_ADC CP work/Waver
+FL /home/parallels/Desktop/newCode/NewTest/common/general_io.vhd 2021/04/07.17:48:14 P.40xd
+EN work/GeneralIo 1617786115 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/general_io.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PH work/telescope_conf 1617786034 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/GeneralIo/Behavioral 1617786116 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/general_io.vhd \
+      EN work/GeneralIo 1617786115
+FL /home/parallels/Desktop/newCode/NewTest/common/histogrammer.vhd 2021/04/07.17:48:14 P.40xd
+EN work/Histogrammer 1617786099 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/histogrammer.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018
+AR work/Histogrammer/Behavioral 1617786100 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/histogrammer.vhd \
+      EN work/Histogrammer 1617786099 CP ram_1kx24_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/i2c_byte.vhd 2021/04/07.17:48:14 P.40xd
+EN work/i2c_byte 1617786037 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/i2c_byte.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/i2c_byte/Behavioral 1617786038 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/i2c_byte.vhd \
+      EN work/i2c_byte 1617786037
+FL /home/parallels/Desktop/newCode/NewTest/common/i2c_master.vhd 2021/04/07.17:48:14 P.40xd
+EN work/I2cMaster 1617786079 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/i2c_master.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/I2cMaster/Behavioral 1617786080 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/i2c_master.vhd \
+      EN work/I2cMaster 1617786079 CP work/i2c_byte
+FL /home/parallels/Desktop/newCode/NewTest/common/identity.vhd 2021/04/07.17:48:14 P.40xd
+EN work/identity 1617786119 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/identity.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/identity/Behavioral 1617786120 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/identity.vhd \
+      EN work/identity 1617786119
+FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/aligner_rom_128x8.vhd 2021/04/07.17:48:14 P.40xd
+EN work/aligner_rom_128x8 1617786069 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/aligner_rom_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_rom_128x8/aligner_rom_128x8_a 1617786070 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/aligner_rom_128x8.vhd \
+      EN work/aligner_rom_128x8 1617786069
+FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/My_sysmon.vhd 2021/04/07.17:48:14 P.40xd
+EN work/My_sysmon 1617786067 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/My_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/My_sysmon/xilinx 1617786068 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/My_sysmon.vhd \
+      EN work/My_sysmon 1617786067 CP SYSMON
+FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/spi_adc_rom.vhd 2021/04/07.17:48:15 P.40xd
+EN work/spi_adc_rom 1617786073 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/spi_adc_rom.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/spi_adc_rom/spi_adc_rom_a 1617786074 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/spi_adc_rom.vhd \
+      EN work/spi_adc_rom 1617786073
+FL /home/parallels/Desktop/newCode/NewTest/common/offset_ctrl.vhd 2021/04/07.17:48:15 P.40xd
+EN work/OffsetCtrl 1617786135 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/offset_ctrl.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/OffsetCtrl/Behavioral 1617786136 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/offset_ctrl.vhd \
+      EN work/OffsetCtrl 1617786135 CP work/I2cMaster
+FL /home/parallels/Desktop/newCode/NewTest/common/pic_itf.vhd 2021/04/07.17:48:15 P.40xd
+EN work/PicItf 1617786077 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/pic_itf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1617786018
+AR work/PicItf/Behavioral 1617786078 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/pic_itf.vhd \
+      EN work/PicItf 1617786077
+FL /home/parallels/Desktop/newCode/NewTest/common/reader.vhd 2021/04/07.17:48:15 P.40xd
+EN work/reader 1617786065 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/reader.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/reader/Behavioral 1617786066 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/reader.vhd EN work/reader 1617786065 \
+      CP tel_icon CP tel_ila
+FL /home/parallels/Desktop/newCode/NewTest/common/read_engine_new.vhd 2021/04/07.17:48:15 P.40xd
+EN work/ReadEngine 1617786129 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/read_engine_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/NUMERIC_STD 1354696164 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/ReadEngine/Behavioral 1617786130 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/read_engine_new.vhd \
+      EN work/ReadEngine 1617786129 CP tel_icon CP tel_ila_dual_128 \
+      CP ram_32x16_modified CP ram_64x16_modified CP ram_128x16_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/retard_1.vhd 2021/04/07.17:48:15 P.40xd
+EN work/retard_1 1617786029 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/retard_1.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_1/Behavioral 1617786030 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/retard_1.vhd \
+      EN work/retard_1 1617786029 CP ram_1kx15_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/retard_2.vhd 2021/04/07.17:48:15 P.40xd
+EN work/retard_2 1617786031 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/retard_2.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+AR work/retard_2/Behavioral 1617786032 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/retard_2.vhd \
+      EN work/retard_2 1617786031 CP ram_1kx15_modified CP ram_2kx15_modified
+FL /home/parallels/Desktop/newCode/NewTest/common/scItf.vhd 2021/04/07.17:48:15 P.40xd
+EN work/ScItf 1617786137 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/scItf.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/slow_ct_defs 1617786018
+AR work/ScItf/Behavioral 1617786138 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/scItf.vhd EN work/ScItf 1617786137 \
+      CP work/UsbItf_new CP work/PicItf
+FL /home/parallels/Desktop/newCode/NewTest/common/shaper.vhd 2021/04/07.17:48:15 P.40xd
+EN work/shaper 1617786045 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/shaper.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      PB ieee/STD_LOGIC_SIGNED 1354696161 PB work/tel_defs 1617786026
+AR work/shaper/Behavioral 1617786046 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/shaper.vhd EN work/shaper 1617786045 \
+      CP work/retard_1 CP work/retard_2
+FL /home/parallels/Desktop/newCode/NewTest/common/slow_ct_defs.vhd 2021/04/07.17:48:15 P.40xd
+PH work/slow_ct_defs 1617786017 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/slow_ct_defs.vhd \
+      PB ieee/std_logic_1164 1354696159
+PB work/slow_ct_defs 1617786018 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/slow_ct_defs.vhd \
+      PH work/slow_ct_defs 1617786017
+FL /home/parallels/Desktop/newCode/NewTest/common/spi.vhd 2021/04/07.17:48:15 P.40xd
+EN work/SpiAdc 1617786105 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/spi.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PH work/align_defs 1617786033 PB work/slow_ct_defs 1617786018
+AR work/SpiAdc/Behavioral 1617786106 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/spi.vhd EN work/SpiAdc 1617786105 \
+      CP spi_adc_rom
+FL /home/parallels/Desktop/newCode/NewTest/common/sysmon.vhd 2021/04/07.17:48:15 P.40xd
+EN work/USERSYSMON 1617786101 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/USERSYSMON/toto 1617786102 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/sysmon.vhd \
+      EN work/USERSYSMON 1617786101 CP My_sysmon
+FL /home/parallels/Desktop/newCode/NewTest/common/s_channel.vhd 2021/04/07.17:48:15 P.40xd
+EN work/SlowChannel 1617786121 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/s_channel.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018
+AR work/SlowChannel/Behavioral 1617786122 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/s_channel.vhd \
+      EN work/SlowChannel 1617786121 CP work/DDR_ADC CP work/Waver CP work/Energy \
+      CP work/ETrigger CP work/Histogrammer
+FL /home/parallels/Desktop/newCode/NewTest/common/telescope.vhd 2021/04/07.17:59:04 P.40xd
+EN work/telescope 1617786147 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/telescope.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/telescope/telescope_arch 1617786148 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/telescope.vhd \
+      EN work/telescope 1617786147 CP tel_icon CP tel_ila CP dcm_200 CP IBUFGDS \
+      CP work/AdcMon CP work/comZone CP work/GeneralIo CP work/SysMonitor \
+      CP work/identity CP work/SlowChannel CP work/FastChannel CP work/CsiChannel \
+      CP work/Terminator CP work/readEngine CP work/FASTLINK CP work/trigger \
+      CP work/OffsetCtrl CP TalkToLmk CP work/ScItf CP IBUFDS CP GlobalTrigger \
+      CP work/Virblock CP OBUFDS CP IOBUF CP work/Gene CP work/psSyncGen
+FL /home/parallels/Desktop/newCode/NewTest/common/tel_defs.vhd 2021/04/07.17:48:15 P.40xd
+PH work/tel_defs 1617786025 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/tel_defs.vhd \
+      PB ieee/std_logic_1164 1354696159 PB work/slow_ct_defs 1617786018
+PB work/tel_defs 1617786026 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/tel_defs.vhd \
+      PH work/tel_defs 1617786025
+FL /home/parallels/Desktop/newCode/NewTest/common/tel_sysmon.vhd 2021/04/07.17:48:15 P.40xd
+EN work/SysMonitor 1617786117 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/tel_sysmon.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PB work/slow_ct_defs 1617786018
+AR work/SysMonitor/behavioral 1617786118 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/tel_sysmon.vhd \
+      EN work/SysMonitor 1617786117 CP work/UserSysMon
+FL /home/parallels/Desktop/newCode/NewTest/common/terminator.vhd 2021/04/07.17:48:15 P.40xd
+EN work/Terminator 1617786127 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/terminator.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB work/tel_defs 1617786026
+AR work/Terminator/Behavioral 1617786128 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/terminator.vhd \
+      EN work/Terminator 1617786127
+FL /home/parallels/Desktop/newCode/NewTest/common/trigger.vhd 2021/04/07.17:48:15 P.40xd
+EN work/trigger 1617786133 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/trigger/Behavioral 1617786134 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/trigger.vhd \
+      EN work/trigger 1617786133 CP tel_icon CP tel_ila_trig64
+FL /home/parallels/Desktop/newCode/NewTest/common/usb_get_new.vhd 2021/04/07.17:48:15 P.40xd
+EN work/usbGet_new 1617786035 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/usb_get_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/usbGet_new/usbGetArch 1617786036 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/usb_get_new.vhd \
+      EN work/usbGet_new 1617786035
+FL /home/parallels/Desktop/newCode/NewTest/common/usb_itf_new.vhd 2021/04/07.17:48:15 P.40xd
+EN work/usbItf_new 1617786075 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/usb_itf_new.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/slow_ct_defs 1617786018
+AR work/UsbItf_new/usbItfArch 1617786076 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/usb_itf_new.vhd \
+      EN work/usbItf_new 1617786075 CP work/usbGet_new
+FL /home/parallels/Desktop/newCode/NewTest/common/waver.vhd 2021/04/07.17:48:15 P.40xd
+EN work/Waver 1617786093 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/waver.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PH work/align_defs 1617786033 \
+      PB work/slow_ct_defs 1617786018 PH work/telescope_conf 1617786034
+AR work/Waver/Behavioral 1617786094 \
+      FL /home/parallels/Desktop/newCode/NewTest/common/waver.vhd EN work/Waver 1617786093 \
+      CP tel_icon CP tel_ila_36 CP ram_1kx14_modified CP ram_4kx14_modified \
+      CP ram_8kx14_modified CP ram_16x16_modified CP ram_32x16_modified \
+      CP ram_64x16_modified CP ram_128x16_modified CP ram_256x16_modified \
+      CP work/Reader
+FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/dcm_200.vhd 2021/04/07.17:48:19 P.40xd
+EN work/dcm_200 1617786109 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/dcm_200.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/dcm_200/BEHAVIORAL 1617786110 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/dcm_200.vhd \
+      EN work/dcm_200 1617786109 CP BUFG CP DCM_ADV
+FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/gene.vhd 2021/04/07.17:48:19 P.40xd
+EN work/Gene 1617786143 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/gene.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162 \
+      PB ieee/std_logic_arith 1354696160 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/gene/Behavioral 1617786144 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/gene.vhd EN work/Gene 1617786143
+FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/psSyncGen.vhd 2021/04/07.17:48:19 P.40xd
+EN work/PsSyncGen 1617786145 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/psSyncGen.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026 \
+      PB work/slow_ct_defs 1617786018
+AR work/PsSyncGen/Behavioral 1617786146 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/psSyncGen.vhd \
+      EN work/PsSyncGen 1617786145
+FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/tel_conf_b.vhd 2021/04/07.17:48:19 P.40xd
+PH work/telescope_conf 1617786034 \
+      FL /home/parallels/Desktop/newCode/NewTest/new_tel_b/tel_conf_b.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/aligner_ram_128x8_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/aligner_ram_128x8_modified 1617786071 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/aligner_ram_128x8_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_ram_128x8_modified/aligner_ram_128x8_modified_a 1617786072 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/aligner_ram_128x8_modified.vhd \
+      EN work/aligner_ram_128x8_modified 1617786071
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_128x16_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_128x16_modified 1617786061 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_128x16_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_128x16_modified/ram_128x16_modified_a 1617786062 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_128x16_modified.vhd \
+      EN work/ram_128x16_modified 1617786061
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_16x16_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_16x16_modified 1617786055 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_16x16_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_16x16_modified/ram_16x16_modified_a 1617786056 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_16x16_modified.vhd \
+      EN work/ram_16x16_modified 1617786055
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx14_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_1kx14_modified 1617786049 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx14_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx14_modified/ram_1kx14_modified_a 1617786050 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx14_modified.vhd \
+      EN work/ram_1kx14_modified 1617786049
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx15_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_1kx15_modified 1617786019 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx15_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx15_modified/ram_1kx15_modified_a 1617786020 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx15_modified.vhd \
+      EN work/ram_1kx15_modified 1617786019
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx24_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_1kx24_modified 1617786043 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx24_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx24_modified/ram_1kx24_modified_a 1617786044 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_1kx24_modified.vhd \
+      EN work/ram_1kx24_modified 1617786043
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x14_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_256x14_modified 1617786027 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x14_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x14_modified/ram_256x14_modified_a 1617786028 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x14_modified.vhd \
+      EN work/ram_256x14_modified 1617786027
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x16_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_256x16_modified 1617786063 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x16_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x16_modified/ram_256x16_modified_a 1617786064 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_256x16_modified.vhd \
+      EN work/ram_256x16_modified 1617786063
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_2kx15_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_2kx15_modified 1617786021 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_2kx15_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_2kx15_modified/ram_2kx15_modified_a 1617786022 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_2kx15_modified.vhd \
+      EN work/ram_2kx15_modified 1617786021
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_32x16_modified 1617786057 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16_modified/ram_32x16_modified_a 1617786058 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_modified.vhd \
+      EN work/ram_32x16_modified 1617786057
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_32x16_single_modified 1617786103 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16_single_modified/ram_32x16_single_modified_a 1617786104 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd \
+      EN work/ram_32x16_single_modified 1617786103
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_4kx14_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_4kx14_modified 1617786051 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_4kx14_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_4kx14_modified/ram_4kx14_modified_a 1617786052 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_4kx14_modified.vhd \
+      EN work/ram_4kx14_modified 1617786051
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_64x16_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_64x16_modified 1617786059 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_64x16_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_64x16_modified/ram_64x16_modified_a 1617786060 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_64x16_modified.vhd \
+      EN work/ram_64x16_modified 1617786059
+FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_8kx14_modified.vhd 2021/04/07.17:48:14 P.40xd
+EN work/ram_8kx14_modified 1617786053 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_8kx14_modified.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_8kx14_modified/ram_8kx14_modified_a 1617786054 \
+      FL /home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_8kx14_modified.vhd \
+      EN work/ram_8kx14_modified 1617786053
+FL /home/parallels/Desktop/newCode/NewTest/tel_a/global_trigger.vhd 2021/04/07.17:48:15 P.40xd
+EN work/GlobalTrigger 1617786139 \
+      FL /home/parallels/Desktop/newCode/NewTest/tel_a/global_trigger.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 PB work/tel_defs 1617786026
+AR work/GlobalTrigger/Behavioral 1617786140 \
+      FL /home/parallels/Desktop/newCode/NewTest/tel_a/global_trigger.vhd \
+      EN work/GlobalTrigger 1617786139
+FL /home/parallels/Desktop/newCode/NewTest/tel_a/virBlock.vhd 2021/04/07.17:48:16 P.40xd
+EN work/VirBlock 1617786141 \
+      FL /home/parallels/Desktop/newCode/NewTest/tel_a/virBlock.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165 \
+      PB work/tel_defs 1617786026 PB work/slow_ct_defs 1617786018
+AR work/virBlock/virBlock_arch 1617786142 \
+      FL /home/parallels/Desktop/newCode/NewTest/tel_a/virBlock.vhd \
+      EN work/VirBlock 1617786141
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/adc_mon.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/aligner_new.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/align_defs.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/baseline.vhd 2019/01/31.15:07:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/comZone.vhd 2014/05/19.12:40:25 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/csi_channel.vhd 2019/02/27.15:42:46 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ddr_adc.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/energy.vhd 2017/11/24.12:00:41 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/e_trigger.vhd 2019/01/30.12:21:30 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/clkgenerator.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/deserialiseur.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/fastlink.vhd 2017/12/12.08:57:24 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ipcore_dir/myfifo2.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/ISER8b.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/N_ISERDES8b_MsAllign.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/OSER8B.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/fastlink/serialiseur.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/f_channel.vhd 2018/03/29.17:33:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/general_io.vhd 2017/12/14.11:08:42 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/histogrammer.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_byte.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/i2c_master.vhd 2014/02/27.13:12:14 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/identity.vhd 2015/02/03.09:17:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd 2014/02/27.13:12:17 P.40xd
+EN work/aligner_ram_128x8 1591605663 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/aligner_ram_128x8/aligner_ram_128x8_a 1591605664 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_ram_128x8.vhd \
+      EN work/aligner_ram_128x8 1591605663
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/aligner_rom_128x8.vhd 2014/02/27.13:12:17 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/My_sysmon.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd 2014/02/27.13:12:19 P.40xd
+EN work/ram_128x16 1591605653 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_128x16/ram_128x16_a 1591605654 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_128x16.vhd \
+      EN work/ram_128x16 1591605653
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd 2014/02/27.13:12:19 P.40xd
+EN work/ram_16x16 1591605647 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_16x16/ram_16x16_a 1591605648 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_16x16.vhd \
+      EN work/ram_16x16 1591605647
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd 2014/02/27.13:12:18 P.40xd
+EN work/ram_1kx14 1591605641 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx14/ram_1kx14_a 1591605642 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx14.vhd \
+      EN work/ram_1kx14 1591605641
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd 2014/02/27.13:12:18 P.40xd
+EN work/ram_1kx15 1591605611 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx15/ram_1kx15_a 1591605612 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx15.vhd \
+      EN work/ram_1kx15 1591605611
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd 2014/02/27.13:12:20 P.40xd
+EN work/ram_1kx24 1591605635 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_1kx24/ram_1kx24_a 1591605636 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_1kx24.vhd \
+      EN work/ram_1kx24 1591605635
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd 2017/04/07.16:37:28 P.40xd
+EN work/ram_256x14 1591605619 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x14/ram_256x14_a 1591605620 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x14.vhd \
+      EN work/ram_256x14 1591605619
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd 2017/11/20.15:05:42 P.40xd
+EN work/ram_256x16 1591605655 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_256x16/ram_256x16_a 1591605656 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_256x16.vhd \
+      EN work/ram_256x16 1591605655
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd 2016/12/01.17:11:52 P.40xd
+EN work/ram_2kx15 1591605613 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_2kx15/ram_2kx15_a 1591605614 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_2kx15.vhd \
+      EN work/ram_2kx15 1591605613
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd 2014/02/27.13:12:17 P.40xd
+EN work/ram_32x16 1591605649 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_32x16/ram_32x16_a 1591605650 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16.vhd \
+      EN work/ram_32x16 1591605649
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_32x16_single.vhd 2014/02/27.13:12:19 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd 2014/02/27.13:12:20 P.40xd
+EN work/ram_4kx14 1591605643 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_4kx14/ram_4kx14_a 1591605644 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_4kx14.vhd \
+      EN work/ram_4kx14 1591605643
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd 2014/02/27.13:12:20 P.40xd
+EN work/ram_64x16 1591605651 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_64x16/ram_64x16_a 1591605652 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_64x16.vhd \
+      EN work/ram_64x16 1591605651
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd 2014/02/27.13:12:20 P.40xd
+EN work/ram_8kx14 1591605645 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/ram_8kx14/ram_8kx14_a 1591605646 \
+      FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/ram_8kx14.vhd \
+      EN work/ram_8kx14 1591605645
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/ipcore_dir/spi_adc_rom.vhd 2014/02/27.13:12:20 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/offset_ctrl.vhd 2014/09/24.13:44:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/pic_itf.vhd 2014/02/27.13:12:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/reader.vhd 2019/02/27.15:40:44 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/read_engine_new.vhd 2019/01/18.15:43:45 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_1.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/retard_2.vhd 2016/12/01.11:20:32 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/scItf.vhd 2015/02/25.18:20:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/shaper.vhd 2018/04/11.17:55:25 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/slow_ct_defs.vhd 2014/02/27.13:12:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/spi.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/sysmon.vhd 2014/02/27.13:12:23 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/s_channel.vhd 2019/02/27.17:35:49 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/telescope.vhd 2019/09/19.10:38:41 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_defs.vhd 2019/02/27.17:42:07 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/tel_sysmon.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/terminator.vhd 2014/02/27.13:12:21 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/trigger.vhd 2018/03/27.10:31:52 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_get_new.vhd 2015/02/25.19:06:08 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/usb_itf_new.vhd 2015/02/25.16:23:27 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/common/waver.vhd 2019/09/19.10:36:56 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/global_trigger.vhd 2014/02/27.13:11:15 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_a/virBlock.vhd 2014/02/27.13:11:13 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/dcm_200.vhd 2020/06/08.10:40:05 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/gene.vhd 2018/02/05.10:30:38 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/psSyncGen.vhd 2015/06/16.11:31:02 P.40xd
+FL /home/valdre/Documenti/FAZIA/new_fpga_code/tel_b/tel_conf_b.vhd 2019/09/19.11:11:21 P.40xd

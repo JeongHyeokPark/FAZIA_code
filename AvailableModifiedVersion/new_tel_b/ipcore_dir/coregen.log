@@ -1,0 +1,36 @@
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Opening project file
+/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/common/ipcore_dir/coregen.cgp.
+WARNING:sim:991 - The project IP instance 'ram_256x14' for IP 'Block Memory
+   Generator v7.3' was generated with a different version of the IP than is
+   currently in the IP Catalog. It was originally generated using IP with the
+   packaged timestamp '2012-11-19+16:22'; the IP in the current catalog has a
+   different packaged timestamp '2012-09-17+22:14'. This mismatch is due to
+   changes made to the IP in the user repositories. It may affect some
+   functionality of the IP, if there are differences between these two versions
+   of the IP.
+WARNING:sim:991 - The project IP instance 'ram_256x16' for IP 'Distributed
+   Memory Generator v7.2' was generated with a different version of the IP than
+   is currently in the IP Catalog. It was originally generated using IP with the
+   packaged timestamp '2012-11-21+20:07'; the IP in the current catalog has a
+   different packaged timestamp '2012-06-21+19:54'. This mismatch is due to
+   changes made to the IP in the user repositories. It may affect some
+   functionality of the IP, if there are differences between these two versions
+   of the IP.
+WARNING:sim:991 - The project IP instance 'ram_2kx15' for IP 'Block Memory
+   Generator v7.3' was generated with a different version of the IP than is
+   currently in the IP Catalog. It was originally generated using IP with the
+   packaged timestamp '2012-11-19+16:22'; the IP in the current catalog has a
+   different packaged timestamp '2012-09-17+22:14'. This mismatch is due to
+   changes made to the IP in the user repositories. It may affect some
+   functionality of the IP, if there are differences between these two versions
+   of the IP.
+WARNING:coreutil:928 - Unable to find 'xilinx.com:ip:dcmadv_v13_1:1.0' within
+   repository.
+Closed project file.
+Opening project file
+/home/parallels/Desktop/FAZIA_FEE/FAZIA_code/Original_code/tel_b/ipcore_dir/core
+gen.cgp.
+Closed project file.

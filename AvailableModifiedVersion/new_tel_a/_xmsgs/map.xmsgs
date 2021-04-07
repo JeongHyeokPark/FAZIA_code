@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Map" num="284" delta="old" >Map is running with the multi-threading option on. Map currently supports the use of up to 2 processors. Based on the the user options and machine load, Map will use 2 processors during this run.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">adc_monitor/Mtrien_rstPort_n&lt;0&gt;</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">220</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">adc_monitor/Mtrien_rstPort_n&lt;3&gt;,
+adc_monitor/Mtrien_rstPort_n&lt;5&gt;,
+icon_control0&lt;10&gt;,
+icon_control0&lt;11&gt;,
+icon_control0&lt;15&gt;</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="1078" delta="old" ><arg fmt="%s" index="1">IDELAYCTRL symbol &quot;fLink/idel_ctrl&quot; (output signal=fLink/idlayctrl_rdy)</arg> does not have assigned IODELAY_GROUP. A default GROUP &quot;<arg fmt="%s" index="2">MapGeneratedIodelayGroup</arg>&quot; will be assigned.
+The following IODELAY Components are assigned to the same GROUP:
+<arg fmt="%s" index="3">IODELAY symbol &quot;i1/ddr_16_1/make_path[0].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[1].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[2].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[3].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[4].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[5].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[6].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/make_path[7].idels&quot; (output signal=i1/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;i1/ddr_16_1/adc_clk_del&quot; (output signal=i1/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[0].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[1].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[2].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[3].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[4].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[5].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[6].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/make_path[7].idels&quot; (output signal=ql1/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;ql1/ddr_16_1/adc_clk_del&quot; (output signal=ql1/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[0].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[1].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[2].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[3].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[4].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[5].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[6].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/make_path[7].idels&quot; (output signal=i2/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;i2/ddr_16_1/adc_clk_del&quot; (output signal=i2/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[0].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[1].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[2].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[3].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[4].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[5].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[6].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/make_path[7].idels&quot; (output signal=qh1/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;qh1/ddr_16_1/adc_clk_del&quot; (output signal=qh1/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[0].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[1].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[2].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[3].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[4].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[5].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[6].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/make_path[7].idels&quot; (output signal=q2/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;q2/ddr_16_1/adc_clk_del&quot; (output signal=q2/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[0].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;0&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[1].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;1&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[2].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;2&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[3].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;3&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[4].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;4&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[5].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;5&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[6].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;6&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/make_path[7].idels&quot; (output signal=q3/ddr_16_1/del_to_ddr&lt;7&gt;)
+IODELAY symbol &quot;q3/ddr_16_1/adc_clk_del&quot; (output signal=q3/ddr_16_1/clkDelayedRaw)
+IODELAY symbol &quot;fLink/DESER_GEN.deser_L/deser_inst/AISER8b/SIN_delay&quot; (output signal=fLink/DESER_GEN.deser_L/deser_inst/AISER8b/SDIN_DEL)
+IODELAY symbol &quot;fLink/DESER_GEN.deser_H/deser_inst/AISER8b/SIN_delay&quot; (output signal=fLink/DESER_GEN.deser_H/deser_inst/AISER8b/SDIN_DEL)
+IODELAY symbol &quot;fLink/deser_VM/deser_inst/AISER8b/SIN_delay&quot; (output signal=fLink/deser_VM/deser_inst/AISER8b/SDIN_DEL)
+</arg>
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">sysClk_n</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">clk25MHz_n</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">ckAdcQH1_n</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">ckAdcQ2_n</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">ckAdcQ3_n</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="856" delta="old" >PLL_ADV <arg fmt="%s" index="1">fLink/clkgen_inst/inst_the_pll/PLL_ADV_INST</arg> CLKIN2 pin was disconnected because a constant 1 is driving the CLKINSEL pin.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">ioFpga_9</arg> connected to top level port <arg fmt="%s" index="2">ioFpga_9</arg> has been removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">i2/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockFastNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto1.totHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockHisto2.fastHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockNrj/formeur/falling/make_mem_2k.my_delay_2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockHisto.monHisto/memoire/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKAL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">ql1/waverFast/make_8k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP</arg>
+of frag <arg fmt="%s" index="2">REGCLKBL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/waverSlow/make_4k_Meb.meb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">q2/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">q3/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockTrig/baseMean/make_256_cirBufBsl.meanBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKU</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKU_tiesig</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2874" delta="old" >Trimming timing constraints from pin <arg fmt="%s" index="1">qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP</arg>
+of frag <arg fmt="%s" index="2">RDRCLKL</arg> connected to power/ground net <arg fmt="%s" index="3">qh1/blockTrig/baseMean/make_256_cirBufBsl.pretrigBufCir/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.WIDE_PRIM36.noeccerr.SDP_RDRCLKL_tiesig</arg>
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">0.950</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">0.950</arg> to <arg fmt="%0.3f" index="3">1.050</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="warning" file="Place" num="838" delta="old" >An IO Bus with more than one IO standard is found.
+<arg fmt="%s" index="1">Components associated with this bus are as follows: 
+	 Comp: riserv_p&lt;0&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;1&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;2&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;3&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;4&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;5&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;6&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_p&lt;7&gt;   IOSTANDARD = LVCMOS25
+
+</arg>
+</msg>
+
+<msg type="warning" file="Place" num="838" delta="old" >An IO Bus with more than one IO standard is found.
+<arg fmt="%s" index="1">Components associated with this bus are as follows: 
+	 Comp: riserv_n&lt;0&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;1&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;2&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;3&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;4&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;5&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;6&gt;   IOSTANDARD = LVDS_25
+	 Comp: riserv_n&lt;7&gt;   IOSTANDARD = LVCMOS25
+
+</arg>
+</msg>
+
+<msg type="info" file="Place" num="834" delta="old" >Only a subset of IOs are locked. Out of <arg fmt="%d" index="1">244</arg> IOs, <arg fmt="%d" index="2">242</arg> are locked and <arg fmt="%d" index="3">2</arg> are not locked. <arg fmt="%s" index="4">If you would like to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1.</arg> 
+</msg>
+
+<msg type="warning" file="Place" num="644" delta="old" >A clock IOB clock component is not placed at an optimal clock IOB site. The clock IOB component &lt;<arg fmt="%s" index="1">ucSpiSck</arg>&gt; is placed at site &lt;<arg fmt="%s" index="2">F5</arg>&gt;. The clock IO site can use the fast path between the IO and the Clock buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;<arg fmt="%s" index="3">ucSpiSck.PAD</arg>&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">q3/itemData_11_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">icon_control0&lt;13&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoIn_11_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/resetTsRequest_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoIn_12_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoIn_15_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/resetBitmask_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoItemWr_and0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoItemWr_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/fifoItemRd_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">rEngine/resetEvtReceived_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp596.PULL</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp596.PULL.1</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ProtoComp607.PULL</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp596.PULL.2</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">ql1/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i1/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">i2/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">qh1/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1350" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/ser_L/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of INIT_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1351" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/ser_L/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of SRVAL_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_master</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.deser_L/deser_inst/AISER8b/ISERDES_NODELAY_master</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.deser_H/deser_inst/AISER8b/ISERDES_NODELAY_master</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1350" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/ser_H/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of INIT_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1351" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/ser_H/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of SRVAL_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/deser_VM/deser_inst/AISER8b/ISERDES_NODELAY_slave</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.deser_H/deser_inst/AISER8b/ISERDES_NODELAY_slave</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1325" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.deser_L/deser_inst/AISER8b/ISERDES_NODELAY_slave</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDES_ISERDES</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1 the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1350" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.ser_VM/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of INIT_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1351" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">fLink/DESER_GEN.ser_VM/OSER8B_inst/soserdes_inst</arg>&gt;:&lt;<arg fmt="%s" index="2">OSERDES_OSERDES</arg>&gt;.  The use of SRVAL_OQ requires the OQ output pin to be connected.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q2/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1267" delta="old" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">q3/ddr_16_1/bufferR</arg>&gt;:&lt;<arg fmt="%s" index="2">BUFR_BUFR</arg>&gt;.  Useless input. The input pins CE and CLR are not used for BUFR_DIVIDE BYPASS.
+</msg>
+
+</messages>
+

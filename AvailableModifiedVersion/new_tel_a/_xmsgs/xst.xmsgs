@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_dual_128.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_trig64.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_36.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_blknrj.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_icon.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3498" delta="old" >No primary, secondary unit in the file &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/common/ipcore_dir/tel_ila_128.vhd</arg>. Ignore this file from project file &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/new_tel_a/telescope_vhdl.prj</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="old" >Unit <arg fmt="%s" index="1">work/ram_32x16_single_modified</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified_synth.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified.vhd</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="333" delta="old" >Binary file &quot;<arg fmt="%s" index="1">xst/work/sub01/vhpl141</arg>&quot; is corrupted. Recompile unit <arg fmt="%s" index="2">ram_32x16_single_modified.behavioral</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="333" delta="old" >Binary file &quot;<arg fmt="%s" index="1">xst/work/sub01/vhpl141</arg>&quot; is corrupted. Recompile unit <arg fmt="%s" index="2">ram_32x16_single_modified.behavioral</arg>.
+</msg>
+
+<msg type="fatal" file="HDLParsers" num="200" delta="old" srcfile="../s/vhptype.c" srcline="174" srcrcs="$Id: vhptype.c,v 1.9 2005/08/22 17:03:34 mikev Exp $" >INTERNAL ERROR... while parsing &quot;<arg fmt="%s" index="1">/home/parallels/Desktop/newCode/NewTest/Original_code/tel_b/ipcore_dir/ram_32x16_single_modified_synth.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>. Contact your hot line.
+</msg>
+
+</messages>
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../common/slow_ct_defs.vhd -lib work tel_conf_a.vhd -lib work ../common/tel_defs.vhd -lib work ../common/comZone.vhd -prj tel_a -o comZone.spl -module comZone -template /home/haein/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 comZone.spl /home/haein/Downloads/fazia/tel_a/comZone.sym 
